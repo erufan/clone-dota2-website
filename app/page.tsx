@@ -1,10 +1,7 @@
 import { CiSearch } from "react-icons/ci";
 
 import heroes from "@/data/heroes";
-import stateImage from "@/data/state-image";
-
-import Link from "next/link";
-import Image from "next/image";
+import HeroesGrid from "@/components/heroes/HeroesGrid";
 
 export default function Home() {
   return (
@@ -45,28 +42,7 @@ export default function Home() {
         </nav>
       </header>
       <main className="grid grid-cols-5 px-32 gap-3">
-        {heroes.map((hero) => (
-          <Link href={`/${hero.slug}`} key={hero.name} className="group">
-            <figure className="relative">
-              <Image
-                src={hero.icon}
-                alt={hero.name}
-                width={256}
-                height={144}
-                className="shadow-[1px_1px_#000]"
-              />
-              <figcaption className="flex gap-1 absolute bottom-1 group-hover:flex">
-                <Image
-                  src={stateImage[hero.state]}
-                  alt={hero.state}
-                  width={26}
-                  height={26}
-                />
-                <span className="text-2xl">{hero.name}</span>
-              </figcaption>
-            </figure>
-          </Link>
-        ))}
+        <HeroesGrid heroes={heroes} />
       </main>
     </section>
   );

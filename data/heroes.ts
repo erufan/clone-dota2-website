@@ -1,7 +1,4 @@
-interface Heroes {
-  [key: string]: string;
-  state: "universal" | "strength" | "intelligence" | "agility";
-}
+import Heroes from "@/interface/Heroes";
 
 const heroes: Heroes[] = [
   {
