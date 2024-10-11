@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className="px-5">
       <header className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-reaver font-bold">CHOOSE YOUR HERO</h1>
+        <h1 className="font-reaver text-4xl font-bold">CHOOSE YOUR HERO</h1>
         <p>
           From magical tacticians to fierce brutes and cunning rogues, Dota 2's
           hero pool is massive and limitlessly diverse. Unleash incredible
@@ -41,7 +41,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main className="grid grid-cols-5 px-32 gap-3">
+      <main className="sm:px-25 grid grid-cols-3 gap-3 min-[640px]:grid-cols-4 md:grid-cols-5 md:px-32 min-[1650px]:grid-cols-9">
         <HeroesGrid heroes={heroes} />
       </main>
     </section>

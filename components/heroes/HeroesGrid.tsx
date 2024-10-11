@@ -19,14 +19,16 @@ const HeroesGrid = ({ heroes }: Props) => {
         >
           <figure className="relative">
             <Image src={hero.icon} alt={hero.name} width={256} height={144} />
-            <figcaption className="opacity-1 absolute z-[2] flex w-[100%] items-center gap-1 p-1 group-hover:flex group-hover:animate-showHeroName">
+            <figcaption className="opacity-1 absolute z-[2] flex w-[100%] items-center gap-1 p-1 pb-2 group-hover:flex group-hover:animate-showHeroName">
               <Image
                 src={stateImage[hero.state]}
                 alt={hero.state}
                 width={22}
                 height={22}
               />
-              <span className="flex-1 text-xl leading-[0.8]">{hero.name}</span>
+              <span className="flex-1 font-reaver text-[0.5rem] font-semibold leading-[0.8] sm:text-xl">
+                {hero.name}
+              </span>
             </figcaption>
             <div className="bg-heroNameGradient absolute top-0 z-[1] h-[100%] w-[100%] opacity-0 group-hover:animate-showHeroName"></div>
           </figure>
