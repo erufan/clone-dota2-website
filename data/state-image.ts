@@ -8,3 +8,5 @@ const stateImage = {
   agility:
     "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/hero_agility.png",
 };
+
+export default stateImage;
