@@ -12,24 +12,23 @@ const HeroesGrid = ({ heroes }: Props) => {
   return (
     <>
       {heroes.map((hero) => (
-        <Link href={`/${hero.slug}`} key={hero.name} className="group">
+        <Link
+          href={`/${hero.slug}`}
+          key={hero.name}
+          className="group overflow-hidden shadow-[1px_1px_#000] saturate-[0.8] transition-all duration-300 hover:z-50 hover:scale-[1.4] hover:shadow-[3px_3px_8px_#000] hover:saturate-[1]"
+        >
           <figure className="relative">
-            <Image
-              src={hero.icon}
-              alt={hero.name}
-              width={256}
-              height={144}
-              className="shadow-[1px_1px_#000]"
-            />
-            <figcaption className="flex gap-1 absolute bottom-1 group-hover:flex">
+            <Image src={hero.icon} alt={hero.name} width={256} height={144} />
+            <figcaption className="opacity-1 absolute z-[2] flex w-[100%] items-center gap-1 p-1 group-hover:flex group-hover:animate-showHeroName">
               <Image
                 src={stateImage[hero.state]}
                 alt={hero.state}
-                width={26}
-                height={26}
+                width={22}
+                height={22}
               />
-              <span className="text-2xl">{hero.name}</span>
+              <span className="flex-1 text-xl leading-[0.8]">{hero.name}</span>
             </figcaption>
+            <div className="bg-heroNameGradient absolute top-0 z-[1] h-[100%] w-[100%] opacity-0 group-hover:animate-showHeroName"></div>
           </figure>
         </Link>
       ))}
