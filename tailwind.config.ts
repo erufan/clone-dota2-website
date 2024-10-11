@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        reaver: ["var(--font-Reaver)", "sans-serif"],
+      },
     },
   },
   plugins: [],
