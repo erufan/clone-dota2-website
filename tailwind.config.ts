@@ -8,9 +8,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        background: "url('/background.jpg')",
       },
       fontFamily: {
         reaver: ["var(--font-Reaver)", "sans-serif"],

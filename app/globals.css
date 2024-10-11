@@ -17,7 +17,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-size: 100% auto;
+  background-position: center top;
+  @apply bg-background bg-no-repeat bg-fixed;
 }
 
 @layer utilities {
