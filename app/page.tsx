@@ -55,16 +55,14 @@ export default function Home() {
                 height={144}
                 className="shadow-[1px_1px_#000]"
               />
-              <figcaption className="hidden absolute bottom-1 group-hover:inline">
-                <span>
-                  <Image
-                    src={stateImage[hero.state]}
-                    alt={hero.state}
-                    width={46}
-                    height={46}
-                  />
-                  {hero.name}
-                </span>
+              <figcaption className="flex gap-1 absolute bottom-1 group-hover:flex">
+                <Image
+                  src={stateImage[hero.state]}
+                  alt={hero.state}
+                  width={26}
+                  height={26}
+                />
+                <span className="text-2xl">{hero.name}</span>
               </figcaption>
             </figure>
           </Link>
