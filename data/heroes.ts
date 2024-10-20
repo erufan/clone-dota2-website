@@ -3,7 +3,7 @@ import Heroes from "@/interface/Heroes";
 const heroes: Heroes[] = [
   {
     name: "Abaddon",
-    icon: " https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
+    icon: "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/heroes/abaddon.png",
     state: "universal",
     slug: "abaddon",
   },

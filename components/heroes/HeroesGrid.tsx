@@ -18,7 +18,7 @@ const HeroesGrid = ({ heroes }: Props) => {
           className="group overflow-hidden shadow-[1px_1px_#000] saturate-[0.8] transition-all duration-300 hover:z-50 hover:scale-[1.4] hover:shadow-[3px_3px_8px_#000] hover:saturate-[1]"
         >
           <figure className="relative">
-            <img src={hero.icon} alt={hero.name} width={256} height={144} />
+            <Image src={hero.icon} alt={hero.name} width={256} height={144} />
             <figcaption className="opacity-1 absolute z-[2] flex w-[100%] items-center gap-1 p-1 pb-2 group-hover:flex group-hover:animate-showHeroName">
               <Image
                 src={stateImage[hero.state]}
@@ -30,7 +30,7 @@ const HeroesGrid = ({ heroes }: Props) => {
                 {hero.name}
               </span>
             </figcaption>
-            <div className="bg-heroNameGradient absolute top-0 z-[1] h-[100%] w-[100%] opacity-0 group-hover:animate-showHeroName"></div>
+            <div className="absolute top-0 z-[1] h-[100%] w-[100%] bg-heroNameGradient opacity-0 group-hover:animate-showHeroName"></div>
           </figure>
         </Link>
       ))}
