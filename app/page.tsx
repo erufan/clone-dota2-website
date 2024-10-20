@@ -41,7 +41,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main className="sm:px-25 grid grid-cols-3 gap-3 min-[640px]:grid-cols-4 md:grid-cols-5 md:px-32 min-[1650px]:grid-cols-9">
+      <main className="grid grid-cols-3 gap-3 sm:px-24 min-[640px]:grid-cols-4 md:grid-cols-5 md:px-36 min-[1650px]:grid-cols-9">
         <HeroesGrid heroes={heroes} />
       </main>
     </section>

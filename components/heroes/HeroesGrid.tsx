@@ -30,7 +30,7 @@ const HeroesGrid = ({ heroes }: Props) => {
                 {hero.name}
               </span>
             </figcaption>
-            <div className="bg-heroNameGradient absolute top-0 z-[1] h-[100%] w-[100%] opacity-0 group-hover:animate-showHeroName"></div>
+            <div className="absolute top-0 z-[1] h-[100%] w-[100%] bg-heroNameGradient opacity-0 group-hover:animate-showHeroName"></div>
           </figure>
         </Link>
       ))}
