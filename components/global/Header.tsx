@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import logo from "@/public/dota2_logo_horiz.png";
 import { FaSteam } from "react-icons/fa6";
-import { FaSortDown } from "react-icons/fa";
+import NavItem from "./NavItem";
 
 const navs = [
   { href: "game", caption: `GAME` },
@@ -11,8 +11,6 @@ const navs = [
   { href: "news", caption: "NEWS" },
   { href: "esports", caption: "ESPORTS" },
 ] as const;
-
-type Nav = (typeof navs)[number];
 
 const Header = () => {
   return (
@@ -26,7 +24,7 @@ const Header = () => {
       <nav className="flex-1">
         <ul className="flex">
           {navs.map((nav, index) => (
-            <NavItems nav={nav} isFirst={index === 0} key={index} />
+            <NavItem nav={nav} isFirst={index === 0} key={index} />
           ))}
         </ul>
       </nav>
@@ -34,7 +32,7 @@ const Header = () => {
         href="#"
         className="rounded border-[3px] border-[#ffffff50] text-lg font-semibold tracking-widest"
       >
-        <div className="font-radiance flex items-center gap-3 px-8 py-3">
+        <div className="flex items-center gap-3 px-8 py-3 font-radiance">
           <FaSteam />
           <span>PLAY FOR FREE</span>
         </div>
@@ -44,20 +42,3 @@ const Header = () => {
 };
 
 export default Header;
-
-const NavItems = ({ nav, isFirst }: { nav: Nav; isFirst: boolean }) => {
-  return (
-    <li className="px-5 py-3 font-reaver font-semibold tracking-widest opacity-80">
-      <Link className="h-full" href={"/" + nav.href}>
-        {isFirst ? (
-          <span className="flex">
-            {nav.caption}
-            <FaSortDown className="ml-1 inline opacity-75" size={15} />
-          </span>
-        ) : (
-          nav.caption
-        )}
-      </Link>
-    </li>
-  );
-};
