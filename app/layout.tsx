@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/global/Header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -30,7 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${reaver.variable}`}>{children}</body>
+      <body className={`${reaver.variable}`}>
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
