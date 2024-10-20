@@ -10,11 +10,10 @@ export const metadata: Metadata = {
 
 const reaver = localFont({
   src: [
-    { path: "./fonts/Reaver-Bold.woff", weight: "700", style: "noraml" },
+    { path: "./fonts/Reaver-Bold.woff", weight: "700" },
     {
       path: "./fonts/Reaver-SemiBold.woff",
       weight: "600",
-      style: "noraml",
     },
     {
       path: "./fonts/Reaver-Regular.woff",
@@ -24,6 +23,20 @@ const reaver = localFont({
   variable: "--font-Reaver",
 });
 
+const radiance = localFont({
+  src: [
+    {
+      path: "./fonts/radiance-semibold.woff",
+      weight: "600",
+    },
+    {
+      path: "./fonts/radiance.woff",
+      weight: "400",
+    },
+  ],
+  variable: "--font-Radiance",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -31,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${reaver.variable}`}>
+      <body className={`${reaver.variable} ${radiance.variable}`}>
         <Header />
         <main>{children}</main>
       </body>

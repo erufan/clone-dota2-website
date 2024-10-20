@@ -5,7 +5,7 @@ import HeroesGrid from "@/components/heroes/HeroesGrid";
 
 export default function Home() {
   return (
-    <section className="px-5">
+    <section className="sm:px-20 md:px-28">
       <header className="flex flex-col items-center justify-center">
         <h1 className="font-reaver text-4xl font-bold">CHOOSE YOUR HERO</h1>
         <p>
@@ -41,7 +41,7 @@ export default function Home() {
           </ul>
         </nav>
       </header>
-      <main className="grid grid-cols-3 gap-3 sm:px-24 min-[640px]:grid-cols-4 md:grid-cols-5 md:px-36 min-[1650px]:grid-cols-9">
+      <main className="grid grid-cols-3 gap-3 min-[640px]:grid-cols-4 md:grid-cols-5 min-[1650px]:grid-cols-9">
         <HeroesGrid heroes={heroes} />
       </main>
     </section>

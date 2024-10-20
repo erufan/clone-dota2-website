@@ -19,7 +19,7 @@ body {
   background: var(--background);
   background-size: 100% auto;
   background-position: center top;
-  @apply bg-background bg-no-repeat bg-fixed;
+  @apply bg-background bg-fixed bg-no-repeat;
 }
 
 @layer utilities {

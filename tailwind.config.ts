@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         reaver: ["var(--font-Reaver)", "sans-serif"],
+        radiance: ["var(--font-Radiance)", "Noto Sans", "sans-serif"],
       },
       keyframes: {
         showHeroName: {
