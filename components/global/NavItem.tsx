@@ -22,7 +22,7 @@ const NavItem = ({ nav, isFirst }: Props) => {
   const defaultClassName = "tracking-[0.2em] opacity-80 hover:opacity-100";
 
   return (
-    <li className="px-5 py-3 font-reaver font-semibold">
+    <li className="px-5 py-3 font-reaver text-sm font-semibold sm:text-base md:text-lg lg:text-xl">
       <Link
         className={isActive ? activeClassName : defaultClassName}
         href={"/" + nav.href}

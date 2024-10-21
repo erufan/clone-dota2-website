@@ -41,7 +41,7 @@ const HeroesPage = () => {
           </ul>
         </nav>
       </header>
-      <main className="grid grid-cols-3 gap-3 min-[640px]:grid-cols-4 md:grid-cols-5 min-[1650px]:grid-cols-9">
+      <main className="grid gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 min-[2300px]:grid-cols-9">
         <HeroesGrid heroes={heroes} />
       </main>
     </section>

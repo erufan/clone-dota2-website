@@ -30,7 +30,7 @@ const Header = () => {
       </nav>
       <Link
         href="#"
-        className="rounded border-[3px] border-[#ffffff50] text-lg font-semibold tracking-widest"
+        className="hidden rounded border-[3px] border-[#ffffff50] text-lg font-semibold tracking-widest lg:inline"
       >
         <div className="flex items-center gap-3 px-8 py-3 font-radiance">
           <FaSteam />
