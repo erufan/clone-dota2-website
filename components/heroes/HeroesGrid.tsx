@@ -13,7 +13,7 @@ const HeroesGrid = ({ heroes }: Props) => {
     <>
       {heroes.map((hero) => (
         <Link
-          href={`/${hero.slug}`}
+          href={`/heroes/${hero.slug}`}
           key={hero.name}
           className="group overflow-hidden shadow-[1px_1px_#000] saturate-[0.8] transition-all duration-300 hover:z-50 hover:scale-[1.4] hover:shadow-[3px_3px_8px_#000] hover:saturate-[1]"
         >
