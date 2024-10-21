@@ -1,7 +1,15 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/global/Header";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  userScalable: false,
+  minimumScale: 0.5,
+  maximumScale: 1.1,
+  initialScale: 0.5,
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
