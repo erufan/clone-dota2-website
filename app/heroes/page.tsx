@@ -21,10 +21,10 @@ const HeroesPage = () => {
           abilities and devastating ultimates on your way to victory.
         </p>
         <nav className="bg-heroFilterGradient w-full min-w-[1050px] rounded-md border-[1px] border-[#11111190] p-3 font-radiance">
-          <ul className="flex flex-wrap items-center justify-between">
-            <li className="text-[1.1rem]">FILTER HEROES</li>
+          <ul className="flex flex-col flex-wrap items-center justify-between gap-5 text-[1.1rem] lg:flex-row lg:gap-0 2xl:text-[2rem]">
+            <li>FILTER HEROES</li>
             <li className="flex items-center">
-              <span className="mr-2 text-[1.1rem] opacity-45">ATTRIBUTE</span>
+              <span className="mr-2 opacity-45">ATTRIBUTE</span>
               {statusFilters.map((filter) => (
                 <Image
                   className="-mr-1 brightness-50 saturate-0"
@@ -37,7 +37,7 @@ const HeroesPage = () => {
               ))}
             </li>
             <li className="ml-1 flex items-center">
-              <span className="mr-2 text-[1.1rem] opacity-45">COMPLEXITY</span>
+              <span className="mr-2 opacity-45">COMPLEXITY</span>
               {complexityFilter.map((count) => (
                 <Image
                   className="-mr-1 brightness-50 saturate-0"
