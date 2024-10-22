@@ -6,8 +6,8 @@ import int from "@/public/filter/filter-int-active.png";
 const statusFilters = [
   { key: "strength", dataImage: str },
   { key: "agility", dataImage: agi },
-  { key: "intelligence", dataImage: uni },
-  { key: "universal", dataImage: int },
+  { key: "intelligence", dataImage: int },
+  { key: "universal", dataImage: uni },
 ];
 
 export default statusFilters;

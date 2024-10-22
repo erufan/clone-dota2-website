@@ -1,14 +1,19 @@
 import { FaSearch } from "react-icons/fa";
-import Image from "next/image";
 
 import heroes from "@/data/heroes";
 import HeroesGrid from "@/components/heroes/HeroesGrid";
 import statusFilters from "@/utils/statusFilters";
 import complexityFilters from "@/utils/complexityFilters";
 import FilterIcons from "@/components/heroes/FilterIcons";
+import Heroes from "@/interface/Heroes";
+import useFilteredHeroes from "@/hooks/useFilteredHeroes";
 
-const HeroesPage = () => {
-  let filteredHeros = heroes.filter((hero) => hero.state === "strength");
+interface Props {
+  searchParams: { attribute: string; complexity: string };
+}
+
+const HeroesPage = ({ searchParams }: Props) => {
+  const filteredHeros = useFilteredHeroes(heroes, searchParams);
 
   return (
     <section className="sm:px-20 md:px-28">
