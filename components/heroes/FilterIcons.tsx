@@ -1,7 +1,7 @@
 "use client";
+import usecreateQueryString from "@/hooks/usecreateQueryString";
 import Image, { StaticImageData } from "next/image";
-import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { useCallback } from "react";
+import { useRouter, usePathname } from "next/navigation";
 
 interface Filters {
   key: string;
@@ -16,19 +16,7 @@ interface Props {
 const FilterIcons = ({ filters, caption }: Props) => {
   const router = useRouter();
   const path = usePathname();
-  const searchParams = useSearchParams();
-
-  const createQueryString = useCallback(
-    (name: string, value: string) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (value === params.get(name)) {
-        params.delete(name);
-      } else params.set(name, value);
-
-      return params.toString();
-    },
-    [searchParams],
-  );
+  const createQueryString = usecreateQueryString();
 
   const handleClick = (filterKey: string) => {
     const newQueryString = createQueryString(caption.toLowerCase(), filterKey);
