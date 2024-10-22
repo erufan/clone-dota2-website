@@ -4,10 +4,11 @@ import Image from "next/image";
 import heroes from "@/data/heroes";
 import HeroesGrid from "@/components/heroes/HeroesGrid";
 import statusFilters from "@/utils/statusFilters";
-import diamond from "@/public/filter/filter-diamond.png";
+import complexityFilters from "@/utils/complexityFilters";
+import FilterIcons from "@/components/heroes/FilterIcons";
 
 const HeroesPage = () => {
-  const complexityFilter = [1, 2, 3];
+  let filteredHeros = heroes.filter((hero) => hero.state === "strength");
 
   return (
     <section className="sm:px-20 md:px-28">
@@ -23,32 +24,8 @@ const HeroesPage = () => {
         <nav className="bg-heroFilterGradient w-full min-w-[1050px] rounded-md border-[1px] border-[#11111190] p-3 font-radiance">
           <ul className="flex flex-col flex-wrap items-center justify-between gap-5 text-[1.1rem] lg:flex-row lg:gap-0 2xl:text-[2rem]">
             <li>FILTER HEROES</li>
-            <li className="flex items-center">
-              <span className="mr-2 opacity-45">ATTRIBUTE</span>
-              {statusFilters.map((filter) => (
-                <Image
-                  className="-mr-1 brightness-50 saturate-0"
-                  src={filter.dataImage}
-                  alt={filter.key}
-                  key={filter.key}
-                  width={40}
-                  height={28}
-                />
-              ))}
-            </li>
-            <li className="ml-1 flex items-center">
-              <span className="mr-2 opacity-45">COMPLEXITY</span>
-              {complexityFilter.map((count) => (
-                <Image
-                  className="-mr-1 brightness-50 saturate-0"
-                  src={diamond}
-                  alt={"diamond"}
-                  key={count}
-                  width={40}
-                  height={28}
-                />
-              ))}
-            </li>
+            <FilterIcons filters={statusFilters} caption="ATTRIBUTE" />
+            <FilterIcons filters={complexityFilters} caption="COMPLEXITY" />
             <li className="flex items-center gap-2 bg-[#25282A] p-[0.35rem_0.35rem_0.35rem_0.15rem]">
               <FaSearch className="ml-1" color="#4D4D4D" size={24} />
               <form>
@@ -62,7 +39,7 @@ const HeroesPage = () => {
         </nav>
       </header>
       <main className="grid gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 min-[2300px]:grid-cols-9">
-        <HeroesGrid heroes={heroes} />
+        <HeroesGrid heroes={filteredHeros} />
       </main>
     </section>
   );
