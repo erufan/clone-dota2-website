@@ -12,6 +12,8 @@ const config: Config = {
         background: "url('/background.jpg')",
         heroNameGradient:
           "linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.733) 75%, rgb(0, 0, 0) 100%)",
+        heroFilterGradient:
+          "linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3))",
       },
       fontFamily: {
         reaver: ["var(--font-Reaver)", "sans-serif"],
