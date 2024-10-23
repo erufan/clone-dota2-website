@@ -28,7 +28,7 @@ const FilterIcons = ({ filters, caption }: Props) => {
     if (newQueryString !== "") setActiveFilter(filterKey);
     else activeFilter ? setActiveFilter(null) : setActiveFilter(filterKey);
 
-    router.push(`${path}?${newQueryString}`);
+    router.push(`${path}?${newQueryString}`, { scroll: false });
   };
 
   return (
