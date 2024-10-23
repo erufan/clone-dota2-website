@@ -1,4 +1,4 @@
-import Heroes from "@/interface/Heroes";
+import Heroes from "@/interface/heroes/Heroes";
 import { useMemo } from "react";
 
 interface searchParams {

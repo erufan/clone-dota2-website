@@ -1,16 +1,12 @@
 "use client";
 import usecreateQueryString from "@/hooks/usecreateQueryString";
-import Image, { StaticImageData } from "next/image";
+import HeroFilter from "@/interface/heroes/HeroFilter";
+import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
 import { useState } from "react";
 
-interface Filters {
-  key: string;
-  dataImage: StaticImageData;
-}
-
 interface Props {
-  filters: Filters[];
+  filters: HeroFilter[];
   caption: string;
 }
 

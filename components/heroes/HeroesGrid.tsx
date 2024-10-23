@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Heroes from "@/interface/Heroes";
+import Heroes from "@/interface/heroes/Heroes";
 import stateImage from "@/data/state-image";
 
 interface Props {

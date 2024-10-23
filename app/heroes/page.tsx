@@ -5,11 +5,11 @@ import HeroesGrid from "@/components/heroes/HeroesGrid";
 import statusFilters from "@/utils/statusFilters";
 import complexityFilters from "@/utils/complexityFilters";
 import FilterIcons from "@/components/heroes/FilterIcons";
-import Heroes from "@/interface/Heroes";
 import useFilteredHeroes from "@/hooks/useFilteredHeroes";
+import HeroSearchQuery from "@/interface/heroes/HeroSearchQuery";
 
 interface Props {
-  searchParams: { attribute: string; complexity: string };
+  searchParams: HeroSearchQuery;
 }
 
 const HeroesPage = ({ searchParams }: Props) => {
@@ -26,7 +26,7 @@ const HeroesPage = ({ searchParams }: Props) => {
           hero pool is massive and limitlessly diverse. Unleash incredible
           abilities and devastating ultimates on your way to victory.
         </p>
-        <nav className="bg-heroFilterGradient w-full min-w-[1050px] rounded-md border-[1px] border-[#11111190] p-3 font-radiance">
+        <nav className="w-full min-w-[1050px] rounded-md border-[1px] border-[#11111190] bg-heroFilterGradient p-3 font-radiance">
           <ul className="flex flex-col flex-wrap items-center justify-between gap-5 text-[1.1rem] lg:flex-row lg:gap-0 2xl:text-[2rem]">
             <li>FILTER HEROES</li>
             <FilterIcons filters={statusFilters} caption="ATTRIBUTE" />
