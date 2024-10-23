@@ -5,6 +5,9 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "cdn.akamai.steamstatic.com",
+        port: "",
+        pathname: "/apps/dota2/images/**",
+        search: "",
       },
     ],
   },

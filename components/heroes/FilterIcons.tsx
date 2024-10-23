@@ -15,8 +15,10 @@ const FilterIcons = ({ filters, caption, searchParams }: Props) => {
   const router = useRouter();
   const path = usePathname();
   const createQueryString = usecreateQueryString();
-  const defaultClass = "-mr-1 brightness-50 saturate-0 cursor-pointer";
-  const activeClass = "-mr-1 brightness-100 saturate-100 cursor-pointer";
+  const defaultClass =
+    "-mr-1 brightness-50 saturate-0 cursor-pointer w-[40px] h-[28px]";
+  const activeClass =
+    "-mr-1 brightness-100 saturate-100 cursor-pointer w-[40px] h-[28px]";
 
   const heroSearchQueryKey = caption.toLowerCase() as keyof HeroSearchQuery;
   const filteredSearchQuery = searchParams[heroSearchQueryKey];
@@ -47,8 +49,8 @@ const FilterIcons = ({ filters, caption, searchParams }: Props) => {
           src={filter.dataImage}
           alt={filter.key}
           key={filter.key}
-          width={40}
-          height={28}
+          width={0}
+          height={0}
           onClick={() => handleClick(filter.key)}
         />
       ))}
