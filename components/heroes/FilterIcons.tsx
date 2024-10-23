@@ -1,28 +1,28 @@
 "use client";
 import usecreateQueryString from "@/hooks/usecreateQueryString";
 import HeroFilter from "@/interface/heroes/HeroFilter";
+import HeroSearchQuery from "@/interface/heroes/HeroSearchQuery";
 import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
-import { useState } from "react";
 
 interface Props {
   filters: HeroFilter[];
   caption: string;
+  searchParams: HeroSearchQuery;
 }
 
-const FilterIcons = ({ filters, caption }: Props) => {
-  const [activeFilter, setActiveFilter] = useState<string | null>(null);
+const FilterIcons = ({ filters, caption, searchParams }: Props) => {
   const router = useRouter();
   const path = usePathname();
   const createQueryString = usecreateQueryString();
   const defaultClass = "-mr-1 brightness-50 saturate-0 cursor-pointer";
-  let activeClass = "-mr-1 brightness-100 saturate-100 cursor-pointer";
+  const activeClass = "-mr-1 brightness-100 saturate-100 cursor-pointer";
 
-  const handleClick = (filterKey: string) => {
-    const newQueryString = createQueryString(caption.toLowerCase(), filterKey);
+  const heroSearchQueryKey = caption.toLowerCase() as keyof HeroSearchQuery;
+  const filteredSearchQuery = searchParams[heroSearchQueryKey];
 
-    if (newQueryString !== "") setActiveFilter(filterKey);
-    else activeFilter ? setActiveFilter(null) : setActiveFilter(filterKey);
+  const handleClick = (filterValue: string) => {
+    const newQueryString = createQueryString(heroSearchQueryKey, filterValue);
 
     router.push(`${path}?${newQueryString}`, { scroll: false });
   };
@@ -32,7 +32,9 @@ const FilterIcons = ({ filters, caption }: Props) => {
       <span className="mr-2 opacity-45">{caption}</span>
       {filters.map((filter) => (
         <Image
-          className={activeFilter === filter.key ? activeClass : defaultClass}
+          className={
+            filteredSearchQuery === filter.key ? activeClass : defaultClass
+          }
           src={filter.dataImage}
           alt={filter.key}
           key={filter.key}
