@@ -21,20 +21,29 @@ const FilterIcons = ({ filters, caption, searchParams }: Props) => {
   const heroSearchQueryKey = caption.toLowerCase() as keyof HeroSearchQuery;
   const filteredSearchQuery = searchParams[heroSearchQueryKey];
 
-  const handleClick = (filterValue: string) => {
+  const handleClick = function (filterValue: string) {
     const newQueryString = createQueryString(heroSearchQueryKey, filterValue);
 
     router.push(`${path}?${newQueryString}`, { scroll: false });
   };
 
+  const isActive = function (key: string, index: number): boolean {
+    const isComplexityFilter = caption.toLowerCase() === "complexity";
+
+    if (isComplexityFilter) {
+      const complexityLevelIndex = index + 1;
+      return +filteredSearchQuery >= complexityLevelIndex;
+    }
+
+    return filteredSearchQuery === key;
+  };
+
   return (
     <li className="flex items-center">
       <span className="mr-2 opacity-45">{caption}</span>
-      {filters.map((filter) => (
+      {filters.map((filter, index) => (
         <Image
-          className={
-            filteredSearchQuery === filter.key ? activeClass : defaultClass
-          }
+          className={isActive(filter.key, index) ? activeClass : defaultClass}
           src={filter.dataImage}
           alt={filter.key}
           key={filter.key}
