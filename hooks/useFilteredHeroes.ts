@@ -12,8 +12,8 @@ const useFilteredHeroes = (heroes: Heroes[], searchParams: searchParams) => {
 
     const filteredHeros = heroes.filter(
       (hero) =>
-        isState(attribute, hero.state) &&
-        isComplexity(complexity, hero.complexity),
+        matchesHero(attribute, hero.state) &&
+        matchesHero(complexity, hero.complexity),
     );
 
     return filteredHeros.length !== 0 ? filteredHeros : heroes;
@@ -22,10 +22,9 @@ const useFilteredHeroes = (heroes: Heroes[], searchParams: searchParams) => {
 
 export default useFilteredHeroes;
 
-const isState = (attribute: string, state: string) => {
-  return !attribute || state === attribute;
-};
+const matchesHero = (searchParam: string, hero: number | string) => {
+  let param: string | number = searchParam;
+  if (typeof hero === "number") param = +param;
 
-const isComplexity = (parComplexity: string, heroComplexity: number) => {
-  return !parComplexity || heroComplexity === +parComplexity;
+  return !param || param === hero;
 };
