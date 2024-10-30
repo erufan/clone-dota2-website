@@ -1,6 +1,9 @@
 interface Heroes {
-  [key: string]: string;
+  name: string;
+  icon: string;
+  slug: string;
   state: "universal" | "strength" | "intelligence" | "agility";
+  complexity: number;
 }
 
 export default Heroes;
