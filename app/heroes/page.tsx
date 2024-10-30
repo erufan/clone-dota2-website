@@ -51,7 +51,7 @@ const HeroesPage = ({ searchParams }: Props) => {
           </ul>
         </nav>
       </header>
-      <main className="grid gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 min-[2300px]:grid-cols-9">
+      <main className="mb-28 grid gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 min-[2300px]:grid-cols-9">
         <HeroesGrid heroes={filteredHeros} />
       </main>
     </section>
