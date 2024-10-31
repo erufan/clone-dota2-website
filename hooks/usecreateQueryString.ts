@@ -1,13 +1,13 @@
 import { useSearchParams } from "next/navigation";
 import { useCallback } from "react";
 
-const usecreateQueryString = () => {
+const useCreateQueryString = () => {
   const searchParams = useSearchParams();
 
   const createQueryString = (name: string, value: string) => {
     const params = new URLSearchParams(searchParams.toString());
 
-    if (value === params.get(name)) {
+    if (value === params.get(name) || !value) {
       params.delete(name);
     } else params.set(name, value);
 
@@ -17,4 +17,4 @@ const usecreateQueryString = () => {
   return useCallback(createQueryString, [searchParams]);
 };
 
-export default usecreateQueryString;
+export default useCreateQueryString;
