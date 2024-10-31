@@ -1,5 +1,3 @@
-import { FaSearch } from "react-icons/fa";
-
 import heroes from "@/data/heroes";
 import HeroesGrid from "@/components/heroes/HeroesGrid";
 import statusFilters from "@/utils/statusFilters";
@@ -45,7 +43,7 @@ const HeroesPage = ({ searchParams }: Props) => {
               />
             </li>
             <li className="flex items-center gap-2 bg-[#25282A] p-[0.35rem_0.35rem_0.35rem_0.15rem]">
-              <SearchHero searchParams={searchParams} />
+              <SearchHero />
             </li>
           </ul>
         </nav>
