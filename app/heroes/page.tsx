@@ -7,6 +7,7 @@ import complexityFilters from "@/utils/complexityFilters";
 import FilterIcons from "@/components/heroes/FilterIcons";
 import useFilteredHeroes from "@/hooks/useFilteredHeroes";
 import HeroSearchQuery from "@/interface/heroes/HeroSearchQuery";
+import SearchHero from "@/components/heroes/SearchHero";
 
 interface Props {
   searchParams: HeroSearchQuery;
@@ -29,24 +30,22 @@ const HeroesPage = ({ searchParams }: Props) => {
         <nav className="w-full min-w-[1050px] rounded-md border-[1px] border-[#11111190] bg-heroFilterGradient p-3 font-radiance">
           <ul className="flex flex-col flex-wrap items-center justify-between gap-5 text-[1.1rem] lg:flex-row lg:gap-0 2xl:text-[2rem]">
             <li>FILTER HEROES</li>
-            <FilterIcons
-              filters={statusFilters}
-              caption="ATTRIBUTE"
-              searchParams={searchParams}
-            />
-            <FilterIcons
-              filters={complexityFilters}
-              caption="COMPLEXITY"
-              searchParams={searchParams}
-            />
+            <li className="flex items-center">
+              <FilterIcons
+                filters={statusFilters}
+                caption="ATTRIBUTE"
+                searchParams={searchParams}
+              />
+            </li>
+            <li className="flex items-center">
+              <FilterIcons
+                filters={complexityFilters}
+                caption="COMPLEXITY"
+                searchParams={searchParams}
+              />
+            </li>
             <li className="flex items-center gap-2 bg-[#25282A] p-[0.35rem_0.35rem_0.35rem_0.15rem]">
-              <FaSearch className="ml-1" color="#4D4D4D" size={24} />
-              <form>
-                <input
-                  className="bg-[#25282A] p-1 outline-0 focus:border-[none] focus:bg-[#505050]"
-                  type="text"
-                />
-              </form>
+              <SearchHero searchParams={searchParams} />
             </li>
           </ul>
         </nav>
