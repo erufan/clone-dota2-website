@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { PluginAPI } from "tailwindcss/types/config";
 
 const config: Config = {
   content: [
@@ -30,6 +31,15 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }: { addUtilities: PluginAPI["addUtilities"] }) {
+      const newUtilities = {
+        ".mask-gradient": {
+          maskImage: " linear-gradient(to top, transparent 10%, black 50%)",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
 export default config;
