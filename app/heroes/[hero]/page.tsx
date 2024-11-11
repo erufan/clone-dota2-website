@@ -1,5 +1,10 @@
 import Image from "next/image";
 import stateImage from "@/data/state-image";
+import MyVidoe from "@/components/heroes/heroDetail/MyVideo";
+import Ribbon from "@/components/heroes/heroDetail/Ribbon";
+import ability from "@/public/filter/TestPowr.png";
+import talents from "@/public/hero-details/talents.svg";
+import innate from "@/public/hero-details/innate_icon.png";
 
 interface Props {
   params: { hero: string };
@@ -8,63 +13,76 @@ interface Props {
 const heroPage = ({ params }: Props) => {
   return (
     <>
-      <section className="relative min-h-[780px] w-full overflow-hidden p-[40px_100px_0px_140px] font-radiance">
-        <div className="absolute h-[41rem] w-[150%] translate-x-[-50vw] skew-y-[-45deg] overflow-hidden bg-[#00000060]"></div>
-        <div className="absolute -right-[5%] -top-[3%] flex h-full w-[80%] items-start justify-center">
-          <video
-            poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.png"
-            autoPlay
-            loop
-            preload="auto"
-            playsInline
-            muted
-            className="min-h-full w-full min-w-[1500px] mask-gradient"
-          >
-            <source
-              type='video/mp4; codecs="hvc1"'
-              src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.mov"
-            />
-            <source
-              type="video/webm"
-              src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.webm?undefined"
-            />
-            <img
-              width={1440}
-              height={1440}
-              alt="abbadon"
-              src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.png"
-            />
-          </video>
-        </div>
-        <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-full w-full">
-          <div
-            style={{
-              background:
-                "linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.733) 100%, rgb(0, 0, 0) 100%)",
-            }}
+      <div className="flex h-[52rem] flex-col overflow-hidden font-radiance md:flex-row">
+        <div className="row absolute left-20 top-[45rem] inline-flex origin-bottom-left rotate-[270deg] items-center">
+          <Image
+            src={stateImage["universal"]}
+            alt="hero state"
+            width={22}
+            height={22}
           />
+          <span className="ml-3 font-reaver text-lg font-semibold uppercase tracking-widest">
+            Abaddon
+          </span>
+          <div className="mb-1 ml-2 mr-2 h-[0.1rem] w-[45rem] bg-[#555]"></div>
         </div>
-        <div className="relative z-20 ml-8 mt-24 flex h-[calc(90%-100px)] min-h-0 w-[30%] flex-col">
-          <div className="flex items-center">
+        <div className="ml-36 mt-40 flex w-full flex-col justify-start">
+          <div className="flex">
             <Image
-              width={32}
-              height={32}
-              alt="attribute"
               src={stateImage["universal"]}
+              alt="hero state"
+              width={35}
+              height={35}
             />
-            <p className="ml-1 text-2xl font-thin uppercase tracking-widest">
+            <p className="ml-2 text-2xl font-thin uppercase tracking-widest">
               Universal
             </p>
           </div>
-          <h1 className="mt-3 font-reaver text-6xl font-bold uppercase 2xl:text-7xl">
+          <h1 className="mt-3 font-reaver text-6xl font-bold uppercase tracking-widest 2xl:text-7xl">
             Abaddon
           </h1>
           <p className="te mt-1 text-[18px] font-bold uppercase text-[#a5e0f3]">
             Shields his allies or himself from attacks
           </p>
+          <p className="mt-3 text-2xl font-extralight tracking-normal">
+            Able to transform enemy attacks into self-healing, Abaddon can
+            survive almost any assault. Shielding allies and launching his
+            double-edged coil at a friend or foe, he is always ready to ride
+            into the thick of battle.
+          </p>
+          <div className="mt-2 cursor-pointer text-lg text-[#8a8a8a] underline hover:text-[#ddd]">
+            Read Full History
+          </div>
+          <div>
+            <p className="mt-8 text-lg font-bold uppercase tracking-widest text-[#959595]">
+              Complexity
+            </p>
+            <div className="ml-1 mt-2 flex h-20 w-20 justify-between">
+              <div className="h-4 w-4 rotate-45 border border-solid border-[#fff]"></div>
+              <div className="h-4 w-4 rotate-45 border border-solid border-[#fff]"></div>
+              <div className="h-4 w-4 rotate-45 border border-solid border-[#fff]"></div>
+            </div>
+          </div>
         </div>
-      </section>
-      <div className="h-screen"></div>
+        <div className="relative -right-14 top-14 flex w-[62%] items-center justify-center">
+          <MyVidoe />
+          <Ribbon />
+          <div className="absolute left-20 top-[77%] flex flex-col items-center">
+            <span className="mb-2 text-xl font-bold uppercase tracking-widest">
+              Abilities
+            </span>
+            <div className="flex gap-4">
+              <Image src={talents} alt="talents tree" width={72} height={72} />
+              <Image src={innate} alt="innate icon" width={72} height={72} />
+              <Image src={ability} alt="ability name" width={72} height={72} />
+              <Image src={ability} alt="ability name" width={72} height={72} />
+              <Image src={ability} alt="ability name" width={72} height={72} />
+              <Image src={ability} alt="ability name" width={72} height={72} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-52 w-[98vw] bg-[var(--background)]"></div>
     </>
   );
 };
