@@ -40,6 +40,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.png",
     },
     heroName: "Abaddon",
+    state: "universal",
   },
   alchemist: {
     shortDescription:
@@ -82,6 +83,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/alchemist.png",
     },
     heroName: "Alchemist",
+    state: "strength",
   },
   ancientapparition: {
     shortDescription:
@@ -124,6 +126,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ancient_apparition.png",
     },
     heroName: "Ancient Apparition",
+    state: "intelligence",
   },
   "anti-mage": {
     shortDescription:
@@ -166,6 +169,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.png",
     },
     heroName: "Anti-Mage",
+    state: "agility",
   },
   arcwarden: {
     shortDescription:
@@ -208,6 +212,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.png",
     },
     heroName: "Arc Warden",
+    state: "agility",
   },
   axe: {
     shortDescription:
@@ -250,6 +255,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/axe.png",
     },
     heroName: "Axe",
+    state: "strength",
   },
   bane: {
     shortDescription:
@@ -292,6 +298,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bane.png",
     },
     heroName: "Bane",
+    state: "universal",
   },
   batrider: {
     shortDescription:
@@ -334,6 +341,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/batrider.png",
     },
     heroName: "Batrider",
+    state: "universal",
   },
   beastmaster: {
     shortDescription:
@@ -380,6 +388,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/beastmaster.png",
     },
     heroName: "Beastmaster",
+    state: "universal",
   },
   bloodseeker: {
     shortDescription:
@@ -422,6 +431,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bloodseeker.png",
     },
     heroName: "Bloodseeker",
+    state: "agility",
   },
   bountyhunter: {
     shortDescription:
@@ -464,6 +474,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bounty_hunter.png",
     },
     heroName: "Bounty Hunter",
+    state: "agility",
   },
   brewmaster: {
     shortDescription:
@@ -506,6 +517,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/brewmaster.png",
     },
     heroName: "Brewmaster",
+    state: "universal",
   },
   bristleback: {
     shortDescription:
@@ -548,6 +560,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bristleback.png",
     },
     heroName: "Bristleback",
+    state: "strength",
   },
   broodmother: {
     shortDescription:
@@ -590,6 +603,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/broodmother.png",
     },
     heroName: "Broodmother",
+    state: "universal",
   },
   centaurwarrunner: {
     shortDescription:
@@ -631,6 +645,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/centaur.png",
     },
     heroName: "Centaur Warrunner",
+    state: "strength",
   },
   chaosknight: {
     shortDescription:
@@ -673,6 +688,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/chaos_knight.png",
     },
     heroName: "Chaos Knight",
+    state: "strength",
   },
   chen: {
     shortDescription:
@@ -719,6 +735,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/chen.png",
     },
     heroName: "Chen",
+    state: "universal",
   },
   clinkz: {
     shortDescription:
@@ -761,6 +778,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/clinkz.png",
     },
     heroName: "Clinkz",
+    state: "agility",
   },
   clockwerk: {
     shortDescription:
@@ -803,6 +821,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/rattletrap.png",
     },
     heroName: "Clockwerk",
+    state: "universal",
   },
   crystalmaiden: {
     shortDescription:
@@ -844,6 +863,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/crystal_maiden.png",
     },
     heroName: "Crystal Maiden",
+    state: "intelligence",
   },
   darkseer: {
     shortDescription:
@@ -886,6 +906,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dark_seer.png",
     },
     heroName: "Dark Seer",
+    state: "universal",
   },
   darkwillow: {
     shortDescription:
@@ -932,6 +953,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dark_willow.png",
     },
     heroName: "Dark Willow",
+    state: "universal",
   },
   dawnbreaker: {
     shortDescription:
@@ -974,6 +996,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dawnbreaker.png",
     },
     heroName: "Dawnbreaker",
+    state: "strength",
   },
   dazzle: {
     shortDescription:
@@ -1016,6 +1039,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dazzle.png",
     },
     heroName: "Dazzle",
+    state: "universal",
   },
   deathprophet: {
     shortDescription:
@@ -1058,6 +1082,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/death_prophet.png",
     },
     heroName: "Death Prophet",
+    state: "intelligence",
   },
   disruptor: {
     shortDescription:
@@ -1100,6 +1125,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/disruptor.png",
     },
     heroName: "Disruptor",
+    state: "intelligence",
   },
   doom: {
     shortDescription:
@@ -1143,6 +1169,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/doom_bringer.png",
     },
     heroName: "Doom",
+    state: "strength",
   },
   dragonknight: {
     shortDescription:
@@ -1185,6 +1212,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dragon_knight.png",
     },
     heroName: "Dragon Knight",
+    state: "strength",
   },
   drowranger: {
     shortDescription:
@@ -1227,6 +1255,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.png",
     },
     heroName: "Drow Ranger",
+    state: "agility",
   },
   earthspirit: {
     shortDescription:
@@ -1273,6 +1302,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.png",
     },
     heroName: "Earth Spirit",
+    state: "strength",
   },
   earthshaker: {
     shortDescription:
@@ -1315,6 +1345,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earthshaker.png",
     },
     heroName: "Earthshaker",
+    state: "strength",
   },
   eldertitan: {
     shortDescription:
@@ -1357,6 +1388,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/elder_titan.png",
     },
     heroName: "Elder Titan",
+    state: "strength",
   },
   emberspirit: {
     shortDescription:
@@ -1403,6 +1435,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.png",
     },
     heroName: "Ember Spirit",
+    state: "agility",
   },
   enchantress: {
     shortDescription:
@@ -1445,6 +1478,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enchantress.png",
     },
     heroName: "Enchantress",
+    state: "intelligence",
   },
   enigma: {
     shortDescription:
@@ -1487,6 +1521,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enigma.png",
     },
     heroName: "Enigma",
+    state: "universal",
   },
   facelessvoid: {
     shortDescription:
@@ -1522,6 +1557,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.png",
     },
     heroName: "Faceless Void",
+    state: "agility",
   },
   grimstroke: {
     shortDescription:
@@ -1564,6 +1600,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/grimstroke.png",
     },
     heroName: "Grimstroke",
+    state: "intelligence",
   },
   gyrocopter: {
     shortDescription:
@@ -1605,6 +1642,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/gyrocopter.png",
     },
     heroName: "Gyrocopter",
+    state: "agility",
   },
   hoodwink: {
     shortDescription:
@@ -1647,6 +1685,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/hoodwink.png",
     },
     heroName: "Hoodwink",
+    state: "agility",
   },
   huskar: {
     shortDescription:
@@ -1689,6 +1728,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/huskar.png",
     },
     heroName: "Huskar",
+    state: "strength",
   },
   invoker: {
     shortDescription:
@@ -1729,6 +1769,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/invoker.png",
     },
     heroName: "Invoker",
+    state: "universal",
   },
   io: {
     shortDescription:
@@ -1782,6 +1823,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/wisp.png",
     },
     heroName: "Io",
+    state: "universal",
   },
   jakiro: {
     shortDescription:
@@ -1817,6 +1859,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/jakiro.png",
     },
     heroName: "Jakiro",
+    state: "intelligence",
   },
   juggernaut: {
     shortDescription:
@@ -1859,6 +1902,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/juggernaut.png",
     },
     heroName: "Juggernaut",
+    state: "agility",
   },
   keeperofthelight: {
     shortDescription:
@@ -1901,6 +1945,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/keeper_of_the_light.png",
     },
     heroName: "Keeper of the Light",
+    state: "intelligence",
   },
   kunkka: {
     shortDescription:
@@ -1943,6 +1988,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/kunkka.png",
     },
     heroName: "Kunkka",
+    state: "strength",
   },
   legioncommander: {
     shortDescription:
@@ -1985,6 +2031,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/legion_commander.png",
     },
     heroName: "Legion Commander",
+    state: "strength",
   },
   leshrac: {
     shortDescription:
@@ -2026,6 +2073,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/leshrac.png",
     },
     heroName: "Leshrac",
+    state: "intelligence",
   },
   lich: {
     shortDescription:
@@ -2068,6 +2116,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lich.png",
     },
     heroName: "Lich",
+    state: "intelligence",
   },
   lifestealer: {
     shortDescription:
@@ -2102,6 +2151,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/life_stealer.png",
     },
     heroName: "Lifestealer",
+    state: "strength",
   },
   lina: {
     shortDescription:
@@ -2144,6 +2194,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lina.png",
     },
     heroName: "Lina",
+    state: "intelligence",
   },
   lion: {
     shortDescription:
@@ -2186,6 +2237,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lion.png",
     },
     heroName: "Lion",
+    state: "intelligence",
   },
   lonedruid: {
     shortDescription:
@@ -2227,6 +2279,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lone_druid.png",
     },
     heroName: "Lone Druid",
+    state: "universal",
   },
   luna: {
     shortDescription:
@@ -2269,6 +2322,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.png",
     },
     heroName: "Luna",
+    state: "agility",
   },
   lycan: {
     shortDescription:
@@ -2310,6 +2364,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lycan.png",
     },
     heroName: "Lycan",
+    state: "universal",
   },
   magnus: {
     shortDescription:
@@ -2352,6 +2407,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/magnataur.png",
     },
     heroName: "Magnus",
+    state: "universal",
   },
   marci: {
     shortDescription:
@@ -2387,6 +2443,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/marci.png",
     },
     heroName: "Marci",
+    state: "universal",
   },
   mars: {
     shortDescription:
@@ -2429,6 +2486,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/mars.png",
     },
     heroName: "Mars",
+    state: "strength",
   },
   medusa: {
     shortDescription:
@@ -2471,6 +2529,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/medusa.png",
     },
     heroName: "Medusa",
+    state: "agility",
   },
   meepo: {
     shortDescription:
@@ -2512,6 +2571,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/meepo.png",
     },
     heroName: "Meepo",
+    state: "agility",
   },
   mirana: {
     shortDescription:
@@ -2547,6 +2607,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/mirana.png",
     },
     heroName: "Mirana",
+    state: "universal",
   },
   monkeyking: {
     shortDescription:
@@ -2593,6 +2654,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/monkey_king.png",
     },
     heroName: "Monkey King",
+    state: "agility",
   },
   morphling: {
     shortDescription:
@@ -2646,6 +2708,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.png",
     },
     heroName: "Morphling",
+    state: "agility",
   },
   muerta: {
     shortDescription:
@@ -2688,6 +2751,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/muerta.png",
     },
     heroName: "Muerta",
+    state: "intelligence",
   },
   nagasiren: {
     shortDescription:
@@ -2723,6 +2787,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/naga_siren.png",
     },
     heroName: "Naga Siren",
+    state: "agility",
   },
   "nature'sprophet": {
     shortDescription:
@@ -2765,6 +2830,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/furion.png",
     },
     heroName: "Nature's Prophet",
+    state: "intelligence",
   },
   necrophos: {
     shortDescription:
@@ -2807,6 +2873,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/necrolyte.png",
     },
     heroName: "Necrophos",
+    state: "intelligence",
   },
   nightstalker: {
     shortDescription:
@@ -2849,6 +2916,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/night_stalker.png",
     },
     heroName: "Night Stalker",
+    state: "strength",
   },
   nyxassassin: {
     shortDescription:
@@ -2891,6 +2959,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nyx_assassin.png",
     },
     heroName: "Nyx Assassin",
+    state: "universal",
   },
   ogremagi: {
     shortDescription:
@@ -2933,6 +3002,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ogre_magi.png",
     },
     heroName: "Ogre Magi",
+    state: "strength",
   },
   omniknight: {
     shortDescription:
@@ -2975,6 +3045,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/omniknight.png",
     },
     heroName: "Omniknight",
+    state: "strength",
   },
   oracle: {
     shortDescription:
@@ -3017,6 +3088,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/oracle.png",
     },
     heroName: "Oracle",
+    state: "intelligence",
   },
   outworlddestroyer: {
     shortDescription:
@@ -3059,6 +3131,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/obsidian_destroyer.png",
     },
     heroName: "Outworld Destroyer",
+    state: "intelligence",
   },
   pangolier: {
     shortDescription:
@@ -3101,6 +3174,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pangolier.png",
     },
     heroName: "Pangolier",
+    state: "universal",
   },
   phantomassassin: {
     shortDescription:
@@ -3143,6 +3217,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phantom_assassin.png",
     },
     heroName: "Phantom Assassin",
+    state: "agility",
   },
   phantomlancer: {
     shortDescription:
@@ -3185,6 +3260,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phantom_lancer.png",
     },
     heroName: "Phantom Lancer",
+    state: "agility",
   },
   phoenix: {
     shortDescription:
@@ -3227,6 +3303,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phoenix.png",
     },
     heroName: "Phoenix",
+    state: "universal",
   },
   primalbeast: {
     shortDescription:
@@ -3268,6 +3345,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/primal_beast.png",
     },
     heroName: "Primal Beast",
+    state: "strength",
   },
   puck: {
     shortDescription:
@@ -3310,6 +3388,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/puck.png",
     },
     heroName: "Puck",
+    state: "intelligence",
   },
   pudge: {
     shortDescription:
@@ -3352,6 +3431,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pudge.png",
     },
     heroName: "Pudge",
+    state: "strength",
   },
   pugna: {
     shortDescription:
@@ -3393,6 +3473,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pugna.png",
     },
     heroName: "Pugna",
+    state: "intelligence",
   },
   queenofpain: {
     shortDescription:
@@ -3435,6 +3516,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/queenofpain.png",
     },
     heroName: "Queen of Pain",
+    state: "intelligence",
   },
   razor: {
     shortDescription:
@@ -3477,6 +3559,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/razor.png",
     },
     heroName: "Razor",
+    state: "agility",
   },
   riki: {
     shortDescription:
@@ -3519,6 +3602,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/riki.png",
     },
     heroName: "Riki",
+    state: "agility",
   },
   ringmaster: {
     shortDescription:
@@ -3579,6 +3663,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ringmaster.png",
     },
     heroName: "Ringmaster",
+    state: "intelligence",
   },
   rubick: {
     shortDescription:
@@ -3621,6 +3706,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/rubick.png",
     },
     heroName: "Rubick",
+    state: "intelligence",
   },
   sandking: {
     shortDescription:
@@ -3663,6 +3749,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sand_king.png",
     },
     heroName: "Sand King",
+    state: "universal",
   },
   shadowdemon: {
     shortDescription:
@@ -3705,6 +3792,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shadow_demon.png",
     },
     heroName: "Shadow Demon",
+    state: "intelligence",
   },
   shadowfiend: {
     shortDescription:
@@ -3747,6 +3835,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png",
     },
     heroName: "Shadow Fiend",
+    state: "agility",
   },
   shadowshaman: {
     shortDescription:
@@ -3789,6 +3878,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shadow_shaman.png",
     },
     heroName: "Shadow Shaman",
+    state: "intelligence",
   },
   silencer: {
     shortDescription:
@@ -3831,6 +3921,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/silencer.png",
     },
     heroName: "Silencer",
+    state: "intelligence",
   },
   skywrathmage: {
     shortDescription:
@@ -3872,6 +3963,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/skywrath_mage.png",
     },
     heroName: "Skywrath Mage",
+    state: "intelligence",
   },
   slardar: {
     shortDescription:
@@ -3914,6 +4006,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/slardar.png",
     },
     heroName: "Slardar",
+    state: "strength",
   },
   slark: {
     shortDescription:
@@ -3956,6 +4049,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/slark.png",
     },
     heroName: "Slark",
+    state: "agility",
   },
   snapfire: {
     shortDescription:
@@ -3998,6 +4092,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/snapfire.png",
     },
     heroName: "Snapfire",
+    state: "universal",
   },
   sniper: {
     shortDescription:
@@ -4039,6 +4134,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sniper.png",
     },
     heroName: "Sniper",
+    state: "agility",
   },
   spectre: {
     shortDescription:
@@ -4080,6 +4176,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/spectre.png",
     },
     heroName: "Spectre",
+    state: "agility",
   },
   spiritbreaker: {
     shortDescription:
@@ -4122,6 +4219,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/spirit_breaker.png",
     },
     heroName: "Spirit Breaker",
+    state: "strength",
   },
   stormspirit: {
     shortDescription:
@@ -4164,6 +4262,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/storm_spirit.png",
     },
     heroName: "Storm Spirit",
+    state: "intelligence",
   },
   sven: {
     shortDescription:
@@ -4206,6 +4305,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sven.png",
     },
     heroName: "Sven",
+    state: "strength",
   },
   techies: {
     shortDescription:
@@ -4253,6 +4353,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/techies.png",
     },
     heroName: "Techies",
+    state: "universal",
   },
   templarassassin: {
     shortDescription:
@@ -4295,6 +4396,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/templar_assassin.png",
     },
     heroName: "Templar Assassin",
+    state: "agility",
   },
   terrorblade: {
     shortDescription:
@@ -4337,6 +4439,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/terrorblade.png",
     },
     heroName: "Terrorblade",
+    state: "agility",
   },
   tidehunter: {
     shortDescription:
@@ -4379,6 +4482,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tidehunter.png",
     },
     heroName: "Tidehunter",
+    state: "strength",
   },
   timbersaw: {
     shortDescription:
@@ -4420,6 +4524,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shredder.png",
     },
     heroName: "Timbersaw",
+    state: "strength",
   },
   tinker: {
     shortDescription:
@@ -4461,6 +4566,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tinker.png",
     },
     heroName: "Tinker",
+    state: "intelligence",
   },
   tiny: {
     shortDescription:
@@ -4507,6 +4613,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tiny.png",
     },
     heroName: "Tiny",
+    state: "strength",
   },
   treantprotector: {
     shortDescription:
@@ -4552,6 +4659,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/treant.png",
     },
     heroName: "Treant Protector",
+    state: "strength",
   },
   trollwarlord: {
     shortDescription:
@@ -4602,6 +4710,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/troll_warlord.png",
     },
     heroName: "Troll Warlord",
+    state: "agility",
   },
   tusk: {
     shortDescription:
@@ -4637,6 +4746,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tusk.png",
     },
     heroName: "Tusk",
+    state: "strength",
   },
   underlord: {
     shortDescription:
@@ -4679,6 +4789,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abyssal_underlord.png",
     },
     heroName: "Underlord",
+    state: "strength",
   },
   undying: {
     shortDescription:
@@ -4721,6 +4832,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/undying.png",
     },
     heroName: "Undying",
+    state: "strength",
   },
   ursa: {
     shortDescription:
@@ -4763,6 +4875,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ursa.png",
     },
     heroName: "Ursa",
+    state: "agility",
   },
   vengefulspirit: {
     shortDescription:
@@ -4805,6 +4918,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/vengefulspirit.png",
     },
     heroName: "Vengeful Spirit",
+    state: "universal",
   },
   venomancer: {
     shortDescription:
@@ -4847,6 +4961,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/venomancer.png",
     },
     heroName: "Venomancer",
+    state: "universal",
   },
   viper: {
     shortDescription:
@@ -4889,6 +5004,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/viper.png",
     },
     heroName: "Viper",
+    state: "agility",
   },
   visage: {
     shortDescription:
@@ -4931,6 +5047,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/visage.png",
     },
     heroName: "Visage",
+    state: "universal",
   },
   voidspirit: {
     shortDescription:
@@ -4973,6 +5090,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/void_spirit.png",
     },
     heroName: "Void Spirit",
+    state: "universal",
   },
   warlock: {
     shortDescription:
@@ -5015,6 +5133,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/warlock.png",
     },
     heroName: "Warlock",
+    state: "intelligence",
   },
   weaver: {
     shortDescription:
@@ -5056,6 +5175,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/weaver.png",
     },
     heroName: "Weaver",
+    state: "agility",
   },
   windranger: {
     shortDescription:
@@ -5098,6 +5218,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/windrunner.png",
     },
     heroName: "Windranger",
+    state: "universal",
   },
   winterwyvern: {
     shortDescription:
@@ -5140,6 +5261,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/winter_wyvern.png",
     },
     heroName: "Winter Wyvern",
+    state: "universal",
   },
   witchdoctor: {
     shortDescription:
@@ -5182,6 +5304,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/witch_doctor.png",
     },
     heroName: "Witch Doctor",
+    state: "intelligence",
   },
   wraithking: {
     shortDescription:
@@ -5217,6 +5340,7 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/skeleton_king.png",
     },
     heroName: "Wraith King",
+    state: "strength",
   },
   zeus: {
     shortDescription:
@@ -5259,5 +5383,8 @@ const heroesDetails = {
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/zuus.png",
     },
     heroName: "Zeus",
+    state: "intelligence",
   },
 };
+
+export default heroesDetails;
