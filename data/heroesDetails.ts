@@ -1,6 +1,5 @@
-const heroDetail = [
-  {
-    hero: "abaddon",
+const heroesDetails = {
+  abaddon: {
     shortDescription:
       "Able to transform enemy attacks into self-healing, Abaddon can survive almost any assault. Shielding allies and launching his double-edged coil at a friend or foe, he is always ready to ride into the thick of battle.",
     heroIntro: "SHIELDS HIS ALLIES OR HIMSELF FROM ATTACKS",
@@ -41,8 +40,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abaddon.png",
     },
   },
-  {
-    hero: "alchemist",
+  alchemist: {
     shortDescription:
       "Synthesizing extra resources from each and every kill, Alchemist has no trouble gathering the tools needed to destroy his foes. Ambushing enemies with corrosive acid and a host of unstable chemicals, he battles to ensure his greedy escapades can remain uninterrupted.",
     heroIntro: "EARNS EXTRA GOLD FROM UNIT KILLS AND BOUNTY RUNES",
@@ -83,8 +81,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/alchemist.png",
     },
   },
-  {
-    hero: "ancientapparition",
+  ancientapparition: {
     shortDescription:
       "Able to launch a powerful blast of damaging ice across the battlefield, Ancient Apparition threatens to shatter weakened enemies wherever they are. Slowing enemies as he enhances his allies' effectiveness in battle, he is a constant threat to his foes.",
     heroIntro: "LAUNCHES A POWERFUL ICY BLAST FROM ANYWHERE ON THE MAP",
@@ -125,8 +122,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ancient_apparition.png",
     },
   },
-  {
-    hero: "anti-mage",
+  "anti-mage": {
     shortDescription:
       "Should Anti-Mage have the opportunity to gather his full strength, few can stop his assaults. Draining mana from enemies with every strike or teleporting short distances to escape an ambush, cornering him is a challenge for any foe.",
     heroIntro: "SLASHES HIS FOES WITH MANA-DRAINING ATTACKS",
@@ -167,8 +163,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.png",
     },
   },
-  {
-    hero: "arcwarden",
+  arcwarden: {
     shortDescription:
       "A splintered fragment of the same primordial power as the Ancients themselves, Zet the Arc Warden has pledged to see the clash between Radiant and Dire finally end. Assault lone enemies with fluxing energy, or distort space to generate a protective field around allies. Summon a Spark Wraith to patrol an area for enemies to infuse with harmful magic, then create a double of Zet, items and all, to overwhelm your foes.",
     heroIntro: "CREATES A COPY OF HIMSELF TO SPLIT PUSH",
@@ -209,8 +204,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.png",
     },
   },
-  {
-    hero: "axe",
+  axe: {
     shortDescription:
       "One after another, Axe cuts down his foes. Marching ahead of his team, he locks his enemies in battle then counters their blows with a deadly spin of his weapon. Slamming his culling blade through a weakened enemy, he is always charging onward.",
     heroIntro: "TAUNTS AND FORCES ENEMIES TO ATTACK HIM",
@@ -251,8 +245,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/axe.png",
     },
   },
-  {
-    hero: "bane",
+  bane: {
     shortDescription:
       "Bane brings terror to his enemies with his arsenal of disabling abilities. Whether trapping a foe within a contagious nightmare, or gripping an enemy in place, he gives allies all the time they need to slay their enemy.",
     heroIntro: "PUTS HIS ENEMIES TO SLEEP, INCAPACITATING THEM",
@@ -293,8 +286,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bane.png",
     },
   },
-  {
-    hero: "batrider",
+  batrider: {
     shortDescription:
       "Once he takes to the skies, Batrider can strike from any direction. Snatching a foe with his lasso, he soars above the treetops, pulling his prey through a trail of flame as he drags them before his merciless allies.",
     heroIntro: "CAN LASSO AN ENEMY AWAY FROM HIS TEAM",
@@ -335,8 +327,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/batrider.png",
     },
   },
-  {
-    hero: "beastmaster",
+  beastmaster: {
     shortDescription:
       "Summoning a poison-spitting boar and a scouting hawk to aid his hunt, Beastmaster never stalks the battlefield unprepared. Chopping through the forest with his axes, his stunning roar opens the way for his allies to devastate enemies.",
     heroIntro: "SUMMONS BEASTS TO AID HIS HUNT",
@@ -381,8 +372,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/beastmaster.png",
     },
   },
-  {
-    hero: "bloodseeker",
+  bloodseeker: {
     shortDescription:
       "Bloodseeker forces difficult decisions on his enemies. Able to drive his foes to a retreat by bathing a large area with a damaging ritual, his gruesome ultimate asks his opponents to hold still, or die.",
     heroIntro: "CHASES DOWN LOW HEALTH ENEMIES WITH INCREASED SPEED",
@@ -423,8 +413,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bloodseeker.png",
     },
   },
-  {
-    hero: "bountyhunter",
+  bountyhunter: {
     shortDescription:
       "Sneaking invisibly at the heels of his enemies, Bounty Hunter is always keeping track of his foes. Whenever one of his targets falls in battle, he and his allies stand to make quite a profit.",
     heroIntro: "LOOTS AND COLLECTS BOUNTIES OFF OF HIS ENEMIES",
@@ -465,8 +454,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bounty_hunter.png",
     },
   },
-  {
-    hero: "brewmaster",
+  brewmaster: {
     shortDescription:
       "A fearsome fighter in any situation, Brewmaster can turn the tide of battle by splitting into three elemental spirits, each with their own unique abilities. When not divided, he brings drunken chaos to his foes with slowing claps and powerful swings of his staff.",
     heroIntro: "SPLITS INTO FOUR ELEMENTAL SPIRITS WITH UNIQUE ABILITIES",
@@ -507,8 +495,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/brewmaster.png",
     },
   },
-  {
-    hero: "bristleback",
+  bristleback: {
     shortDescription:
       "When it comes to a fight, Bristleback really puts his back into it. Reducing all damage arriving from the rear or from the sides, he wades into battle with barely a care, spraying enemies with damaging quills and slowing snot.",
     heroIntro: "TAKES REDUCED DAMAGE WHEN FACING AWAY FROM ENEMIES",
@@ -549,8 +536,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/bristleback.png",
     },
   },
-  {
-    hero: "broodmother",
+  broodmother: {
     shortDescription:
       "Gliding along her webs, Broodmother births an army of spiders to lead her team's forces toward the enemy base. As prey wanders near, she joins her children and attacks, slowing foes with incapacitating bites as she indulges her insatiable hunger.",
     heroIntro: "HUNTS WITH HER ARMY OF SPIDERLINGS",
@@ -591,8 +577,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/broodmother.png",
     },
   },
-  {
-    hero: "centaurwarrunner",
+  centaurwarrunner: {
     shortDescription:
       "Centaur Warrunner is a master of both inflicting and absorbing damage. Leading the charge into battle, he stomps to stun his enemies, and instantly counters their every attack. His stampede speeds his allies in both fight and flight, quickening the pace of the carnage.",
     heroIntro: "REFLECTS DAMAGE BACK TO HIS ATTACKERS",
@@ -632,8 +617,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/centaur.png",
     },
   },
-  {
-    hero: "chaosknight",
+  chaosknight: {
     shortDescription:
       "Chaos Knight is an army unto himself. Able to summon a cavalry of clones to demolish enemy defenses, should an enemy present itself, he can rift reality to pull him and his phantasms close enough to rain brutal cudgel blows upon their head.",
     heroIntro: "HAS STRONG BUT RANDOM DAMAGE OUTPUT",
@@ -674,8 +658,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/chaos_knight.png",
     },
   },
-  {
-    hero: "chen",
+  chen: {
     shortDescription:
       "Converting the creatures of the forest to his cause, Chen leads his makeshift armies to aid his team in battle. He assaults enemies with beasts while sending friends to safety. Then, when things seem darkest, he heals his allies wherever they may be.",
     heroIntro: "CONVERTS CREEPS TO HIS CAUSE, BUILDING AN ARMY",
@@ -720,8 +703,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/chen.png",
     },
   },
-  {
-    hero: "clinkz",
+  clinkz: {
     shortDescription:
       "When Clinkz stalks invisibly through the battlefield, none are safe from ambush. Swift of foot and arrow, he rains fiery death upon his foes, calling upon an army of blazing compatriots to bolster his assault.",
     heroIntro: "STALKS INVISIBLY TO AMBUSH LONE ENEMIES",
@@ -762,8 +744,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/clinkz.png",
     },
   },
-  {
-    hero: "clockwerk",
+  clockwerk: {
     shortDescription:
       "Launching himself into enemies with his grappling hookshot, Clockwerk isolates targets and blasts them apart with disorienting shrapnel. As he scouts the battlefield with his handy flares, he never has trouble finding targets to send himself toward.",
     heroIntro: "LAUNCHES HIMSELF INTO ENEMIES WITH HIS HOOKSHOT",
@@ -804,8 +785,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/rattletrap.png",
     },
   },
-  {
-    hero: "crystalmaiden",
+  crystalmaiden: {
     shortDescription:
       "Able to keep her allies supplied with mana as she slows down enemies to ensure a kill, Crystal Maiden is a helpful addition to any team. And, when the opportunity arises, she can unleash her massive ultimate ability to devastate her foes.",
     heroIntro: "UNLEASHES A HIGH DAMAGE BLIZZARD UPON HER FOES",
@@ -845,8 +825,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/crystal_maiden.png",
     },
   },
-  {
-    hero: "darkseer",
+  darkseer: {
     shortDescription:
       "Versatile and strategic, Dark Seer excels at manipulating the positions of his enemies. Vacuuming foes into the attacks of his allies, he can turn enemy strength against itself by pulling foes through his replicating wall.",
     heroIntro: "PULLS AND MANIPULATES HIS ENEMIES' POSITIONS",
@@ -887,8 +866,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dark_seer.png",
     },
   },
-  {
-    hero: "darkwillow",
+  darkwillow: {
     shortDescription:
       "A slight flutter from the shadows may be all an enemy sees of Dark Willow, as she eludes pursuit and controls her foe's movements with cunning fae tricks. Calling upon powers far more ancient than any scholarly magic, she binds enemies in place before unleashing the full wrath and terror of the fae realm upon them.",
     heroIntro: "HAS AN ARSENAL OF DISABLES AT HER DISPOSAL",
@@ -933,8 +911,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dark_willow.png",
     },
   },
-  {
-    hero: "dawnbreaker",
+  dawnbreaker: {
     shortDescription:
       "Dawnbreaker shines in the heart of battle, happily crushing enemies with her celestial hammer and healing nearby allies. She revels in hurling her hammer through multiple foes and then converging with it in a blazing wake, always waiting to tap her true cosmic power to fly to the aid of her teammates — eager to rout her enemies on the battlefield no matter where they are.",
     heroIntro: "LEAPS TO AID HER ALLIES, WHEREVER THEY ARE ON THE MAP",
@@ -975,8 +952,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dawnbreaker.png",
     },
   },
-  {
-    hero: "dazzle",
+  dazzle: {
     shortDescription:
       "Born to support his cohorts in battle, Dazzle keeps wounded allies alive so they might later rain death upon the enemy. His strange magic weaves its way into nearby armor, weakening enemies and strengthening friends.",
     heroIntro: "POWERFUL HEALER WHO CAN BRIEFLY PREVENT DEATH",
@@ -1017,8 +993,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dazzle.png",
     },
   },
-  {
-    hero: "deathprophet",
+  deathprophet: {
     shortDescription:
       "When she unleashes her army of ghosts, Death Prophet excels at demolishing enemies and their defenses alike. Leading her team's forces toward the enemy base with wave after damaging wave from her swarm, her onslaught can seem unstoppable.",
     heroIntro: "SUMMONS AN ARMY OF GHOSTS TO ATTACK",
@@ -1059,8 +1034,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/death_prophet.png",
     },
   },
-  {
-    hero: "disruptor",
+  disruptor: {
     shortDescription:
       "Disruptor excels at shattering the plans of his enemies. Summoning impassable fences to trap targets as he calls down a silencing storm, should a foe attempt something unexpected he simply teleports them back to their earlier location.",
     heroIntro: "TRAPS AND SILENCES FOES IN HIS STATIC STORM",
@@ -1101,8 +1075,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/disruptor.png",
     },
   },
-  {
-    hero: "doom",
+  doom: {
     shortDescription:
       "One way or another, Doom shuts down his enemies. Devouring creeps to claim the various skills they had in life, he can place a lingering silence upon a foe's spells and items with his ultimate as he torches his foes.",
     heroIntro:
@@ -1144,8 +1117,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/doom_bringer.png",
     },
   },
-  {
-    hero: "dragonknight",
+  dragonknight: {
     shortDescription:
       "When he takes on his terrifying dragon form, Dragon Knight strikes fear into any who face him. Strong and adaptable, he can stun his enemies and burn all in front of him, often providing his allies the momentum they need to carry them to victory.",
     heroIntro: "TRANSFORMS INTO A FORMIDABLE RANGED DRAGON",
@@ -1186,8 +1158,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/dragon_knight.png",
     },
   },
-  {
-    hero: "drowranger",
+  drowranger: {
     shortDescription:
       "Not many can escape Drow Ranger once she's within range. After her foes have been silenced with a chilling blast, she finishes them off with a barrage of slowing, ice-tipped arrows that few can survive.",
     heroIntro: "SLOWS WITH HER FROST-TIPPED ARROWS",
@@ -1228,8 +1199,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.png",
     },
   },
-  {
-    hero: "earthspirit",
+  earthspirit: {
     shortDescription:
       "Earth Spirit keeps the enemy in chaos and his friends in the fight. Adapting to any battle scenario, he can send his statue remnants back and forth to damage foes, or grips an ally from the jaws of death.",
     heroIntro: "DISABLES AND REPOSITIONS HIS ENEMIES",
@@ -1274,8 +1244,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.png",
     },
   },
-  {
-    hero: "earthshaker",
+  earthshaker: {
     shortDescription:
       "Whether blocking an enemy's escape, dividing their forces, or shattering the ground beneath gathered foes, Earthshaker is at his best when he strikes without warning. Whatever survives the aftershocks still has a swing from his mighty totem to look forward to.",
     heroIntro: "DISRUPTS ENEMY TEAM WITH HIS CHAIN STUNS",
@@ -1316,8 +1285,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earthshaker.png",
     },
   },
-  {
-    hero: "eldertitan",
+  eldertitan: {
     shortDescription:
       "Scouting the way with his astral spirit, Elder Titan can strike from any direction. Halting foes with a stomp of his hoof while his presence eats away at their defenses, he splits the earth itself to bring his enemies low.",
     heroIntro: "DAMAGES AND DISABLES WITH HIS ASTRAL SPIRIT",
@@ -1358,8 +1326,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/elder_titan.png",
     },
   },
-  {
-    hero: "emberspirit",
+  emberspirit: {
     shortDescription:
       "Swift and elusive, Ember Spirit strikes all nearby enemies in rapid succession, and ties them up with burning chains. Quickly rushing across the battlefield to arrive at one of his exploding remnants, few can avoid, or capture, his flame.",
     heroIntro: "RAPIDLY STRIKES AND CHAINS HIS FOES",
@@ -1404,8 +1371,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.png",
     },
   },
-  {
-    hero: "enchantress",
+  enchantress: {
     shortDescription:
       "Harmful up close and lethal at a distance, Enchantress skewers foes with attacks imbued to become more damaging the further they fly. Whether inflicting powerful slows on her enemies or charming forest creatures to fight her battles, she is never short of tools to win a fight.",
     heroIntro: "ENCHANTS NEUTRAL CREEPS TO DO HER BIDDING",
@@ -1446,8 +1412,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enchantress.png",
     },
   },
-  {
-    hero: "enigma",
+  enigma: {
     shortDescription:
       "Widely feared for his ultimate ability, Enigma can summon a black hole capable of entrapping enemy forces, so that allies can then destroy them. An ever-present contingent of eidolons at his side, he pummels foes with ranged attacks.",
     heroIntro: "TRAPS AND DAMAGES ENEMIES IN A BLACK HOLE",
@@ -1488,8 +1453,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enigma.png",
     },
   },
-  {
-    hero: "facelessvoid",
+  facelessvoid: {
     shortDescription:
       "Time is everything to Faceless Void. He speeds time to dash between locations, manipulates it to dodge attacks, stops it in a large area to devastate his foes, and given enough of it to gather resources, he can make himself unbelievably powerful.",
     heroIntro: "CAN FREEZE HIS ENEMIES IN TIME",
@@ -1523,8 +1487,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.png",
     },
   },
-  {
-    hero: "grimstroke",
+  grimstroke: {
     shortDescription:
       "Skilled at manipulating battle from the outskirts, Grimstroke studies every movement and assesses each line, deciding when to emerge from inky darkness to disable his victims and bind them together with a swipe of his brush. He delights in unleashing phantom thralls to vex opponents, as he carefully considers how to dispatch multiple enemies with one fateful stroke.",
     heroIntro: "DISABLES ENEMIES WITH A SWIPE OF HIS BRUSH",
@@ -1565,8 +1528,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/grimstroke.png",
     },
   },
-  {
-    hero: "gyrocopter",
+  gyrocopter: {
     shortDescription:
       "With his arsenal of firepower at the ready, Gyrocopter soars into battle. Blasting all nearby enemies with shots from his cannon or hammering them with a barrage of rockets, if he is able to gather his full strength, he demolishes foes with ease.",
     heroIntro: "BARRAGES WITH HIS CANNON AND HOMING MISSILES",
@@ -1606,8 +1568,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/gyrocopter.png",
     },
   },
-  {
-    hero: "hoodwink",
+  hoodwink: {
     shortDescription:
       "Always at hand when trouble's afoot, Hoodwink lives to tangle with the threats that fill the haunted forest she adopted as her home. Toting a massive crossbow while still able to scurry through the woodland with the greatest of ease, Hoodwink is nearly impossible to keep tabs on in battle. Lose track and she'll pop out behind you -- your stunned carcass already dangling in one of her nets.",
     heroIntro: "SHACKLES HER ENEMIES TO TREES",
@@ -1648,8 +1609,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/hoodwink.png",
     },
   },
-  {
-    hero: "huskar",
+  huskar: {
     shortDescription:
       "As his health lowers, Huskar's ability to slay enemies grows considerably. Able to instantly remove a portion of both his and an enemy's health with his ultimate, when near death he is able to throw his burning spears with devastating speed.",
     heroIntro: "SACRIFICES HIS HEALTH TO DEAL MORE DAMAGE",
@@ -1690,8 +1650,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/huskar.png",
     },
   },
-  {
-    hero: "invoker",
+  invoker: {
     shortDescription:
       "With an intricate arsenal of spells at his disposal, Invoker can adapt to any battle situation. Each configuration of his three spell components yields of one of ten spells, meaning he's never without a way to destroy or escape his enemies.",
     heroIntro: "WEAVES MAGIC WITH AN ARRAY OF SPELL COMBOS",
@@ -1730,8 +1689,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/invoker.png",
     },
   },
-  {
-    hero: "io",
+  io: {
     shortDescription:
       "Io has a talent for making allies more effective. A powerful companion, the wisp's tether speeds allies and stops enemies. Capable of linking to and teleporting across the battlefield with an ally, Io can make a dangerous ally even deadlier.",
     heroIntro: "LINKS TO ITS ALLIES TO BUFF THEM",
@@ -1783,8 +1741,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/wisp.png",
     },
   },
-  {
-    hero: "jakiro",
+  jakiro: {
     shortDescription:
       "Jakiro is their own best friend. Not content to merely punish enemies with fire, the twins freeze them in place to force them to stand there and burn. With foes aflame, they turn to inflicting massive damage on enemy structures with their liquid fire.",
     heroIntro: "FREEZES AND BURNS ENEMIES WITH MAGIC",
@@ -1818,8 +1775,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/jakiro.png",
     },
   },
-  {
-    hero: "juggernaut",
+  juggernaut: {
     shortDescription:
       "In a flurry of slashes, Juggernaut cuts down his foes. Sprinting and spinning into battle with reckless abandon, and nearly invincible once he is able to begin his assault, stopping Juggernaut can often be just as difficult as surviving him.",
     heroIntro: "SLICES THROUGH HIS ENEMIES WITH PRECISE STRIKES",
@@ -1860,8 +1816,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/juggernaut.png",
     },
   },
-  {
-    hero: "keeperofthelight",
+  keeperofthelight: {
     shortDescription:
       "Keeper of the Light is a helpful addition to any team. Manipulating the mana of both his allies and enemies, he effortlessly destroys lesser foes with waves of illumination, then enters his spirit form to gather his team to press the assault.",
     heroIntro: "PROVIDES INSTANT MANA TO ALLIES",
@@ -1902,8 +1857,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/keeper_of_the_light.png",
     },
   },
-  {
-    hero: "kunkka",
+  kunkka: {
     shortDescription:
       "Kunkka is always predicting where his enemies will go next. Able to attack a location with a geyser of water or a ghostly shipwreck, should his aim prove true, he and his allies will have no trouble cleaning up whatever is left.",
     heroIntro: "DISRUPTS ENEMY POSITIONING AND DISABLES THEM",
@@ -1944,8 +1898,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/kunkka.png",
     },
   },
-  {
-    hero: "legioncommander",
+  legioncommander: {
     shortDescription:
       "Marching across the battlefield, Legion Commander challenges lone enemies in single combat. Each duel she wins increases the power of her attacks, until at last she can become a relentless one-woman army.",
     heroIntro: "INCREASES POWER WITH EACH DUEL VICTORY",
@@ -1986,8 +1939,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/legion_commander.png",
     },
   },
-  {
-    hero: "leshrac",
+  leshrac: {
     shortDescription:
       "Leshrac's powerful spells lay waste to enemies and their defenses alike. Pushing deep into enemy territory with his devastating edict, careful timing of his ability to split the earth will stun foes, allowing his merciless allies to finish them off.",
     heroIntro: "CAN DEAL HEAVY DAMAGE IN AN AURA AROUND HIMSELF",
@@ -2027,8 +1979,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/leshrac.png",
     },
   },
-  {
-    hero: "lich",
+  lich: {
     shortDescription:
       "Drifting from battle to battle and sacrificing creeps to fuel his assaults, Lich is always ready to help his fellow heroes destroy their enemies with slowing frost. Should his foes be foolish enough to gather, his bouncing ultimate will ensure their demise.",
     heroIntro: "UNLEASHES A POWERFUL ATTACK THAT BOUNCES BETWEEN ENEMIES",
@@ -2069,8 +2020,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lich.png",
     },
   },
-  {
-    hero: "lifestealer",
+  lifestealer: {
     shortDescription:
       "Should Lifestealer get close to his prey, there is little that can save them. Travelling within a creep or an allied hero, once he nears a foe he explodes from his host body, surprising enemies and tearing into them with his claws.",
     heroIntro: "INFESTS OTHER UNITS FOR MOBILITY AND STRENGTH",
@@ -2103,8 +2053,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/life_stealer.png",
     },
   },
-  {
-    hero: "lina",
+  lina: {
     shortDescription:
       "As deadly as she is fragile, Lina effortlessly strikes down any foe foolish enough to be caught alone. Gaining attack speed with each spell she casts, she scours enemies with flame and heat lightning, ensuring few can survive her assaults.",
     heroIntro: "INCREASES ATTACK AND SPEED WITH EVERY SPELL",
@@ -2145,8 +2094,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lina.png",
     },
   },
-  {
-    hero: "lion",
+  lion: {
     shortDescription:
       "Lion gives enemies little chance to retaliate. Stunning targets with a damaging row of spikes, or temporarily transforming them into a harmless critter, even if his powerful spells aren't enough, he and his allies should still have all the time they need to slay their foes.",
     heroIntro: "STEALS ENEMY MANA TO FUEL HIS OWN ABILITIES",
@@ -2187,8 +2135,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lion.png",
     },
   },
-  {
-    hero: "lonedruid",
+  lonedruid: {
     shortDescription:
       "Battling alongside his powerful spirit bear, Lone Druid demolishes enemy forces and structures. Switching as needed between ranged and melee attacks with his transformation, should he have enough time to arm and strengthen both himself and his companion, there is little that can stop them.",
     heroIntro: "COMMANDS A POWERFUL SPIRIT BEAR IN BATTLE",
@@ -2228,8 +2175,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lone_druid.png",
     },
   },
-  {
-    hero: "luna",
+  luna: {
     shortDescription:
       "Riding swiftly into battle, Luna tears into her enemies with attacks able to bounce between targets. When foes threaten, she calls down the power of the moon as a single searing beam or as a lunar barrage, crushing those who stand against her.",
     heroIntro: "TEARS INTO HER ENEMIES WITH BOUNCING ATTACKS",
@@ -2270,8 +2216,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.png",
     },
   },
-  {
-    hero: "lycan",
+  lycan: {
     shortDescription:
       "As a man or as a wolf, Lycan devastates enemies with sharp claws and deadly jaws. Summoning stealthy wolves to scout ahead or assault a foe, his wolf transformation grants him the speed and strength to run down his enemies, or escape an ambush.",
     heroIntro: "SHAPESHIFTS INTO A FEROCIOUS BEAST",
@@ -2311,8 +2256,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/lycan.png",
     },
   },
-  {
-    hero: "magnus",
+  magnus: {
     shortDescription:
       "Enemies who are foolish enough to gather learn to fear the horn of Magnus. Able to pull nearby foes together, he can batter them with empowered attacks or skewer them with his horn to bring them before his merciless allies.",
     heroIntro: "CHARGES IN TO REPOSITION HIS ENEMIES",
@@ -2353,8 +2297,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/magnataur.png",
     },
   },
-  {
-    hero: "marci",
+  marci: {
     shortDescription:
       "Proving that undying loyalty yields unrivaled power, Marci always marches into battle ready to raise fists in defense of her companions. Effortlessly flinging friends and foes around the battlefield, she happily bounds into any brawl, able to grant allies a deadly edge and unleash a hidden power strong enough to make even gods reconsider the wisdom of a hostile path.",
     heroIntro: "DASHES AROUND PUMMELING ENEMIES WITH RAPID ATTACKS",
@@ -2388,8 +2331,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/marci.png",
     },
   },
-  {
-    hero: "mars",
+  mars: {
     shortDescription:
       "The warrior deity Mars thrives in the heart of strife, guarded by the bulk of a deadly shield as he skewers enemies with his legendary spear. He revels in facing opponents in an arena ringed with loyal spearmen—who guarantee that no one escapes and that whatever odds he's facing, the god of war can dictate the terms of battle knowing the crowd is forever on his side.",
     heroIntro: "TRAPS HIS FOES IN AN INESCAPABLE ARENA",
@@ -2430,8 +2372,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/mars.png",
     },
   },
-  {
-    hero: "medusa",
+  medusa: {
     shortDescription:
       "Constant attack is the key to Medusa's success. Using her mana shield to stave off assault, she employs split shots to mow down waves of enemies. Once she gathers her full strength, she becomes a force powerful enough to stop anyone in their tracks.",
     heroIntro: "IMMOBILIZES HER ENEMIES WITH HER STONE GAZE",
@@ -2472,8 +2413,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/medusa.png",
     },
   },
-  {
-    hero: "meepo",
+  meepo: {
     shortDescription:
       "By summoning up to five permanent copies of himself, Meepo can fight from every front at once. Spreading his clones throughout the battlefield, when an enemy is found, he binds his foe, gathers his selves with an explosive teleport, then buries what remains.",
     heroIntro: "FIVE ARE STRONGER THAN ONE",
@@ -2513,8 +2453,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/meepo.png",
     },
   },
-  {
-    hero: "mirana",
+  mirana: {
     shortDescription:
       "As she takes aim from a distance with her deadly arrow, Mirana must always be ready to leap into battle. Able to shield her allies from the eyes of her enemies, she ensures that her team is always on the prowl.",
     heroIntro: "STUNS ENEMIES WITH PRECISE ARROWS FROM AFAR",
@@ -2548,8 +2487,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/mirana.png",
     },
   },
-  {
-    hero: "monkeyking",
+  monkeyking: {
     shortDescription:
       "Always in search of a good fight, Monkey King travels atop the trees aiming to spring from leafy cover and surprise his enemies. Calling upon an army of monkey soldiers to overwhelm opponents, this agile trickster revels in the chaos of battle, ready to slam his legendary staff down on any hopes of escape.",
     heroIntro: "SPRINGS FROM THE COVER OF THE TREE TOPS",
@@ -2594,8 +2532,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/monkey_king.png",
     },
   },
-  {
-    hero: "morphling",
+  morphling: {
     shortDescription:
       "Shifting his attributes to suit his situation, Morphling can be as elusive as he is deadly. Whether riding a wave to flank an enemy, or boosting his health before escaping into his deceptive replication, few can hope to corner him.",
     heroIntro: "RIDES THE WAVES TO FLANK ENEMIES",
@@ -2647,8 +2584,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.png",
     },
   },
-  {
-    hero: "muerta",
+  muerta: {
     shortDescription:
       "Muerta is a master of death who stalks the lands of life, corralling targets with fearsome trickshots and summoning revenants to smother her foes. Always ready to pick off unwary targets with her spare gunhand, Muerta is at her most menacing when she crosses the veil of the dead to strike her enemies with the ethereal fury of the damned.",
     heroIntro: "BLASTS FEARSOME TRICKSHOTS AND UNLEASHES ETHEREAL RUIN",
@@ -2689,8 +2625,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/muerta.png",
     },
   },
-  {
-    hero: "nagasiren",
+  nagasiren: {
     shortDescription:
       "Sending squads of mirrored clones against her foes, Naga Siren ensnares and slays enemies as she leads her forces to victory. With the sound of her voice, she disables nearby foes to spring an ambush or crafting a hasty escape.",
     heroIntro: "ABLE TO CAPITIVATE AND DISABLE ENEMIES WITH HER SONG",
@@ -2724,8 +2659,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/naga_siren.png",
     },
   },
-  {
-    hero: "nature'sprophet",
+  "nature'sprophet": {
     shortDescription:
       "Whether in the thick of battle or gathering resources for his next assault, Nature's Prophet seems to be everywhere. Teleporting at will to any location and instantly creating an army of violent trees to fight for him, he attacks where enemies least expect.",
     heroIntro: "ABLE TO TELEPORT TO ANY LOCATION ON THE MAP AT WILL",
@@ -2766,8 +2700,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/furion.png",
     },
   },
-  {
-    hero: "necrophos",
+  necrophos: {
     shortDescription:
       "Wherever Necrophos goes, enemies wither as allies thrive. Restoring health to his friends and harming enemies with each death pulse, once his very presence has eaten away at an enemy, he summons the reaper to lengthen their stay in the afterlife.",
     heroIntro: "DAMAGES ENEMIES AND HEALS ALLIES SIMULTANEOUSLY",
@@ -2808,8 +2741,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/necrolyte.png",
     },
   },
-  {
-    hero: "nightstalker",
+  nightstalker: {
     shortDescription:
       "Once the sun goes down, Night Stalker's hunt begins. Charging through the shadowy forests, he snares prey in a slowing void as he tears them to shreds. Should sunrise threaten to end his terror, he can darken the skies to extend his onslaught.",
     heroIntro: "ENPOWERED BY THE SHADOWS OF NIGHTFALL",
@@ -2850,8 +2782,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/night_stalker.png",
     },
   },
-  {
-    hero: "nyxassassin",
+  nyxassassin: {
     shortDescription:
       "Nyx Assassin is always hunting for fragile targets. Sneaking invisibly through the forest, when he spots his prey, he swipes them with his deadly claws and impales them on stunning spikes, then reverses any counterattack with his reflecting carapace.",
     heroIntro: "REFLECTS ENEMY DAMAGE AND STUNS",
@@ -2892,8 +2823,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nyx_assassin.png",
     },
   },
-  {
-    hero: "ogremagi",
+  ogremagi: {
     shortDescription:
       "With a chance to multiply the outcome of each spell they cast, a bit of luck is all Ogre Magi needs to burn enemies to cinder, or boost the power of his allies. Of course, luck can be difficult to rely upon...",
     heroIntro: "USES A TOUCH OF LUCK TO AMPLIFY HIS SKILLS",
@@ -2934,8 +2864,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ogre_magi.png",
     },
   },
-  {
-    hero: "omniknight",
+  omniknight: {
     shortDescription:
       "A guardian at the front lines of battle, Omniknight is always eager to join his team in battle. Whether healing an ally with a spell that also harms nearby foes, or battering an enemy with his mighty hammer, he protects his allies from harm.",
     heroIntro: "TANKY FRONTLINER WHO PROTECTS AND HEALS HIS ALLIES",
@@ -2976,8 +2905,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/omniknight.png",
     },
   },
-  {
-    hero: "oracle",
+  oracle: {
     shortDescription:
       "By carefully combining his intricate abilities, Oracle controls the destinies of both friend and foe. Shrouding threatened allies with his false promise, he can grant an ally a few precious moments of protection to destroy an enemy, or even reverse a grisly fate.",
     heroIntro: "ALTERS THE FATES OF HEROES WITH HIS BUFFS AND NUKES",
@@ -3018,8 +2946,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/oracle.png",
     },
   },
-  {
-    hero: "outworlddestroyer",
+  outworlddestroyer: {
     shortDescription:
       "Stealing from the minds of those he imprisons, Outworld Destroyer turns raw intelligence into destructive power. Weakening enemies with a barrage of arcane energy, he shatters their sanity with his ultimate blast, often erasing mana from those that survive.",
     heroIntro: "CAN IMPRISON A HERO, MAKING THEM INVULNERABLE",
@@ -3060,8 +2987,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/obsidian_destroyer.png",
     },
   },
-  {
-    hero: "pangolier",
+  pangolier: {
     shortDescription:
       "Eager to dash into danger at a moment's notice, the Pangolier thrives on disrupting enemy movements and placing himself in the midst of chaos. Artfully guiding his blade between cracks in armor and shrugging off attacks with his protective scales, this graceful swordsman is always ready to roll into battle.",
     heroIntro: "DASHES AND ROLLS IN TO DISRUPT ENEMY MOVEMENTS",
@@ -3102,8 +3028,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pangolier.png",
     },
   },
-  {
-    hero: "phantomassassin",
+  phantomassassin: {
     shortDescription:
       "The moment she finds her prey, Phantom Assassin strikes. Instantly closing in on a target, she effortlessly dodges attacks as she relentlessly cuts away at her foe. Without warning, any one of her attacks could prove suddenly and brutally fatal.",
     heroIntro: "BLINKS ONTO HER FOES WITH CRITICAL STRIKES",
@@ -3144,8 +3069,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phantom_assassin.png",
     },
   },
-  {
-    hero: "phantomlancer",
+  phantomlancer: {
     shortDescription:
       "Phantom Lancer storms enemy forces with an endless supply of clones. Leading his illusory army, he can cut foes apart in a breathtaking flurry of attacks, send clones to push into enemy territory, or use his doppelgangers to mislead and elude foes if cornered.",
     heroIntro: "CREATES ILLUSIONS OF HIMSELF TO TRICK OR ATTACK FOES",
@@ -3186,8 +3110,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phantom_lancer.png",
     },
   },
-  {
-    hero: "phoenix",
+  phoenix: {
     shortDescription:
       "Diving into battle, Phoenix blasts enemies and heals allies with rays of solar flame. When the time is right, it can become a burning sun to scorch nearby foes before unleashing a stunning detonation that also restores Phoenix to full strength.",
     heroIntro: "HEALS AND DAMAGES AT THE SACRIFICE OF ITS OWN HEALTH",
@@ -3228,8 +3151,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/phoenix.png",
     },
   },
-  {
-    hero: "primalbeast",
+  primalbeast: {
     shortDescription:
       "Rushing savagely through enemies and allies alike, Primal Beast pounds into battle as one born to raise a ruckus. An unavoidable threat amidst any fray, the Beast can punish attackers and relishes grabbing prey to repeatedly slam them against the ground until nothing but mush remains.",
     heroIntro: "STOMPS OVER EVERYTHING AND SMASHES ENEMIES INTO MESSY BITS",
@@ -3269,8 +3191,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/primal_beast.png",
     },
   },
-  {
-    hero: "puck",
+  puck: {
     shortDescription:
       "Puck has a talent for confounding its enemies with playfully elusive mischief. By teleporting to its damaging orb in order to hop short distances, it attacks foes with bursts of silencing dust. By the time its enemies can react, Puck has long since escaped.",
     heroIntro: "ORBS TO ENEMIES AND SILENCES THEM",
@@ -3311,8 +3232,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/puck.png",
     },
   },
-  {
-    hero: "pudge",
+  pudge: {
     shortDescription:
       "Each carefully aimed throw of Pudge's signature hook strikes fear into his foes. Pulling his enemies near to carve them with his cleavers, he gains additional health and damage with every kill, and soon becomes an unstoppable killer.",
     heroIntro: "HOOKS AND PULLS ENEMIES TOWARDS HIM",
@@ -3353,8 +3273,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pudge.png",
     },
   },
-  {
-    hero: "pugna",
+  pugna: {
     shortDescription:
       "A crafty trickster, Pugna turns the enemy's power against itself as he blasts their defenses. While his nether ward strikes nearby foes that dare to cast a spell, he drains life from enemies to ensure he will be ready for the next assault.",
     heroIntro: "DRAINS ENEMY LIFE TO HEAL HIMSELF",
@@ -3394,8 +3313,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/pugna.png",
     },
   },
-  {
-    hero: "queenofpain",
+  queenofpain: {
     shortDescription:
       "Queen of Pain strikes without warning, destroying gathered foes with deafening screams. Should an enemy survive her onslaught, she slows their escape with a throw of her dagger before finishing them off.",
     heroIntro: "BLINKS IN TO DEAL MASSIVE MAGICAL DAMAGE",
@@ -3436,8 +3354,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/queenofpain.png",
     },
   },
-  {
-    hero: "razor",
+  razor: {
     shortDescription:
       "With a deadly lightning storm at his command, Razor charges into battle. Deploying a sweeping ring of electrified plasma to fry his enemies, he links with foes to drain them of their power and use it against them.",
     heroIntro: "STEALS ENEMY DAMAGE TO ADD TO HIS OWN",
@@ -3478,8 +3395,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/razor.png",
     },
   },
-  {
-    hero: "riki",
+  riki: {
     shortDescription:
       "Riki stalks the battlefield, unseen by the enemy. He chooses his moment carefully and bursts forth in a puff of silencing smoke, stabbing at his foes before they even know he's there.",
     heroIntro: "REMAINS PERMANENTLY INVISIBLE UNTIL THE MOMENT TO STRIKE",
@@ -3520,8 +3436,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/riki.png",
     },
   },
-  {
-    hero: "ringmaster",
+  ringmaster: {
     shortDescription:
       "All the battlefield's a stage, and Ringmaster is a gleeful director. Controlling fights with a showman's flair, Ringmaster tames enemies with his fearsome whip and endless knives, ushers allies away from danger with his cunning escape act, and always draws a crowd to unwillingly witness the wonders of his mesmerizing wheel.",
     heroIntro: "DIRECTS THE BATTLE WITH FEAR AND MESMERISM",
@@ -3580,8 +3495,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ringmaster.png",
     },
   },
-  {
-    hero: "rubick",
+  rubick: {
     shortDescription:
       "Always seeking a new spell to steal, Rubick is ever eager to turn an enemy's most unique advantage against them. Snatching his enemies into the air to fling them where he will, he has no trouble sowing chaos among careless foes.",
     heroIntro: "STEALS THE SPELLS OF HIS ENEMIES TO USE AGAINST THEM",
@@ -3622,8 +3536,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/rubick.png",
     },
   },
-  {
-    hero: "sandking",
+  sandking: {
     shortDescription:
       "Not many can survive an ambush from Sand King. Demolishing everything around him with waves of deadly vibration from his ultimate, he evades counterattacks by hiding himself in a scouring gust of sand, and stuns foes by striking them from beneath.",
     heroIntro: "BURROWS TO STUN AND SLOW ENEMIES",
@@ -3664,8 +3577,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sand_king.png",
     },
   },
-  {
-    hero: "shadowdemon",
+  shadowdemon: {
     shortDescription:
       "Spewing clouds of demonic poison to damage enemies or scout the battlefield, few dare to approach Shadow Demon. Banishing an enemy as his allies gather for the kill, he can inflict demonic curses as he summons traitorous illusions to turn enemy strength against itself.",
     heroIntro: "STACKS EXPONENTIAL POISON DAMAGE AGAINST HIS FOES",
@@ -3706,8 +3618,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shadow_demon.png",
     },
   },
-  {
-    hero: "shadowfiend",
+  shadowfiend: {
     shortDescription:
       "Capturing souls from every kill he makes, Shadow Fiend is always gathering his power. Every assault, each carefully aimed raze that kills an enemy, brings him closer to unleashing his gathered souls in a deadly blast of scouring energy.",
     heroIntro: "UNLEASHES THE SOULS OF FALLEN ENEMIES FOR DAMAGE",
@@ -3748,8 +3659,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png",
     },
   },
-  {
-    hero: "shadowshaman",
+  shadowshaman: {
     shortDescription:
       "Shadow Shaman quickly clears the way for his team's forces to march on the enemy base. Blasting enemies with shocking spells and interrupting attackers with hexes, his powerful serpent wards destroy enemy defenses with ease.",
     heroIntro: "SUMMONS POWERFUL SERPENT WARDS TO DEAL DAMAGE",
@@ -3790,8 +3700,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shadow_shaman.png",
     },
   },
-  {
-    hero: "silencer",
+  silencer: {
     shortDescription:
       "Silencer changes the dynamic of every battle when he shuts down the enemy's ability to cast their spells. As he cuts his foes to ribbons with his glaive, he steals their intelligence to add to his own, ensuring his foes are always at a disadvantage.",
     heroIntro: "CAN SILENCE ALL ENEMIES ON THE MAP",
@@ -3832,8 +3741,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/silencer.png",
     },
   },
-  {
-    hero: "skywrathmage",
+  skywrathmage: {
     shortDescription:
       "Deadly and fragile in equal measure, Skywrath Mage quickly destroys his enemies with a barrage of powerful magic. He silences foes while increasing their vulnerability to spells, meaning he has no trouble vaporizing any who stand against him.",
     heroIntro: "CASTS HIGH DAMAGE MAGICAL SPELLS ON A SINGLE TARGET",
@@ -3873,8 +3781,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/skywrath_mage.png",
     },
   },
-  {
-    hero: "slardar",
+  slardar: {
     shortDescription:
       "Ready to find and demolish his foes, Slardar quickly slithers into battle. After exposing an enemy's position and shattering their defenses, he closes the distance to lock them in place with crushing blows and powerful bashes from his trident.",
     heroIntro: "CHASES DOWN HIS ENEMIES TO WEAKEN AND BASH THEM",
@@ -3915,8 +3822,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/slardar.png",
     },
   },
-  {
-    hero: "slark",
+  slark: {
     shortDescription:
       "Pouncing into danger then slipping back out is what Slark does best. He rushes at the chance to pin or corner a lone foe, steals their essence with each cut from his dagger, and is always ready to vanish should the tables turn.",
     heroIntro: "SLIPS IN AND OUT OF SKIRMISHES",
@@ -3957,8 +3863,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/slark.png",
     },
   },
-  {
-    hero: "snapfire",
+  snapfire: {
     shortDescription:
       "Just as happy to blow your legs off with her trusty scattergun as to fill your belly up with a deliciously-dangerous cookie, Beatrix Snapfire delights in riding into battle with her dragon toad Mortimer, always ready to mow down their enemies with her homemade heavy artillery or finish them off with a steady barrage of Mortimer's firespit globs.",
     heroIntro: "MOWS DOWN HER ENEMIES WITH HEAVY ARTILLERY AND TRUSTY LIZARD",
@@ -3999,8 +3904,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/snapfire.png",
     },
   },
-  {
-    hero: "sniper",
+  sniper: {
     shortDescription:
       "Death from a distance is Sniper's specialty. He keeps his enemies on their toes with a steady barrage of firepower, and then, when the time is right, picks them off with a kill shot.",
     heroIntro: "PICKS OFF HIS ENEMIES FROM AFAR",
@@ -4040,8 +3944,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sniper.png",
     },
   },
-  {
-    hero: "spectre",
+  spectre: {
     shortDescription:
       "Spectre haunts her enemies wherever they may be. Able to destroy lone prey with ease, she spreads her presence throughout the battlefield to choose her target. Once she has gathered her strength, none can escape her terrible wrath.",
     heroIntro: "HAUNTS HER ENEMIES AND TELEPORTS TO HER TARGET",
@@ -4081,8 +3984,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/spectre.png",
     },
   },
-  {
-    hero: "spiritbreaker",
+  spiritbreaker: {
     shortDescription:
       "Highly mobile and always aggressive, Spirit Breaker charges across the map to bring the fight to his enemies. With each bash of his heavy lantern, he knocks his foes senseless. His enemies may run, but with the help of a few wards, they cannot hide.",
     heroIntro: "CHARGES DOWN ENEMIES FROM ANYWHERE ON THE MAP",
@@ -4123,8 +4025,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/spirit_breaker.png",
     },
   },
-  {
-    hero: "stormspirit",
+  stormspirit: {
     shortDescription:
       "Storm Spirit is never one to miss a fight. Zipping from across the battlefield in a bolt of lightning, he strikes enemies from every direction with exploding remnants and charged attacks, then disappears while his enemies are still scrambling to react.",
     heroIntro: "ZIPS ACROSS THE MAP TO ENGAGE IN FIGHTS",
@@ -4165,8 +4066,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/storm_spirit.png",
     },
   },
-  {
-    hero: "sven",
+  sven: {
     shortDescription:
       "Sven is always eager to charge into a fight. He stuns grouped enemies as he wades into battle, and once he ignites his damage-boosting ultimate, a few swings of his massive sword are often more than enough to slay his foes.",
     heroIntro: "CLEAVES DOWN ENEMIES WITH HIS INCREDIBLE STRENGTH",
@@ -4207,8 +4107,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/sven.png",
     },
   },
-  {
-    hero: "techies",
+  techies: {
     shortDescription:
       "For the Techies, battle is a matter of mischief. Giggling while they lob sticky bombs around the battlefield, their hidden explosive mines, disarming zaps, and reckless blast-off attacks are enough to leave most enemies dead. Or at least enraged. Often both.",
     heroIntro:
@@ -4254,8 +4153,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/techies.png",
     },
   },
-  {
-    hero: "templarassassin",
+  templarassassin: {
     shortDescription:
       "Peppering the battlefield with slowing traps, Templar Assassin hides invisibly, ready to ambush her prey. Once she springs her attack, she shreds enemies with piercing psionic blades, and deflects counterattacks with her refracting shield.",
     heroIntro: "SLOWS DOWN ENEMIES WITH TRAPS",
@@ -4296,8 +4194,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/templar_assassin.png",
     },
   },
-  {
-    hero: "terrorblade",
+  terrorblade: {
     shortDescription:
       "With Terrorblade, nothing is as it seems. Conjuring powerful illusions to confuse enemies and break their defenses, the demon marauder can exchange health with foes and friends to stave off death or weaken his enemies.",
     heroIntro: "TRANSFORMS INTO A POWERFUL RANGED DEMON",
@@ -4338,8 +4235,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/terrorblade.png",
     },
   },
-  {
-    hero: "tidehunter",
+  tidehunter: {
     shortDescription:
       "Stalking ahead of his team, Tidehunter is always on the lookout for the right time to strike. When the moment comes, he unleashes his massive and devastating ultimate, paving the way for his allies to slay their stunned enemies.",
     heroIntro: "DURABLE HERO WHO SHRUGS OFF ENEMY DAMAGE",
@@ -4380,8 +4276,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tidehunter.png",
     },
   },
-  {
-    hero: "timbersaw",
+  timbersaw: {
     shortDescription:
       "Elusive and unpredictable, Timbersaw chops through the forest to face his foes. Unleashing an arsenal of saw blades to cut enemies to pieces, he rides his chain into nearby trees and batters foes along the way.",
     heroIntro: "CHOPS THROUGH THE FOREST TO FACE HIS FOES",
@@ -4421,8 +4316,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/shredder.png",
     },
   },
-  {
-    hero: "tinker",
+  tinker: {
     shortDescription:
       "Tinker demolishes foes with swarms of machines and a host of deadly gadgets. If he can gather the resources he needs, the power that instantly refreshes his abilities enables him to lead his team from every front.",
     heroIntro: "DEMOLISHES HIS ENEMIES WITH SWARMS OF MACHINES",
@@ -4462,8 +4356,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tinker.png",
     },
   },
-  {
-    hero: "tiny",
+  tiny: {
     shortDescription:
       "Growing to tremendous size and strength as the battle progresses, Tiny's power can quickly become terrifying. He tosses heroes and creeps at his enemies, or stuns them beneath an avalanche. Should he gather his full strength, he can demolish the enemy's base with ease.",
     heroIntro: "GROWS IN SIZE AND STRENGTH AS BATTLE ENSUES",
@@ -4508,8 +4401,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tiny.png",
     },
   },
-  {
-    hero: "treantprotector",
+  treantprotector: {
     shortDescription:
       "Treant Protector is ever the benevolent ally, sprouting regenerating armor for his cohorts and their fortifications alike. Emerging unseen from among the trees, he binds foes with overgrowth as he leeches health from enemies and into nearby allies.",
     heroIntro: "CALLS UPON THE FOREST TO ROOT HIS FOES",
@@ -4553,8 +4445,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/treant.png",
     },
   },
-  {
-    hero: "trollwarlord",
+  trollwarlord: {
     shortDescription:
       "Instantly able to swap between ranged and melee attacks, Troll Warlord is a formidable force at any distance. Axes in hand, he can strike in a storm of spinning blades. He takes down enemies with increasingly swift attacks, and can speed his allies' assaults wherever they are.",
     heroIntro: "SWAPS BETWEEN RANGED AND MELEE ATTACKS AT WILL",
@@ -4603,8 +4494,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/troll_warlord.png",
     },
   },
-  {
-    hero: "tusk",
+  tusk: {
     shortDescription:
       "Tusk is always eager to start a fight. Able to instantly corner an enemy with a wall of ice shards, he gathers with his allies and rolls into enemies inside of a massive snowball, bringing him in range to land his signature knockout punch.",
     heroIntro: "SNOWBALLS INTO HIS ENEMIES TO STUN",
@@ -4638,8 +4528,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/tusk.png",
     },
   },
-  {
-    hero: "underlord",
+  underlord: {
     shortDescription:
       "Conjure waves of abyssal flame to immolate enemies held paralyzed in your spiteful grip. Feast upon the carnage of battle, gaining strength as foes perish around you, their attacks diminished by your very presence. Tear a rift in reality to teleport yourself and your teammates across the map, delivering bloody retribution to any who would defy the will of Vrogros the Underlord.",
     heroIntro: "TELEPORTS HIS TEAM IN AND OUT OF BATTLE",
@@ -4680,8 +4569,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/abyssal_underlord.png",
     },
   },
-  {
-    hero: "undying",
+  undying: {
     shortDescription:
       "Shambling into battle, Undying forces enemies to decide whether to flee his wrath or be torn apart by it. He drains strength from his foes, and summons a horde of clawing undead. When he finally becomes a hulking flesh golem, his enemies may already be overwhelmed.",
     heroIntro: "SUMMONS HORDES OF ZOMBIES TO ATTACK HIS FOES",
@@ -4722,8 +4610,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/undying.png",
     },
   },
-  {
-    hero: "ursa",
+  ursa: {
     shortDescription:
       "With each swipe of his claws, Ursa increases his target's vulnerability to his next attack. Capable of briefly increasing how swiftly he can strike, and able to slow down nearby prey, he quickly tears apart his enemies.",
     heroIntro: "DEALS MORE DAMAGE WITH EVERY HIT TO THE SAME FOE",
@@ -4764,8 +4651,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ursa.png",
     },
   },
-  {
-    hero: "vengefulspirit",
+  vengefulspirit: {
     shortDescription:
       "Vengeful Spirit's presence is felt at all times, whether she is alive or dead. Able to swap positions with any nearby hero, stun enemies, and reduce her killer's effectiveness if she falls, she constantly brings confusion and chaos to her foes.",
     heroIntro: "CAN SWAP HERSELF WITH ANY NEARBY HERO",
@@ -4806,8 +4692,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/vengefulspirit.png",
     },
   },
-  {
-    hero: "venomancer",
+  venomancer: {
     shortDescription:
       "Venomancer brings slow death to his enemies. Sprouting an endless army of toxin-spitting watchers to defend his territory, should foes draw near he can release a massive cloud of lingering poison to weaken enemies.",
     heroIntro: "DEALS DAMAGE OVER TIME WITH VENOMOUS ATTACKS",
@@ -4848,8 +4733,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/venomancer.png",
     },
   },
-  {
-    hero: "viper",
+  viper: {
     shortDescription:
       "Launching deadly poison from a distance, Viper poses a grave threat to whomever he targets. As his various toxins eat away at an enemy's health and slow their movement, Viper simply does what he does best: he keeps adding more poison.",
     heroIntro: "POISONOUS TOXINS CHIP AWAY ARMOR AND SLOW ENEMIES",
@@ -4890,8 +4774,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/viper.png",
     },
   },
-  {
-    hero: "visage",
+  visage: {
     shortDescription:
       "As his deadly familiars scout the field, Visage cloaks himself in armor and seeks the next battle. Once near a skirmish, he gathers soul energy from damage inflicted upon nearby fighters before releasing it in a devastating attack.",
     heroIntro: "SCOUTS AND ATTACKS WITH HIS FAMILIARS",
@@ -4932,8 +4815,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/visage.png",
     },
   },
-  {
-    hero: "voidspirit",
+  voidspirit: {
     shortDescription:
       "Privy to secrets that would shatter a mortal mind, the Void Spirit emerges from his Hidden Temple to stand guard over multiple areas of the battlefield at once. Able to step into and out of the mortal plane at will, he easily outmaneuvers opponents to strike from wherever he desires, calling upon the powers of the aether to shield him in times of need.",
     heroIntro: "STEPS IN AND OUT OF THE MORTAL PLANE TO STRIKE HIS FOES",
@@ -4974,8 +4856,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/void_spirit.png",
     },
   },
-  {
-    hero: "warlock",
+  warlock: {
     shortDescription:
       "Summoning forth his demonic golem, Warlock brings ruin to enemies and destroys their defenses. Yet even without his golem, his dark spells can still wreak havoc, whether healing allies and harming enemies with a word, or binding foes together to share their agony.",
     heroIntro: "SUMMONS POWERFUL DEMONS TO FIGHT AT HIS SIDE",
@@ -5016,8 +4897,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/warlock.png",
     },
   },
-  {
-    hero: "weaver",
+  weaver: {
     shortDescription:
       "Weaver has no trouble evading enemies to position himself for another strike. Slipping in and out of sight, he avoids death by rewinding himself to an earlier position and health state. His arsenal of elusive skills ensures he is always a critical nuisance to his foes.",
     heroIntro: "REWINDS TIME TO REVERSE DAMAGE AND POSITION",
@@ -5057,8 +4937,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/weaver.png",
     },
   },
-  {
-    hero: "windranger",
+  windranger: {
     shortDescription:
       "Evasive and swift, the nimble Windranger is always seeking the right angle to attack. Whether she's clearing the way with a draw of her deadly powershot, or shackling enemies together to pepper them with arrows, she's always on the move.",
     heroIntro: "FIRES SWIFT FLURRY OF ARROWS AT A SINGLE TARGET",
@@ -5099,8 +4978,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/windrunner.png",
     },
   },
-  {
-    hero: "winterwyvern",
+  winterwyvern: {
     shortDescription:
       "Winter Wyvern stalks the skies, slowing foes with burning cold as she soars over the battlefield. Should the enemy be foolish enough to gather, she curses them to attack one of their own as she blasts the gathering with icy splinters.",
     heroIntro: "ABLE TO FORCE HER ENEMIES TO ATTACK THEIR OWN ALLY",
@@ -5141,8 +5019,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/winter_wyvern.png",
     },
   },
-  {
-    hero: "witchdoctor",
+  witchdoctor: {
     shortDescription:
       "Witch Doctor is whatever his team needs him to be. Whether aiding his team with gradual healing, stunning and cursing foes to ensure a kill, or destroying enemies himself with a dance by his mighty ultimate, few can match Witch Doctor's versatility.",
     heroIntro: "CHANNELS A HIGH DAMAGE DEATH WARD",
@@ -5183,8 +5060,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/witch_doctor.png",
     },
   },
-  {
-    hero: "wraithking",
+  wraithking: {
     shortDescription:
       "Striding fearlessly toward his enemies, Wraith King stuns his foes and slashes them into submission. Should his enemies gain the upper hand, his self-resurrecting ultimate ensures he'll have another chance to swing his sword.",
     heroIntro: "CAN REINCARNATE INSTANTLY UPON DEATH",
@@ -5218,8 +5094,7 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/skeleton_king.png",
     },
   },
-  {
-    hero: "zeus",
+  zeus: {
     shortDescription:
       "None can hide from Zeus, whether he's calling down a bolt to reveal the surroundings, sending an arc coursing through his nearest enemies, or summoning a terrifying volley of lightning upon all enemies. Wherever his foes are, Zeus will find them.",
     heroIntro: "STRIKES ENEMIES NEAR AND FAR WITH LIGHTNING",
@@ -5260,4 +5135,4 @@ const heroDetail = [
         "https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/zuus.png",
     },
   },
-];
+};
