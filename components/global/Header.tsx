@@ -14,7 +14,7 @@ const navs = [
 
 const Header = () => {
   return (
-    <header className="absolute flex w-full items-center justify-between px-6 py-2">
+    <header className="absolute z-[9999] flex w-full items-center justify-between px-6 py-2">
       <Link
         href="/"
         className="mr-10 basis-[14.5%] opacity-80 hover:cursor-pointer hover:opacity-100"

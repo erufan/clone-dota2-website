@@ -11,7 +11,7 @@ const MyVidoe = ({ media }: Props) => {
       preload="auto"
       playsInline
       muted
-      className="z-[-1] mr-40 min-h-full w-full min-w-[1000px] mask-gradient"
+      className="absolute -left-[40%] z-[-1] min-h-full w-full min-w-[950px] mask-gradient"
     >
       <source type="video/webm" src={media.webm} />
       <source type='video/mp4; codecs="hvc1"' src={media.mov} />
