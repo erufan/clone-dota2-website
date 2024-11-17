@@ -15,7 +15,7 @@ const heroPage = ({ params }: Props) => {
     heroesDetails[params.hero as keyof typeof heroesDetails];
   return (
     <>
-      <div className="relative flex h-[52rem] flex-col overflow-hidden font-radiance md:flex-row">
+      <div className="relative flex flex-col font-radiance lg:h-[50rem] lg:flex-row lg:overflow-hidden 2xl:h-[70rem]">
         <div className="row absolute left-20 top-[45rem] inline-flex origin-bottom-left rotate-[270deg] items-center">
           <Image
             src={stateImage[state as keyof typeof stateImage]}
@@ -28,7 +28,7 @@ const heroPage = ({ params }: Props) => {
           </span>
           <div className="mb-1 ml-2 mr-2 h-[0.1rem] w-[45rem] bg-[#555]"></div>
         </div>
-        <div className="ml-36 mt-40 flex w-[40%] flex-col justify-start">
+        <div className="ml-36 mt-40 flex w-full flex-col justify-start pr-60 lg:w-[40%] lg:pr-0">
           <div className="flex">
             <Image
               src={stateImage[state as keyof typeof stateImage]}
@@ -64,14 +64,18 @@ const heroPage = ({ params }: Props) => {
             </div>
           </div>
         </div>
-        <div className="relative -right-14 top-14 flex w-[60%] items-center justify-center">
+        <div className="relative -right-14 top-14 flex w-full flex-col items-center justify-center lg:w-[60%]">
           <MyVidoe media={media} />
-          <div className="mt-[80%] flex -translate-x-9 flex-col flex-wrap items-center">
-            <span className="jusc- mb-2 text-xl font-bold uppercase tracking-widest">
+          <div className="mt-[70%] flex -translate-x-9 flex-col flex-wrap items-center 2xl:mt-[20%]">
+            <span className="mb-2 text-xl font-bold uppercase tracking-widest">
               Abilities
             </span>
             <div className="flex items-start gap-4">
-              <Image src={talents} alt="talents tree" width={72} height={72} />
+              <Image
+                src={talents}
+                alt="talents tree"
+                className="w-72px h-auto"
+              />
               <Image src={innate} alt="innate icon" width={72} height={72} />
               <div className="flex w-[25rem] flex-wrap gap-4">
                 {abilities.map((ability) => (
@@ -89,7 +93,6 @@ const heroPage = ({ params }: Props) => {
         </div>
         <Ribbon />
       </div>
-      <div className="h-52 w-[98vw] bg-[var(--background)]"></div>
     </>
   );
 };
