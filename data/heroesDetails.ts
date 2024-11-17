@@ -1,4 +1,6 @@
-const heroesDetails = {
+import HeroDetails from "@/interface/heroes/HeroDetails";
+
+const heroesDetails: { [key: string]: HeroDetails } = {
   abaddon: {
     shortDescription:
       "Able to transform enemy attacks into self-healing, Abaddon can survive almost any assault. Shielding allies and launching his double-edged coil at a friend or foe, he is always ready to ride into the thick of battle.",
@@ -356,27 +358,30 @@ const heroesDetails = {
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_wild_axes.png",
       },
       {
+        name: "Call of the Wild Boar ",
+        description:
+          "Beastmaster calls forth a Boar to aid in the battlefield. The Boar has a passive poison attack that slows attack and movement speeds. ",
+        abilityIcon:
+          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_boar.png",
+      },
+      {
         name: "Call of the Wild Hawk ",
         description:
           "Beastmaster summons a hawk that circles around Beastmaster and dive-bombs at enemies with a base attack rate of every 4s, damaging and rooting them. Attack rate increases with the Hawk's attack speed. Prioritizes heroes.  ",
         abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_boar.png",
+          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_hawk.png",
+      },
+      {
+        name: "Inner Beast",
+        description:
+          "Untaps the inner fury of Beastmaster and units he controls, passively increasing their attack speed.",
+        abilityIcon:
+          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_inner_beast.png",
       },
       {
         name: "Primal Roar ",
         description:
           "Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 40% movement speed for 3 seconds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_call_of_the_wild_hawk.png",
-      },
-      {
-        name: "Call of the Wild Boar ",
-        description:
-          "Beastmaster calls forth a Boar to aid in the battlefield. The Boar has a passive poison attack that slows attack and movement speeds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_inner_beast.png",
-      },
-      {
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/beastmaster_primal_roar.png",
       },
@@ -696,34 +701,30 @@ const heroesDetails = {
     heroIntro: "CONVERTS CREEPS TO HIS CAUSE, BUILDING AN ARMY",
     abilities: [
       {
-        name: "Holy Persuasion ",
+        name: "Penitence",
         description:
           "Forces an enemy unit to move slower and for allies to attack it more quickly. Chen can attack the Penitence target with bonus attack range. ",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/chen_penitence.png",
       },
       {
-        name: "Summon Convert ",
+        name: "Holy Persuasion",
         description:
-          "Passively provides an aura that grants increased health regeneration. Can be cast on allies to provide them with bonus armor and increasing the healing and health regeneration they receive.If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage from enemy heroes or their units will cancel the teleport. ",
+          "Chen takes control of an enemy or neutral creep and receives a percentage of its bounty. Its maximum health is set to 400 + 50 per Chen Level. Converted creeps will have increased movement speed and bonus damage.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/chen_holy_persuasion.png",
       },
       {
-        name: "Penitence ",
+        name: "Divine Favor",
         description:
-          "Heals all allied heroes on the map as well as all units under Chen's control. A large heal is applied at first and a slow heal over time is applied for 10 seconds afterwards. ",
+          "Passively provides an aura that grants increased health regeneration. Can be cast on allies to provide them with bonus armor and increasing the healing and health regeneration they receive.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/chen_divine_favor.png",
       },
       {
         name: "Hand of God ",
         description:
-          "Passively provides an aura that grants increased health regeneration. Can be cast on allies to provide them with bonus armor and increasing the healing and health regeneration they receive.If cast on Chen, all units controlled by Chen will be teleported to him. Taking damage from enemy heroes or their units will cancel the teleport. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/chen_summon_convert.png",
-      },
-      {
+          "Heals all allied heroes on the map as well as all units under Chen's control. A large heal is applied at first and a slow heal over time is applied for 10 seconds afterwards.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/chen_hand_of_god.png",
       },
@@ -921,27 +922,30 @@ const heroesDetails = {
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_bramble_maze.png",
       },
       {
-        name: "Cursed Crown ",
+        name: "Shadow Realm",
+        description:
+          "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has 600 bonus attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3 seconds. ",
+        abilityIcon:
+          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_shadow_realm.png",
+      },
+      {
+        name: "Cursed Crown",
         description:
           "Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned. ",
         abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_shadow_realm.png",
+          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_cursed_crown.png",
+      },
+      {
+        name: "Bedlam",
+        description:
+          "Dark Willow sends her pet wisp to roam around herself for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
+        abilityIcon:
+          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_bedlam.png",
       },
       {
         name: "Terrorize ",
         description:
           "Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_cursed_crown.png",
-      },
-      {
-        name: "Shadow Realm ",
-        description:
-          "Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has 600 bonus attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3 seconds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_bedlam.png",
-      },
-      {
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_terrorize.png",
       },
@@ -1263,34 +1267,37 @@ const heroesDetails = {
     heroIntro: "DISABLES AND REPOSITIONS HIS ENEMIES",
     abilities: [
       {
-        name: "Rolling Boulder ",
+        name: "Boulder Smash",
         description:
-          "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest unit in a 200 radius, prioritizing Stone Remnants. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units. Deals 1.4x damage to creeps. ",
+          "Earth Spirit smashes the target enemy or ally, sending them in the direction he is facing. If Earth Spirit targets an area, he will smash the nearest unit in a 200 radius, prioritizing Stone Remnants. The travelling unit or Remnant damages all enemy units it hits.  If an enemy is hit by a Stone Remnant, they are also slowed. Stone Remnants travel further than other units. Deals 1.4x damage to creeps.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/earth_spirit_boulder_smash.png",
       },
       {
-        name: "Stone Remnant ",
+        name: "Rolling Boulder",
         description:
-          "Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced and take damage. ",
+          "Earth Spirit gathers himself into a boulder and, after a 0.6s delay, rolls toward the target location, dealing 60 + 100% STR damage and stunning enemy units. He will stop if he collides with an enemy hero or is stunned. If he rolls over a Stone Remnant, he will travel further and faster, and stun enemies for longer.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/earth_spirit_rolling_boulder.png",
       },
       {
-        name: "Boulder Smash ",
+        name: "Geomagnetic Grip",
         description:
-          "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by Geomagnetic Grip or Boulder Smash, all magnetized heroes share the effects. ",
+          "Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced and take damage.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/earth_spirit_geomagnetic_grip.png",
       },
       {
-        name: "Magnetize ",
+        name: "Stone Remnant",
         description:
-          "Earth Spirit pulls the target Stone Remnant. Enemies struck by the gripped target will be silenced and take damage. ",
+          "Call a Stone Remnant to the target location.  Stone Remnants have no vision and are invulnerable, and can be used with Earth Spirit's abilities.  Calling a Stone Remnant consumes a charge, which recharge over time. Gains additional charges every 5 hero levels.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/earth_spirit_stone_caller.png",
       },
       {
+        name: "Magnetize",
+        description:
+          "Magnetizes units in a small nearby area, causing them to take damage for a short duration. Magnetized heroes cause nearby Stone Remnants to explode, destroying the remnant and refreshing Magnetize's duration on all nearby enemies. This process can repeat multiple times. If an enemy hero is affected by Geomagnetic Grip or Boulder Smash, all magnetized heroes share the effects. ",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/earth_spirit_magnetize.png",
       },
@@ -1403,27 +1410,29 @@ const heroesDetails = {
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ember_spirit_searing_chains.png",
       },
       {
-        name: "Flame Guard ",
+        name: "Sleight of Fist",
         description:
-          "Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, absorbing a percentage of the damage taken. Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active. If the shield is broken, the damage is also lost. ",
+          "Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location.  Deals bonus damage to heroes.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ember_spirit_sleight_of_fist.png",
       },
       {
-        name: "Fire Remnant ",
+        name: "Flame Guard",
         description:
-          "Sends a Fire Remnant that runs to the target location at 250% Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit will dash out to all active Fire Remnants, destroying them and dealing damage in an area and then moving to the nearest Remnant.  Ember Spirit will end at the Remnant closest to the targeted location. ",
+          "Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, absorbing a percentage of the damage taken. Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active. If the shield is broken, the damage is also lost.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ember_spirit_flame_guard.png",
       },
       {
-        name: "Sleight of Fist ",
-        description:
-          "Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location.  Deals bonus damage to heroes. ",
+        name: "Activate Fire Remnant",
+        description: "Select the Fire Remnant to arrive at.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ember_spirit_activate_fire_remnant.png",
       },
       {
+        name: "Fire Remnant",
+        description:
+          "Sends a Fire Remnant that runs to the target location at 250% Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit will dash out to all active Fire Remnants, destroying them and dealing damage in an area and then moving to the nearest Remnant.  Ember Spirit will end at the Remnant closest to the targeted location.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ember_spirit_fire_remnant.png",
       },
@@ -1784,34 +1793,37 @@ const heroesDetails = {
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_tether.png",
       },
       {
-        name: "Overcharge ",
+        name: "Spirits",
         description:
-          "Io gains health regeneration based on max health.  If Io is Tethered to an ally, that unit also gains any bonuses granted by Overcharge. ",
+          "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_spirits.png",
       },
       {
-        name: "Spirits Out ",
+        name: "Overcharge",
         description:
-          "Sends the spirits farther away from you. Can be toggled on and off. ",
+          "Io gains health regeneration based on max health.  If Io is Tethered to an ally, that unit also gains any bonuses granted by Overcharge.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_overcharge.png",
       },
       {
-        name: "Sight Seer ",
+        name: "Spirits In",
         description:
-          "Io's Team takes 1s less to take watchers, and their watchers have 300 bonus vision. ",
+          "Sends the spirits closer to you. Can be toggled on and off.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_spirits_in.png",
       },
       {
-        name: "Spirits In ",
+        name: "Spirits Out",
         description:
-          "Sends the spirits closer to you. Can be toggled on and off. ",
+          "Sends the spirits farther away from you. Can be toggled on and off.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_spirits_out.png",
       },
       {
+        name: "Relocate",
+        description:
+          "Teleports Io and a tethered ally to any location. After the spell expires, Io and the tethered ally will return to their original location. Double-click to teleport to your team's base fountain.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/wisp_relocate.png",
       },
@@ -2615,34 +2627,37 @@ const heroesDetails = {
     heroIntro: "SPRINGS FROM THE COVER OF THE TREE TOPS",
     abilities: [
       {
-        name: "Tree Dance ",
+        name: "Boundless Strike",
         description:
           "Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with bonus damage and a critical hit based on his attack. Has True Strike. ",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_boundless_strike.png",
       },
       {
-        name: "Mischief ",
+        name: "Tree Dance",
         description:
-          "Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns 4 charged attacks that have bonus damage and lifesteal. ",
+          "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability-a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage while on the ground puts Tree Dance on cooldown.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_tree_dance.png",
       },
       {
-        name: "Boundless Strike ",
+        name: "Jingu Mastery",
         description:
-          "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration. ",
+          "Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns 4 charged attacks that have bonus damage and lifesteal.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_jingu_mastery.png",
       },
       {
-        name: "Wukong's Command ",
+        name: "Mischief",
         description:
-          "Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns 4 charged attacks that have bonus damage and lifesteal. ",
+          "Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise. Grants damage immunity for 0.2 seconds upon transforming.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_mischief.png",
       },
       {
+        name: "Wukong's Command ",
+        description:
+          "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/monkey_king_wukongs_command.png",
       },
@@ -2669,34 +2684,37 @@ const heroesDetails = {
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/morphling_waveform.png",
       },
       {
-        name: "Adaptive Strike (Strength) ",
+        name: "Adaptive Strike (Agility)",
         description:
-          "Launches a surge of water toward an enemy unit, stunning the target based on Morphling's strength. If his strength is 50% higher than his agility, the maximum stun is dealt.  Also puts Adaptive Strike (Agility) on a 3 second cooldown. ",
+          "Launches a surge of water toward an enemy unit, dealing base damage plus additional damage based on Morphling's agility times a multiplier.  If Morphling's agility is 50% higher than strength, the maximum agility multiplier is used.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/morphling_adaptive_strike_agi.png",
       },
       {
-        name: "Attribute Shift (Strength Gain) ",
+        name: "Adaptive Strike (Strength)",
         description:
-          "Morphling shifts its form, pulling points from Agility and pouring them into Strength. The process is reversible.  Additional points in Attribute Shift increase the rate of stat change. ",
+          "Launches a surge of water toward an enemy unit, stunning the target based on Morphling's strength. If his strength is 50% higher than his agility, the maximum stun is dealt.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/morphling_adaptive_strike_str.png",
       },
       {
-        name: "Accumulation ",
+        name: "Attribute Shift (Agility Gain)",
         description:
-          "Morphling receives 50% of stat growth bonuses every half level instead of the full bonus at level up. Morphling receives +100% bonus stats from All Attributes bonus from skill points in the Talent Tree. ",
+          "Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible.  Additional points in Attribute Shift increase the rate of stat change.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/morphling_morph_agi.png",
       },
       {
-        name: "Attribute Shift (Agility Gain) ",
+        name: "Attribute Shift (Strength Gain)",
         description:
-          "Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible.  Additional points in Attribute Shift increase the rate of stat change. ",
+          "Morphling shifts its form, pulling points from Agility and pouring them into Strength. The process is reversible.  Additional points in Attribute Shift increase the rate of stat change.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/morphling_morph_str.png",
       },
       {
+        name: "Morph",
+        description:
+          "Morphling changes his form to match the targeted enemy, gaining their basic abilities. Can be toggled for the duration of the ability.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/morphling_replicate.png",
       },
@@ -3610,48 +3628,51 @@ const heroesDetails = {
     heroIntro: "DIRECTS THE BATTLE WITH FEAR AND MESMERISM",
     abilities: [
       {
-        name: "Tame the Beasts ",
+        name: "Tame the Beasts",
         description:
           "CHANNELED - Ringmaster twirls his whip for up to 1 second then cracks it. Whipped enemies are damaged and flee in fear from Ringmaster. Channel time exponentially increases damage and extends the fear duration, but reduces the radius. ",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_tame_the_beasts.png",
       },
       {
-        name: "Impalement Arts ",
+        name: "Escape Act",
         description:
-          "Ringmaster throws one of his daggers to a precise point of his choosing. If he strikes an enemy, the dagger deals impact damage, briefly slows the unit hit, and causes them to bleed. The bleeding deals a percentage of the victim's maximum health in damage every second to heroes and flat damage per second to creeps. ",
+          "Ringmaster packs himself or an allied hero into a mobile, extradimensional box. Boxed units gain phased movement, slow resistance, bonus magic resistance, and bonus movement speed. They are also untargetable, muted, silenced, and disarmed. The box will pop open after the effect expires or it moves more than 500 units away.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_the_box.png",
       },
       {
-        name: "Funhouse Mirror ",
+        name: "Impalement Arts",
         description:
-          "Use: Proportion DistortionCreates 1 imperfect image of your hero that lasts 18 seconds. Your illusion deals 28% and takes  300% damage. ",
+          "Ringmaster throws one of his daggers to a precise point of his choosing. If he strikes an enemy, the dagger deals impact damage, briefly slows the unit hit, and causes them to bleed. The bleeding deals a percentage of the victim's maximum health in damage every second to heroes and flat damage per second to creeps.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_impalement.png",
       },
       {
-        name: "Whoopee Cushion ",
+        name: "Wheel of Wonder",
         description:
-          "Use: WhoopsiePropels your hero forward 400 units. Leaves a 200 radius stink cloud behind for 3 seconds that slows enemies by -30%. ",
+          "Ringmaster rolls the Wheel of Wonder to the targeted location, knocking aside enemies along the way. After it reaches its target, enemies in range of the wheel take damage over time and are slowed by -50%.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_wheel.png",
       },
       {
-        name: "Escape Act ",
+        name: "Funhouse Mirror",
         description:
-          "Ringmaster packs himself or an allied hero into a mobile, extradimensional box. Boxed units gain phased movement, slow resistance, bonus magic resistance, and bonus movement speed. They are also untargetable, muted, silenced, and disarmed. The box will pop open after the effect expires or it moves more than 500 units away. ",
+          "Creates 1 imperfect image of your hero that lasts 18 seconds. Your illusion deals 28% and takes  300% damage.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_funhouse_mirror.png",
       },
       {
-        name: "Strongman Tonic ",
+        name: "Strongman Tonic",
         description:
-          "Use: Forcefully ImbibeTemporarily increases an allied hero's Strength by 5 plus 1 per Ringmaster's level for 8 seconds. The effect holds for 4 seconds and then deteriorates over the duration. ",
+          "Temporarily increases an allied hero's Strength by 5 plus 1 per Ringmaster's level for 8 seconds. The effect holds for 4 seconds and then deteriorates over the duration.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_strongman_tonic.png",
       },
       {
+        name: "Whoopee Cushion",
+        description:
+          "Propels your hero forward 400 units. Leaves a 200 radius stink cloud behind for 3 seconds that slows enemies by -30%.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/ringmaster_whoopee_cushion.png",
       },
@@ -4314,34 +4335,37 @@ const heroesDetails = {
       "SURPRISES ENEMIES WITH INVISIBLE LANDMINES AND EXPLOSIVE ATTACKS",
     abilities: [
       {
-        name: "Reactive Tazer ",
+        name: "Sticky Bomb",
         description:
           "Lobs a Sticky Bomb towards the target area. If it lands next to an enemy hero, the bomb will stick to it, slowing its movement speed. After a few seconds the bomb will explode, dealing damage in an area around the detonation and applying a secondary slow for 3 seconds. ",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/techies_sticky_bomb.png",
       },
       {
-        name: "Minefield Sign ",
+        name: "Reactive Tazer",
         description:
-          "Techies hurtle themselves into the enemy's midst, detonating charges upon impact which deal massive area of effect damage and stun enemies. Upon landing, the assault deals Techies non-lethal damage equal to a percentage of their current health. ",
+          "Techies trigger an electric charge giving them bonus movement speed for a short period of time. Enemies attacking Techies are temporarily disarmed and get a Basic Dispel. At the end of the effect, the charge explodes, disarming all enemies within the radius.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/techies_reactive_tazer.png",
       },
       {
-        name: "Sticky Bomb ",
+        name: "Blast Off!",
         description:
-          "Plant an invisible mine that cannot be detected by True Sight, but is visible if an enemy is within the active 500 AoE of the mine. Mines detonate if an enemy is standing within the active AoE for 1 seconds dealing damage and temporarily reducing the enemy's Magic Resistance. The explosion deals full damage if the target is within 150 radius and decreases up to 50% on the edge. Deals 30% damage to buildings. ",
+          "Techies hurtle themselves into the enemy's midst, detonating charges upon impact which deal massive area of effect damage and stun enemies. Upon landing, the assault deals Techies non-lethal damage equal to a percentage of their current health.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/techies_suicide.png",
       },
       {
-        name: "Proximity Mines ",
+        name: "Minefield Sign",
         description:
-          "Techies hurtle themselves into the enemy's midst, detonating charges upon impact which deal massive area of effect damage and stun enemies. Upon landing, the assault deals Techies non-lethal damage equal to a percentage of their current health. ",
+          "Plant a warning sign, causing mines within its radius to be invulnerable. Only one sign can exist at a time. Lasts 60 seconds.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/techies_minefield_sign.png",
       },
       {
+        name: "Proximity Mines",
+        description:
+          "Plant an invisible mine that cannot be detected by True Sight, but is visible if an enemy is within the active 500 AoE of the mine. Mines detonate if an enemy is standing within the active AoE for 1 seconds dealing damage and temporarily reducing the enemy's Magic Resistance. The explosion deals full damage if the target is within 150 radius and decreases up to 50% on the edge. Deals 30% damage to buildings.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/techies_land_mines.png",
       },
@@ -4581,27 +4605,30 @@ const heroesDetails = {
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_avalanche.png",
       },
       {
-        name: "Tree Grab ",
+        name: "Toss",
         description:
-          "Grabs a tree to whack enemies on the head for a limited number of attacks. Grants bonus attack range. Attacks deal more damage and fully splash on units along the way. The tree can be thrown, to deal your attack to a unit at a distance. ",
+          "Grabs the nearest unit in a 300 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss.png",
       },
       {
-        name: "Tree Throw ",
+        name: "Tree Grab",
         description:
-          "Throws the tree at the target unit, proccing your attack on it and splashing damage around the target. ",
+          "Grabs a tree to whack enemies on the head for a limited number of attacks. Grants bonus attack range. Attacks deal more damage and fully splash on units along the way. The tree can be thrown, to deal your attack to a unit at a distance.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_tree_grab.png",
       },
       {
-        name: "Toss ",
+        name: "Grow",
         description:
-          "Grabs the nearest unit in a 300 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land. ",
+          "Tiny gains craggy mass, increasing his attack damage, movement speed and armor, and toss power while slowing his attack speed.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_grow.png",
       },
       {
+        name: "Tree Throw",
+        description:
+          "Throws the tree at the target unit, proccing your attack on it and splashing damage around the target.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/tiny_toss_tree.png",
       },
@@ -4621,33 +4648,30 @@ const heroesDetails = {
     heroIntro: "CALLS UPON THE FOREST TO ROOT HIS FOES",
     abilities: [
       {
-        name: " ",
-        description: " ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
-      },
-      {
-        name: "Leech Seed ",
+        name: "Nature's Grasp",
         description:
-          "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it. Healing to creeps is reduced by 50%. ",
+          "Creates vines towards the target location. Vines slow down and deal damage to enemies that walk through. Vines deal 50% more damage if they touch a tree. Does half damage to creeps.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/treant_natures_grasp.png",
       },
       {
-        name: "Overgrowth ",
+        name: "Leech Seed",
         description:
-          "Summons an overgrowth of vines and branches around Treant that deal damage to afflicted enemies and prevent them from moving, blinking, going invisible, or attacking. ",
+          "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it. Healing to creeps is reduced by 50%.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/treant_leech_seed.png",
       },
       {
-        name: "Nature's Grasp ",
+        name: "Living Armor",
         description:
-          "Creates vines towards the target location. Vines slow down and deal damage to enemies that walk through. Vines deal 50% more damage if they touch a tree. Does half damage to creeps. ",
+          "Infuses the target hero or structure with a protective coating which heals the target and provides bonus armor.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/treant_living_armor.png",
       },
       {
+        name: "Overgrowth",
+        description:
+          "Summons an overgrowth of vines and branches around Treant that deal damage to afflicted enemies and prevent them from moving, blinking, going invisible, or attacking.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/treant_overgrowth.png",
       },
@@ -4667,38 +4691,44 @@ const heroesDetails = {
     heroIntro: "SWAPS BETWEEN RANGED AND MELEE ATTACKS AT WILL",
     abilities: [
       {
-        name: "Whirling Axes (Ranged) ",
+        name: "Battle Stance",
         description:
-          "Troll Warlord swaps from using ranged to melee attacks. Melee attacks have decreased base attack time. ",
+          "Troll Warlord swaps from using ranged to melee attacks. Melee attacks have decreased base attack time.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/troll_warlord_switch_stance.png",
       },
       {
-        name: "Fervor ",
+        name: "Whirling Axes (Ranged)",
         description:
-          "Troll hurls two axes around him in a close range area of effect, damaging enemy units and causing them to miss some attacks. ",
+          "Troll hurls a fistful of five axes in a cone shape over 950 range, slowing and damaging enemy units.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/troll_warlord_whirling_axes_ranged.png",
       },
       {
-        name: "Battle Trance ",
+        name: "Whirling Axes (Melee)",
         description:
-          "While in melee form, Troll Warlord's attacks have a chance to ensnare, preventing the target from moving or using mobility spells and has additional movement speed and armor.When in ranged form, Troll Warlord's attacks have a chance to Maim the target, dealing bonus damage, and slowing the target's movement and attack speed. ",
+          "Troll hurls two axes around him in a close range area of effect, damaging enemy units and causing them to miss some attacks.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/troll_warlord_whirling_axes_melee.png",
       },
       {
-        name: "Whirling Axes (Melee) ",
+        name: "Fervor",
         description:
-          "Troll Warlord swaps from using ranged to melee attacks. Melee attacks have decreased base attack time. ",
+          "With each continuous blow on the same target, Troll gains increased attack speed.  If Troll changes targets, the stacks drop to zero.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/troll_warlord_fervor.png",
       },
       {
+        name: "Berserker's Rage",
+        description:
+          "While in melee form, Troll Warlord's attacks have a chance to ensnare, preventing the target from moving or using mobility spells and has additional movement speed and armor.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/troll_warlord_berserkers_rage.png",
       },
       {
+        name: "Battle Trance",
+        description:
+          "Troll unleashes a powerful battle trance, that forces you to continuously attack the closest enemy unit within 900 range, prioritizing heroes. Damage does not kill you during this mode. Grants you bonus lifesteal, attack speed and movement speed. Applies a Basic Dispel.",
         abilityIcon:
           "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/troll_warlord_battle_trance.png",
       },
