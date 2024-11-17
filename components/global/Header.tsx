@@ -19,7 +19,7 @@ const Header = () => {
         href="/"
         className="mr-10 basis-[14.5%] opacity-80 hover:cursor-pointer hover:opacity-100"
       >
-        <Image src={logo} alt="dota2 logo" />
+        <Image src={logo} alt="dota2 logo" priority />
       </Link>
       <nav className="flex-1">
         <ul className="flex">
