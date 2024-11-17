@@ -15,7 +15,7 @@ const HeroProfile = ({
   shortDescription,
 }: Props) => {
   return (
-    <div className="ml-36 mt-40 flex w-full flex-col justify-start pr-60 lg:w-[40%] lg:pr-0">
+    <>
       <div className="flex">
         <Image
           src={stateImage[state]}
@@ -39,18 +39,7 @@ const HeroProfile = ({
       <div className="mt-2 cursor-pointer text-lg text-[#8a8a8a] underline hover:text-[#ddd]">
         Read Full History
       </div>
-      <div>
-        <p className="mt-8 text-lg font-bold uppercase tracking-widest text-[#959595]">
-          Complexity
-          {/* need to fix */}
-        </p>
-        <div className="ml-1 mt-2 flex h-20 w-20 justify-between">
-          <div className="h-4 w-4 rotate-45 border border-solid border-[#fff]"></div>
-          <div className="h-4 w-4 rotate-45 border border-solid border-[#fff]"></div>
-          <div className="h-4 w-4 rotate-45 border border-solid border-[#fff]"></div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

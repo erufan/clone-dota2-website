@@ -17,6 +17,7 @@ interface HeroDetails {
   shortDescription: string;
   media: Media;
   abilities: Ability[];
+  complexity: number;
 }
 
 export default HeroDetails;
