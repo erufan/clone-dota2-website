@@ -43,6 +43,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Abaddon",
     state: "universal",
+    complexity: 1,
   },
   alchemist: {
     shortDescription:
@@ -86,6 +87,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Alchemist",
     state: "strength",
+    complexity: 1,
   },
   ancientapparition: {
     shortDescription:
@@ -129,6 +131,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Ancient Apparition",
     state: "intelligence",
+    complexity: 2,
   },
   "anti-mage": {
     shortDescription:
@@ -172,6 +175,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Anti-Mage",
     state: "agility",
+    complexity: 1,
   },
   arcwarden: {
     shortDescription:
@@ -215,6 +219,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Arc Warden",
     state: "agility",
+    complexity: 3,
   },
   axe: {
     shortDescription:
@@ -258,6 +263,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Axe",
     state: "strength",
+    complexity: 1,
   },
   bane: {
     shortDescription:
@@ -301,6 +307,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Bane",
     state: "universal",
+    complexity: 2,
   },
   batrider: {
     shortDescription:
@@ -344,6 +351,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Batrider",
     state: "universal",
+    complexity: 2,
   },
   beastmaster: {
     shortDescription:
@@ -394,6 +402,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Beastmaster",
     state: "universal",
+    complexity: 2,
   },
   bloodseeker: {
     shortDescription:
@@ -437,6 +446,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Bloodseeker",
     state: "agility",
+    complexity: 1,
   },
   bountyhunter: {
     shortDescription:
@@ -480,6 +490,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Bounty Hunter",
     state: "agility",
+    complexity: 1,
   },
   brewmaster: {
     shortDescription:
@@ -523,6 +534,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Brewmaster",
     state: "universal",
+    complexity: 3,
   },
   bristleback: {
     shortDescription:
@@ -566,6 +578,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Bristleback",
     state: "strength",
+    complexity: 1,
   },
   broodmother: {
     shortDescription:
@@ -609,6 +622,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Broodmother",
     state: "universal",
+    complexity: 2,
   },
   centaurwarrunner: {
     shortDescription:
@@ -651,6 +665,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Centaur Warrunner",
     state: "strength",
+    complexity: 1,
   },
   chaosknight: {
     shortDescription:
@@ -694,6 +709,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Chaos Knight",
     state: "strength",
+    complexity: 1,
   },
   chen: {
     shortDescription:
@@ -737,6 +753,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Chen",
     state: "universal",
+    complexity: 3,
   },
   clinkz: {
     shortDescription:
@@ -780,6 +797,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Clinkz",
     state: "agility",
+    complexity: 2,
   },
   clockwerk: {
     shortDescription:
@@ -823,6 +841,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Clockwerk",
     state: "universal",
+    complexity: 2,
   },
   crystalmaiden: {
     shortDescription:
@@ -865,6 +884,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Crystal Maiden",
     state: "intelligence",
+    complexity: 1,
   },
   darkseer: {
     shortDescription:
@@ -908,6 +928,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Dark Seer",
     state: "universal",
+    complexity: 1,
   },
   darkwillow: {
     shortDescription:
@@ -958,6 +979,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Dark Willow",
     state: "universal",
+    complexity: 2,
   },
   dawnbreaker: {
     shortDescription:
@@ -1001,6 +1023,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Dawnbreaker",
     state: "strength",
+    complexity: 1,
   },
   dazzle: {
     shortDescription:
@@ -1044,6 +1067,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Dazzle",
     state: "universal",
+    complexity: 1,
   },
   deathprophet: {
     shortDescription:
@@ -1087,6 +1111,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Death Prophet",
     state: "intelligence",
+    complexity: 1,
   },
   disruptor: {
     shortDescription:
@@ -1130,6 +1155,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Disruptor",
     state: "intelligence",
+    complexity: 2,
   },
   doom: {
     shortDescription:
@@ -1174,6 +1200,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Doom",
     state: "strength",
+    complexity: 2,
   },
   dragonknight: {
     shortDescription:
@@ -1217,6 +1244,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Dragon Knight",
     state: "strength",
+    complexity: 1,
   },
   drowranger: {
     shortDescription:
@@ -1260,6 +1288,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Drow Ranger",
     state: "agility",
+    complexity: 1,
   },
   earthspirit: {
     shortDescription:
@@ -1310,6 +1339,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Earth Spirit",
     state: "strength",
+    complexity: 3,
   },
   earthshaker: {
     shortDescription:
@@ -1353,6 +1383,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Earthshaker",
     state: "strength",
+    complexity: 2,
   },
   eldertitan: {
     shortDescription:
@@ -1396,6 +1427,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Elder Titan",
     state: "strength",
+    complexity: 2,
   },
   emberspirit: {
     shortDescription:
@@ -1445,6 +1477,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Ember Spirit",
     state: "agility",
+    complexity: 2,
   },
   enchantress: {
     shortDescription:
@@ -1488,6 +1521,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Enchantress",
     state: "intelligence",
+    complexity: 2,
   },
   enigma: {
     shortDescription:
@@ -1531,6 +1565,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Enigma",
     state: "universal",
+    complexity: 2,
   },
   facelessvoid: {
     shortDescription:
@@ -1567,6 +1602,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Faceless Void",
     state: "agility",
+    complexity: 2,
   },
   grimstroke: {
     shortDescription:
@@ -1610,6 +1646,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Grimstroke",
     state: "intelligence",
+    complexity: 2,
   },
   gyrocopter: {
     shortDescription:
@@ -1652,6 +1689,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Gyrocopter",
     state: "agility",
+    complexity: 1,
   },
   hoodwink: {
     shortDescription:
@@ -1695,6 +1733,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Hoodwink",
     state: "agility",
+    complexity: 2,
   },
   huskar: {
     shortDescription:
@@ -1738,6 +1777,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Huskar",
     state: "strength",
+    complexity: 1,
   },
   invoker: {
     shortDescription:
@@ -1779,6 +1819,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Invoker",
     state: "universal",
+    complexity: 3,
   },
   io: {
     shortDescription:
@@ -1836,6 +1877,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Io",
     state: "universal",
+    complexity: 3,
   },
   jakiro: {
     shortDescription:
@@ -1872,6 +1914,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Jakiro",
     state: "intelligence",
+    complexity: 1,
   },
   juggernaut: {
     shortDescription:
@@ -1915,6 +1958,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Juggernaut",
     state: "agility",
+    complexity: 1,
   },
   keeperofthelight: {
     shortDescription:
@@ -1958,6 +2002,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Keeper of the Light",
     state: "intelligence",
+    complexity: 2,
   },
   kunkka: {
     shortDescription:
@@ -2001,6 +2046,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Kunkka",
     state: "strength",
+    complexity: 2,
   },
   legioncommander: {
     shortDescription:
@@ -2044,6 +2090,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Legion Commander",
     state: "strength",
+    complexity: 1,
   },
   leshrac: {
     shortDescription:
@@ -2086,6 +2133,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Leshrac",
     state: "intelligence",
+    complexity: 1,
   },
   lich: {
     shortDescription:
@@ -2129,6 +2177,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Lich",
     state: "intelligence",
+    complexity: 1,
   },
   lifestealer: {
     shortDescription:
@@ -2164,6 +2213,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Lifestealer",
     state: "strength",
+    complexity: 2,
   },
   lina: {
     shortDescription:
@@ -2207,6 +2257,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Lina",
     state: "intelligence",
+    complexity: 1,
   },
   lion: {
     shortDescription:
@@ -2250,6 +2301,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Lion",
     state: "intelligence",
+    complexity: 1,
   },
   lonedruid: {
     shortDescription:
@@ -2292,6 +2344,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Lone Druid",
     state: "universal",
+    complexity: 3,
   },
   luna: {
     shortDescription:
@@ -2335,6 +2388,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Luna",
     state: "agility",
+    complexity: 1,
   },
   lycan: {
     shortDescription:
@@ -2377,6 +2431,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Lycan",
     state: "universal",
+    complexity: 2,
   },
   magnus: {
     shortDescription:
@@ -2420,6 +2475,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Magnus",
     state: "universal",
+    complexity: 2,
   },
   marci: {
     shortDescription:
@@ -2456,6 +2512,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Marci",
     state: "universal",
+    complexity: 2,
   },
   mars: {
     shortDescription:
@@ -2499,6 +2556,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Mars",
     state: "strength",
+    complexity: 1,
   },
   medusa: {
     shortDescription:
@@ -2542,6 +2600,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Medusa",
     state: "agility",
+    complexity: 1,
   },
   meepo: {
     shortDescription:
@@ -2584,6 +2643,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Meepo",
     state: "agility",
+    complexity: 3,
   },
   mirana: {
     shortDescription:
@@ -2620,6 +2680,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Mirana",
     state: "universal",
+    complexity: 2,
   },
   monkeyking: {
     shortDescription:
@@ -2670,6 +2731,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Monkey King",
     state: "agility",
+    complexity: 2,
   },
   morphling: {
     shortDescription:
@@ -2727,6 +2789,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Morphling",
     state: "agility",
+    complexity: 3,
   },
   muerta: {
     shortDescription:
@@ -2770,6 +2833,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Muerta",
     state: "intelligence",
+    complexity: 1,
   },
   nagasiren: {
     shortDescription:
@@ -2806,6 +2870,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Naga Siren",
     state: "agility",
+    complexity: 2,
   },
   "nature'sprophet": {
     shortDescription:
@@ -2849,6 +2914,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Nature's Prophet",
     state: "intelligence",
+    complexity: 2,
   },
   necrophos: {
     shortDescription:
@@ -2892,6 +2958,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Necrophos",
     state: "intelligence",
+    complexity: 1,
   },
   nightstalker: {
     shortDescription:
@@ -2935,6 +3002,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Night Stalker",
     state: "strength",
+    complexity: 1,
   },
   nyxassassin: {
     shortDescription:
@@ -2978,6 +3046,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Nyx Assassin",
     state: "universal",
+    complexity: 2,
   },
   ogremagi: {
     shortDescription:
@@ -3021,6 +3090,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Ogre Magi",
     state: "strength",
+    complexity: 1,
   },
   omniknight: {
     shortDescription:
@@ -3064,6 +3134,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Omniknight",
     state: "strength",
+    complexity: 1,
   },
   oracle: {
     shortDescription:
@@ -3107,6 +3178,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Oracle",
     state: "intelligence",
+    complexity: 3,
   },
   outworlddestroyer: {
     shortDescription:
@@ -3150,6 +3222,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Outworld Destroyer",
     state: "intelligence",
+    complexity: 2,
   },
   pangolier: {
     shortDescription:
@@ -3193,6 +3266,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Pangolier",
     state: "universal",
+    complexity: 2,
   },
   phantomassassin: {
     shortDescription:
@@ -3236,6 +3310,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Phantom Assassin",
     state: "agility",
+    complexity: 1,
   },
   phantomlancer: {
     shortDescription:
@@ -3279,6 +3354,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Phantom Lancer",
     state: "agility",
+    complexity: 2,
   },
   phoenix: {
     shortDescription:
@@ -3322,6 +3398,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Phoenix",
     state: "universal",
+    complexity: 2,
   },
   primalbeast: {
     shortDescription:
@@ -3364,6 +3441,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Primal Beast",
     state: "strength",
+    complexity: 1,
   },
   puck: {
     shortDescription:
@@ -3407,6 +3485,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Puck",
     state: "intelligence",
+    complexity: 2,
   },
   pudge: {
     shortDescription:
@@ -3450,6 +3529,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Pudge",
     state: "strength",
+    complexity: 2,
   },
   pugna: {
     shortDescription:
@@ -3492,6 +3572,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Pugna",
     state: "intelligence",
+    complexity: 2,
   },
   queenofpain: {
     shortDescription:
@@ -3535,6 +3616,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Queen of Pain",
     state: "intelligence",
+    complexity: 2,
   },
   razor: {
     shortDescription:
@@ -3578,6 +3660,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Razor",
     state: "agility",
+    complexity: 1,
   },
   riki: {
     shortDescription:
@@ -3621,6 +3704,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Riki",
     state: "agility",
+    complexity: 1,
   },
   ringmaster: {
     shortDescription:
@@ -3685,6 +3769,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Ringmaster",
     state: "intelligence",
+    complexity: 2,
   },
   rubick: {
     shortDescription:
@@ -3728,6 +3813,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Rubick",
     state: "intelligence",
+    complexity: 3,
   },
   sandking: {
     shortDescription:
@@ -3771,6 +3857,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Sand King",
     state: "universal",
+    complexity: 2,
   },
   shadowdemon: {
     shortDescription:
@@ -3814,6 +3901,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Shadow Demon",
     state: "intelligence",
+    complexity: 2,
   },
   shadowfiend: {
     shortDescription:
@@ -3857,6 +3945,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Shadow Fiend",
     state: "agility",
+    complexity: 2,
   },
   shadowshaman: {
     shortDescription:
@@ -3900,6 +3989,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Shadow Shaman",
     state: "intelligence",
+    complexity: 1,
   },
   silencer: {
     shortDescription:
@@ -3943,6 +4033,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Silencer",
     state: "intelligence",
+    complexity: 2,
   },
   skywrathmage: {
     shortDescription:
@@ -3985,6 +4076,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Skywrath Mage",
     state: "intelligence",
+    complexity: 1,
   },
   slardar: {
     shortDescription:
@@ -4028,6 +4120,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Slardar",
     state: "strength",
+    complexity: 1,
   },
   slark: {
     shortDescription:
@@ -4071,6 +4164,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Slark",
     state: "agility",
+    complexity: 2,
   },
   snapfire: {
     shortDescription:
@@ -4114,6 +4208,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Snapfire",
     state: "universal",
+    complexity: 1,
   },
   sniper: {
     shortDescription:
@@ -4156,6 +4251,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Sniper",
     state: "agility",
+    complexity: 1,
   },
   spectre: {
     shortDescription:
@@ -4198,6 +4294,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Spectre",
     state: "agility",
+    complexity: 2,
   },
   spiritbreaker: {
     shortDescription:
@@ -4241,6 +4338,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Spirit Breaker",
     state: "strength",
+    complexity: 1,
   },
   stormspirit: {
     shortDescription:
@@ -4284,6 +4382,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Storm Spirit",
     state: "intelligence",
+    complexity: 2,
   },
   sven: {
     shortDescription:
@@ -4327,6 +4426,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Sven",
     state: "strength",
+    complexity: 1,
   },
   techies: {
     shortDescription:
@@ -4378,6 +4478,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Techies",
     state: "universal",
+    complexity: 2,
   },
   templarassassin: {
     shortDescription:
@@ -4421,6 +4522,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Templar Assassin",
     state: "agility",
+    complexity: 2,
   },
   terrorblade: {
     shortDescription:
@@ -4464,6 +4566,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Terrorblade",
     state: "agility",
+    complexity: 2,
   },
   tidehunter: {
     shortDescription:
@@ -4507,6 +4610,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Tidehunter",
     state: "strength",
+    complexity: 1,
   },
   timbersaw: {
     shortDescription:
@@ -4549,6 +4653,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Timbersaw",
     state: "strength",
+    complexity: 2,
   },
   tinker: {
     shortDescription:
@@ -4591,6 +4696,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Tinker",
     state: "intelligence",
+    complexity: 2,
   },
   tiny: {
     shortDescription:
@@ -4641,6 +4747,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Tiny",
     state: "strength",
+    complexity: 2,
   },
   treantprotector: {
     shortDescription:
@@ -4684,6 +4791,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Treant Protector",
     state: "strength",
+    complexity: 2,
   },
   trollwarlord: {
     shortDescription:
@@ -4741,6 +4849,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Troll Warlord",
     state: "agility",
+    complexity: 2,
   },
   tusk: {
     shortDescription:
@@ -4777,6 +4886,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Tusk",
     state: "strength",
+    complexity: 1,
   },
   underlord: {
     shortDescription:
@@ -4820,6 +4930,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Underlord",
     state: "strength",
+    complexity: 2,
   },
   undying: {
     shortDescription:
@@ -4863,6 +4974,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Undying",
     state: "strength",
+    complexity: 1,
   },
   ursa: {
     shortDescription:
@@ -4906,6 +5018,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Ursa",
     state: "agility",
+    complexity: 1,
   },
   vengefulspirit: {
     shortDescription:
@@ -4949,6 +5062,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Vengeful Spirit",
     state: "universal",
+    complexity: 1,
   },
   venomancer: {
     shortDescription:
@@ -4992,6 +5106,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Venomancer",
     state: "universal",
+    complexity: 1,
   },
   viper: {
     shortDescription:
@@ -5035,6 +5150,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Viper",
     state: "agility",
+    complexity: 1,
   },
   visage: {
     shortDescription:
@@ -5078,6 +5194,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Visage",
     state: "universal",
+    complexity: 3,
   },
   voidspirit: {
     shortDescription:
@@ -5121,6 +5238,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Void Spirit",
     state: "universal",
+    complexity: 2,
   },
   warlock: {
     shortDescription:
@@ -5164,6 +5282,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Warlock",
     state: "intelligence",
+    complexity: 1,
   },
   weaver: {
     shortDescription:
@@ -5206,6 +5325,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Weaver",
     state: "agility",
+    complexity: 2,
   },
   windranger: {
     shortDescription:
@@ -5249,6 +5369,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Windranger",
     state: "universal",
+    complexity: 2,
   },
   winterwyvern: {
     shortDescription:
@@ -5292,6 +5413,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Winter Wyvern",
     state: "universal",
+    complexity: 2,
   },
   witchdoctor: {
     shortDescription:
@@ -5335,6 +5457,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Witch Doctor",
     state: "intelligence",
+    complexity: 1,
   },
   wraithking: {
     shortDescription:
@@ -5371,6 +5494,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Wraith King",
     state: "strength",
+    complexity: 1,
   },
   zeus: {
     shortDescription:
@@ -5414,6 +5538,7 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     },
     heroName: "Zeus",
     state: "intelligence",
+    complexity: 1,
   },
 };
 
