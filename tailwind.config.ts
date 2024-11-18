@@ -38,6 +38,16 @@ const config: Config = {
         ".mask-gradient": {
           maskImage: " linear-gradient(to top, transparent 10%, black 50%)",
         },
+        ".clip-bottom-arrow": {
+          clipPath: `polygon(
+                    0px 0px,
+                    0px calc(100% - 20px),
+                    calc(50% - 20px) calc(100% - 20px),
+                    50% 100%,
+                    calc(50% + 20px) calc(100% - 20px),
+                    100% calc(100% - 20px),
+                    100% 0px)`,
+        },
       };
       addUtilities(newUtilities);
     },

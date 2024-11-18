@@ -16,13 +16,12 @@ const HeroMedia = ({ media, abilities }: Props) => {
   return (
     <div className="relative -right-14 top-14 flex w-full flex-col items-center justify-center lg:w-[60%]">
       <MyVidoe media={media} />
-      <div className="mt-[60%] flex -translate-x-9 flex-col flex-wrap items-center 2xl:mt-[20%]">
+      <div className="mt-[60%] flex -translate-x-14 flex-col flex-wrap items-center 2xl:mt-[20%]">
         <span className="mb-2 text-xl font-bold uppercase tracking-widest">
           Abilities
         </span>
         <div className="flex items-start gap-4">
           <Image src={talents} alt="talents tree" className="h-auto w-[65px]" />
-
           <IconAbility
             description={abilities[0].description}
             name={abilities[0]?.name}
@@ -35,18 +34,17 @@ const HeroMedia = ({ media, abilities }: Props) => {
               height={72}
             />
           </IconAbility>
-
           <div className="flex w-[30rem] flex-wrap justify-start gap-3">
             {abilities.map((ability, index) =>
               index === 0 ? null : (
                 <IconAbility
                   description={ability.description}
                   name={ability?.name}
+                  key={ability.description}
                 >
                   <Image
                     src={ability.abilityIcon!}
                     alt={"ability icon"}
-                    key={ability.description}
                     width={72}
                     height={72}
                     className="group-hover:brightness-125"
