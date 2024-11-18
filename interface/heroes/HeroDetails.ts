@@ -1,5 +1,5 @@
 export interface Ability {
-  name: string;
+  name?: string;
   description: string;
   abilityIcon: string;
 }
