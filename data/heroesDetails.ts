@@ -10,8 +10,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Withering Mist ",
         description:
           "Damaging enemies applies the Withering Mist debuff for 5s. Affected enemies have their HP regeneration, healing, lifesteal and spell lifesteal reduced by 35% if they are below 40% HP. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Mist Coil ",
@@ -61,8 +59,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Greevil's Greed ",
         description:
           "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 40 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Acid Spray ",
@@ -112,8 +108,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Death Rime ",
         description:
           "Ancient Apparition's abilities apply Death Rime Stacks on enemies. Death Rime slows enemies' movement speed and deals damage over time. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Cold Feet ",
@@ -163,8 +157,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Persecutor ",
         description:
           "Attacks slow enemies based on how much mana they are missing. Min slow at 50% mana, up to max slow at 0% mana. No effect if enemy is above 50% mana. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Mana Break ",
@@ -214,8 +206,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Runic Infusion ",
         description:
           "Upon activating any rune, gain the Regeneration Rune buff for 4s. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Flux ",
@@ -265,8 +255,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Coat of Blood ",
         description:
           "Whenever Axe gets a kill, he permanently gains 0.2 armor. Killing with Culling Blade gives 3x that amount. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Berserker's Call ",
@@ -316,8 +304,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Ichor of Nyctasha ",
         description:
           "Bane's attribute gains are always evenly distributed across all three attributes (items that grant +3 Strength will now grant +1 Str/Agi/Int). ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Enfeeble ",
@@ -367,8 +353,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Smoldering Resin ",
         description:
           "Batrider's attacks apply a debuff that deals 15% of the attack damage every 1s for 2s. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Sticky Napalm ",
@@ -418,8 +402,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Rugged ",
         description:
           "Beastmaster's melee hero Damage Block Chance is increased from 50% to 100% versus non-hero units. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Wild Axes ",
@@ -476,8 +458,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Sanguivore ",
         description:
           "Bloodseeker restores some life when he kills a unit, equal to 1.5% of the units max health per Bloodseeker's Level plus a base of 25.Restores for half values if an ally kills a nearby enemy hero. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Bloodrage ",
@@ -527,8 +507,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Big Game Hunter ",
         description:
           "When getting a kill or assist on an enemy that has a killing streak, Bounty Hunter receives 20% extra gold. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Shuriken Toss ",
@@ -578,8 +556,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Belligerent ",
         description:
           "Brewmaster gains 20% bonus attack damage for 15s when he comes out of Primal Split and for 30s when he respawns. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Thunder Clap ",
@@ -629,8 +605,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Prickly ",
         description:
           "Bristleback has 10% damage and debuff duration amp against enemy heroes that are behind him. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Viscous Nasal Goo ",
@@ -680,8 +654,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Spider's Milk ",
         description:
           "Whenever Broodmother kills a unit, she and all units under her control in a 600 radius receive a buff that heals them for a percentage of the victims health every 0.5 seconds. Healing from creeps is reduced by 40%. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Insatiable Hunger ",
@@ -730,8 +702,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Rawhide ",
         description: "Permanently gain 30 max health every 120s. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Hoof Stomp ",
@@ -781,8 +751,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Reins of Chaos ",
         description:
           "Whenever illusions of Chaos Knight are created, there is a 50% chance that an additional 1 extra illusion will spawn. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Chaos Bolt ",
@@ -830,16 +798,12 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     abilities: [
       {
         description: "This hero's innate ability is Summon Convert.",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
 
       {
         name: "Summon Convert",
         description:
           "Chen summons a convert to fight for him. The convert gains bonuses from Holy Persuasion and dies if Chen dies. Its maximum health is set to 220 + 80 per Chen Level.",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Penitence",
@@ -889,8 +853,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Bone and Arrow ",
         description:
           "Clinkz summons a Skeleton Archer when he dies. Skeleton Archers are immobile and die within multiple attacks from a hero. Skeleton Archers deal a percentage of Clinkz' damage, and deal less damage to buildings. Attack range is equal to Clinkz' attack range.Some of Clinkz' other abilities can also summon Skeleton Archers. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Strafe ",
@@ -940,8 +902,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Armor Power ",
         description:
           "Clockwerk's outgoing damage increases by 0.25% per point of armor. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Battery Assault ",
@@ -990,8 +950,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Blueheart Floe ",
         description: "Crystal Maiden has 50% Mana Regeneration Amplification. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Crystal Nova ",
@@ -1041,8 +999,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Mental Fortitude ",
         description:
           "Dark Seer's Intelligence cannot be lower than the average of his Strength and Agility. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Vacuum ",
@@ -1092,8 +1048,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Pixie Dust ",
         description:
           "Whenever a skill makes Dark Willow become untargetable, she gains 100% HP Regen and 100% Mana Regen while in that state. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Bramble Maze ",
@@ -1150,8 +1104,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Break of Dawn ",
         description:
           "Whenever the sun comes out, Dawnbreaker reveals the whole map to allies for 5 seconds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Starbreaker ",
@@ -1201,8 +1153,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Weave ",
         description:
           "Dazzle's abilities apply Weave to both allies and enemies they affect, increasing allied armor and reducing enemy armor. Multiple instances of this effect stack. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Poison Touch ",
@@ -1252,8 +1202,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Witchcraft ",
         description:
           "Death Prophet's occult knowledge deepens with experience, gaining 0.75% movement speed per level, and 0.5% spell cooldown reduction per level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Crypt Swarm ",
@@ -1303,8 +1251,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Electromagnetic Repulsion ",
         description:
           "Whenever Disruptor takes more than 250 damage from any source within 400 radius, all nearby enemies within are pushed back up to a 400 unit distance. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Thunder Strike ",
@@ -1355,8 +1301,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Lvl ? Pain ",
         description:
           "Doom's attacks deal 15% bonus damage to heroes whose level is lower than Doom's level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Devour ",
@@ -1406,8 +1350,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Dragon Blood ",
         description:
           "The life blood of the Dragon improves Dragon Knight's health regeneration and armor. Amount for both values is increased by 0.5 per level and is multiplied when in Dragon Form. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Breathe Fire ",
@@ -1457,8 +1399,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Precision Aura ",
         description:
           "Grants Drow and nearby ranged heroes with bonus agility based on Drow's current agility and level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Frost Arrows ",
@@ -1506,8 +1446,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     abilities: [
       {
         description: "This hero's innate ability is Stone Remnant.",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Boulder Smash",
@@ -1564,8 +1502,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Spirit Cairn ",
         description:
           "When Earthshaker dies, a 75 radius fissure is created where he died. This fissure blocks movement and allows Earthshaker to continue to gain experience around it. It remains until Earthshaker respawns. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Fissure ",
@@ -1615,8 +1551,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Tip the Scales ",
         description:
           "Allied creeps and buildings affected by Glyph of Fortification or Roshan's Banner deal 100% bonus damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Echo Stomp ",
@@ -1666,8 +1600,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Immolation ",
         description:
           "Ember Spirit is continuously burning, dealing damage per second to all nearby enemies at all times. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Searing Chains ",
@@ -1723,8 +1655,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Rabble-Rouser ",
         description:
           "All neutral camps deal more damage to enemy heroes. Damage increase is 10% + 3% per Enchantress's hero level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Impetus ",
@@ -1774,8 +1704,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Gravity Well ",
         description:
           "Allies within 500 distance from Enigma have up to 9% Damage Reduction. Effect starts at 0% at max distance and increases to its maximum strength when the ally is at 200 distance. Does not affect Enigma itself. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Malefice ",
@@ -1825,8 +1753,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Distortion Field ",
         description:
           "Enemy Attack Projectiles within 600 radius are slowed by 35%. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Time Walk ",
@@ -1869,8 +1795,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Ink Trail ",
         description:
           "Adds an effect to Grimstroke's attacks that causes enemy heroes to leave a trail of ink behind them for 4s. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Stroke of Fate ",
@@ -1919,8 +1843,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Chop Shop ",
         description: "Gyrocopter can disassemble most items. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Rocket Barrage ",
@@ -1970,8 +1892,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Mistwoods Wayfarer ",
         description:
           "Hoodwink has a chance to redirect enemy attacks to a nearby tree. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Acorn Shot ",
@@ -2021,8 +1941,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Blood Magic ",
         description:
           "Huskar does not have mana. Mana costs of items are converted into health costs. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Inner Fire ",
@@ -2072,8 +1990,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Mastermind ",
         description:
           "When Invoker denies a lane creep, he gets 25% of the XP. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Quas ",
@@ -2120,8 +2036,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Sight Seer ",
         description:
           "Io's Team takes 1s less to take watchers, and their watchers have 300 bonus vision. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Tether ",
@@ -2185,8 +2099,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Double Trouble ",
         description:
           "Jakiro's attacks launch an attack from each head, but deal 50% less damage each. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Dual Breath ",
@@ -2229,8 +2141,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Duelist ",
         description:
           "Juggernaut deals 12% more damage to targets that are facing him. Damage bonus always applies during Omnislash. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Blade Fury ",
@@ -2280,8 +2190,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Mana Magnifier ",
         description:
           "Allies within 900 range of Keeper of the Light have 15% more mana. Lingers for 5 seconds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Illuminate ",
@@ -2331,8 +2239,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Admiral's Rum ",
         description:
           "Damage from enemy heroes, buildings, or Roshan that would reduce Kunkka below a threshold causes him to douse himself with The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Torrent ",
@@ -2382,8 +2288,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Outfight Them! ",
         description:
           "Attacking an enemy hero that is higher level than you increases your HP regeneration, lifesteal, and incoming heals by 50% for 4s. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Overwhelming Odds ",
@@ -2432,8 +2336,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Defilement ",
         description: "Leshrac gains AoE per intelligence. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Split Earth ",
@@ -2483,8 +2385,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Death Charge ",
         description:
           "Lich cannot gain passive mana regeneration, but any unit dying within 1500 range of Lich restores 2.5% of his Max Mana (Dying heroes restore 15% of Lich's Max Mana). Instant mana restoration from items and abilities apply to Lich as normal. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Frost Blast ",
@@ -2534,8 +2434,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Feast ",
         description:
           "Lifestealer's attacks deal damage and provide heal for a percentage of his target's max health. Allows Lifestealer to attack allied creeps at 75% health. Lifestealer gains permanent max HP whenever he kills a creep or hero. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Open Wounds ",
@@ -2577,8 +2475,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Combustion ",
         description:
           "Every 175 damage Lina does to an enemy hero causes them to overheat, doing damage to their nearby allies. This effect can trigger multiple times off a single instance of damage. Overheated illusions do less damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Dragon Slave ",
@@ -2628,8 +2524,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "To Hell and Back ",
         description:
           "Lion gains 20% debuff duration and 20% spell amplification for 90s after respawning. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Earth Spike ",
@@ -2678,8 +2572,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Gift Bearer ",
         description: "Lone Druid can re-roll his Neutral Token once per tier. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Summon Spirit Bear ",
@@ -2729,8 +2621,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Lunar Blessing ",
         description:
           "Grants 1 attack damage per level to Luna and nearby allied heroes, with Luna receiving double the attack damage bonuses. At night, Lunar Blessing is global, and Luna is blessed with 400 bonus night vision + 20 per level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Lucent Beam ",
@@ -2779,8 +2669,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Apex Predator ",
         description: "Deal 2% extra damage to neutral creeps per hero level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Summon Wolves ",
@@ -2830,8 +2718,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Solid Core ",
         description:
           "Magnus has slow resistance and suffers 50% less knockback from enemy's abilities and items. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Shockwave ",
@@ -2881,8 +2767,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Special Delivery ",
         description:
           "All allied couriers gain 3 bonus levels and 1 bonus health. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Dispose ",
@@ -2925,8 +2809,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Dauntless ",
         description:
           "Mars and allied heroes within 2000 units get more HP Regen the more they are outnumbered by enemy heroes in that area. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Spear of Mars ",
@@ -2976,8 +2858,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Mana Shield ",
         description:
           "Creates a shield that absorbs 98% of incoming damage in exchange for Medusa's mana that increases with each level of Medusa. Illusions absorb 60% less damage per point of mana. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Split Shot ",
@@ -3026,8 +2906,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Sticky Fingers ",
         description: "Has an extra choice of neutral item to select from. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Earthbind ",
@@ -3077,8 +2955,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Selemene's Faithful ",
         description:
           "Healing Lotuses are 20% more effective on Mirana and her allies. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Starstorm ",
@@ -3119,8 +2995,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     abilities: [
       {
         description: "This hero's innate ability is Mischief.",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Boundless Strike",
@@ -3177,8 +3051,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Accumulation ",
         description:
           "Morphling receives 50% of stat growth bonuses every half level instead of the full bonus at level up. Morphling receives +100% bonus stats from All Attributes bonus from skill points in the Talent Tree. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Waveform ",
@@ -3242,8 +3114,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Supernatural ",
         description:
           "Muerta can always attack when she is ethereal. Muerta can always attack ethereal targets. When attacking ethereal targets, all of her attack damage is dealt as magical damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Dead Shot ",
@@ -3293,8 +3163,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Eelskin ",
         description:
           "Naga Siren gets 6% evasion per other Naga Siren within 900 radius. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Mirror Image ",
@@ -3337,8 +3205,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Spirit of the Forest ",
         description:
           "Nature's Prophet gains 2% bonus damage for each tree within 300 and a multiplier of that same bonus for each treant within 1200 distance of him. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Sprout ",
@@ -3388,8 +3254,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Sadist ",
         description:
           "Necrophos gains stacking regen for 8 seconds for each unit he kills. Hero kills multiply the effect. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Death Pulse ",
@@ -3439,8 +3303,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Heart of Darkness ",
         description:
           "During the night, Night Stalker's health regeneration is increased by 40%, and during the day it is decreased by 20%. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Void ",
@@ -3490,8 +3352,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Nyxth Sense ",
         description:
           "Nyx Assassin can detect heroes within 350 units of himself. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Impale ",
@@ -3541,8 +3401,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Dumb Luck ",
         description:
           "Ogre Magi's max Intelligence is 0. He receives mana and mana regeneration from Strength. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Fireblast ",
@@ -3592,8 +3450,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Degen Aura ",
         description:
           "Degenerates the movement capabilities of enemy units that stray too near. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Purification ",
@@ -3643,8 +3499,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Prognosticate ",
         description:
           "Oracle will predict and announce to allies, where the next power rune will spawn (top or bottom). ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Fortune's End ",
@@ -3694,8 +3548,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Ominous Discernment ",
         description:
           "Outworld Destroyer gains an additional 2 mana per point of Intelligence. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Arcane Orb ",
@@ -3745,8 +3597,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Fortune Favors the Bold ",
         description:
           "Random item and ability effects of enemies near Pangolier have a reduced chance to affect him. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Swashbuckle ",
@@ -3796,8 +3646,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Immaterial ",
         description:
           "Phantom Assassin focuses inward, increasing her ability to evade enemy attacks. Evasion improves with Phantom Assassin's levels. Stacks diminishingly with other sources of Evasion. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Stifling Dagger ",
@@ -3847,8 +3695,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Illusory Armaments ",
         description:
           "Items, abilities, and auras that grant bonus damage instead grant base damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Spirit Lance ",
@@ -3898,8 +3744,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Blinding Sun ",
         description:
           "Phoenix ability debuffs apply a stackable 2% Miss chance per second. Lasts 4 seconds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Icarus Dive ",
@@ -3948,8 +3792,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Colossal ",
         description: "Primal Beast deals 40% more damage to buildings. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Onslaught ",
@@ -3999,8 +3841,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Puckish ",
         description:
           "Whenever Puck disjoints an attack, it restores 15 + 2% of its max mana and 15 + 2% of its max health. Dodging a targeted spell projectile restores 4x that amount. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Illusory Orb ",
@@ -4050,8 +3890,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Flesh Heap ",
         description:
           "Each time Pudge kills an enemy Hero, he permanently gains 1.1 bonus Strength. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Meat Hook ",
@@ -4100,8 +3938,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Oblivion Savant ",
         description: "Pugna can cast spells and use items while channeling. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Nether Blast ",
@@ -4151,8 +3987,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Bondage ",
         description:
           "Whenever an enemy within 1200 range deals spell damage to Queen of Pain, she returns 15% of the damage dealt. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Shadow Strike ",
@@ -4202,8 +4036,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Unstable Current ",
         description:
           "Passively increases Razor's movement speed by 1% per hero level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Plasma Field ",
@@ -4253,8 +4085,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Backstab ",
         description:
           "Every time Riki strikes his enemy from behind, he deals bonus damage based on his Agility. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Smoke Screen ",
@@ -4304,8 +4134,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Dark Carnival Barker ",
         description:
           "Ringmaster receives a random single-use Dark Carnival Souvenir whenever an enemy hero dies within 925 units of him. Additional Souvenirs are held as charges.If Ringmaster does not have a Souvenir when he respawns he will be granted one.Souvenirs of the Dark Carnival include a Funhouse Mirror, a Strongman Tonic, and a Whoopee Cushion. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Tame the Beasts ",
@@ -4376,8 +4204,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Might and Magus ",
         description:
           "Each 1% Spell Amplification also increases Rubick's attack damage by 0.75% and Magic Resistance by 0.75%. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Telekinesis ",
@@ -4427,8 +4253,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Caustic Finale ",
         description:
           "Sand King's attacks inject a venom that causes enemy units to violently explode when they die. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Burrowstrike ",
@@ -4478,8 +4302,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Menace ",
         description:
           "Shadow Demon's Attacks apply a stacking 2% Amplify Damage debuff to the enemy for 8 seconds. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Disruption ",
@@ -4529,8 +4351,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Necromastery ",
         description:
           "Shadow Fiend steals the soul from units he kills, gaining bonus damage. On death, he releases 30% of them from bondage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Shadowraze ",
@@ -4580,8 +4400,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Fowl Play ",
         description:
           "When taking lethal damage, Shadow Shaman receives a strong dispel and survives as a 1 HP chicken. Incoming damage is reduced to zero for 1s.Cooldown is reset upon respawning.DISPEL TYPE: Strong Dispel ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Ether Shock ",
@@ -4631,8 +4449,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Brain Drain ",
         description:
           "If Silencer kills an enemy hero, he permanently steals 1 Intelligence. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Arcane Curse ",
@@ -4681,8 +4497,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Ruin and Restoration ",
         description: "Skywrath Mage has 20% Spell Lifesteal. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Arcane Bolt ",
@@ -4732,8 +4546,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Seaborn Sentinel ",
         description:
           "Slardar gains bonus movement speed, health regeneration, attack damage, and armor while in a puddle or river. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Guardian Sprint ",
@@ -4783,8 +4595,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Barracuda ",
         description:
           "When not visible to the enemy team, Slark gains bonus movement speed and health regeneration. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Dark Pact ",
@@ -4834,8 +4644,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Buckshot ",
         description:
           "Snapfire deals 25% more damage with her auto attacks, but has a 25% chance of a glancing shot, dealing 60% damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Scatterblast ",
@@ -4884,8 +4692,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Keen Scope ",
         description: "Increases Sniper's attack range. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Shrapnel ",
@@ -4934,8 +4740,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Spectral ",
         description: "Spectre and her illusions are permanently phased. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Spectral Dagger ",
@@ -4985,8 +4789,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Herd Mentality ",
         description:
           "The hero on your team whose level is lower than anybody else's on your team gains 50% more experience. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Charge of Darkness ",
@@ -5036,8 +4838,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Galvanized ",
         description:
           "Storm Spirit gains a charge of 0.2 mana regeneration per kill. Loses 3 charges per death. Leveling Ball Lightning gives Storm Spirit 3 bonus charges. Additionally every time he gains a charge he also gains 0.1 Mana Regen permanently. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Static Remnant ",
@@ -5087,8 +4887,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Vanquisher ",
         description:
           "Sven's attacks deal 17% bonus damage to stunned enemies. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Storm Hammer ",
@@ -5137,8 +4935,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     abilities: [
       {
         description: "This hero's innate ability is Minefield Sign.",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Sticky Bomb",
@@ -5195,8 +4991,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Third Eye ",
         description:
           "Templar Assassin and her teammates can see Roshan's respawn timer. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Refraction ",
@@ -5246,8 +5040,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Dark Unity ",
         description:
           "Illusions under Terrorblade's control that are within range receive a damage bonus. Illusions outside of the range receive a damage penalty. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Reflection ",
@@ -5296,8 +5088,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Blubber ",
         description:
           "Tidehunter's hide removes negative status effects if he takes more than 450 damage. Removes most debuffs, even if they are generally not purgable.DISPEL TYPE: Strong Dispel ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Gush ",
@@ -5346,8 +5136,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
       {
         name: "Exposure Therapy ",
         description: "Whenever Timbersaw destroys a tree, he gains 4 mana. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Whirling Death ",
@@ -5397,8 +5185,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Eureka! ",
         description:
           "Tinker gains 1% item cooldown reduction per 3 Intelligence, up to a maximum of 60%. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Laser ",
@@ -5447,8 +5233,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Craggy Exterior ",
         description:
           "Enemies that attack Tiny receive a stacking debuff that lowers their attack damage with each stack. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Avalanche ",
@@ -5505,8 +5289,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Nature's Guise ",
         description:
           "Provides Treant with Tree Walking whenever he hasn't taken damage for 3 seconds. While nearby trees or affected by Nature's Grasp, Treant gains bonus movement speed. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Nature's Grasp ",
@@ -5554,8 +5336,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
     abilities: [
       {
         description: "This hero's innate ability is Battle Stance.",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
 
       {
@@ -5620,8 +5400,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Bitter Chill ",
         description:
           "Passively slows the attack speed of all enemies within 350 radius. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Ice Shards ",
@@ -5664,8 +5442,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Invading Force ",
         description:
           "After an allied hero Teleports, they temporarily gain Damage Reduction and Movement Speed. Allies receive 2x bonuses if teleporting via Fiend's Gate. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Firestorm ",
@@ -5715,8 +5491,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Ceaseless Dirge ",
         description:
           "When Undying dies he will instantly respawn in the fountain. Begins the game on cooldown. Cannot be refreshed. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Decay ",
@@ -5766,8 +5540,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Maul ",
         description:
           "Ursa gains bonus damage equal to a percentage of his Current HP. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Earthshock ",
@@ -5817,8 +5589,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Retribution ",
         description:
           "Whenever an enemy hero kills Vengeful Spirit, they get a debuff until their next death, causing Vengeful Spirit to deal 10% bonus damage to them. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Magic Missile ",
@@ -5868,8 +5638,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Septic Shock ",
         description:
           "Venomancer's attacks deal extra damage based on how many debuffs the attack target has. Extra damage is dealt as magical damage. Only counts debuffs from Venomancer or his Plague Wards. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Venomous Gale ",
@@ -5919,8 +5687,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Predator ",
         description:
           "Viper's attacks deal an additional instance of physical damage per missing health percentage of the target hero, equal to 0.15 + 0.05 per Viper's level. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Poison Attack ",
@@ -5970,8 +5736,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Lurker ",
         description:
           "Visage's ability cooldown durations are accelerated as long as he's not taking damage.Grants a stack every 2s that Visage does not take damage. Each stack grants 2% cooldown acceleration with a max of 8 stacks. Stacks fade after 2s upon taking any damage. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Grave Chill ",
@@ -6021,8 +5785,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Intrinsic Edge ",
         description:
           "Void Spirit gains 25% more secondary bonuses from all of his stats. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Aether Remnant ",
@@ -6072,8 +5834,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Eldritch Summoning ",
         description:
           "Whenever an enemy unit dies while afflicted by one or more of Warlock's abilities, a minor imp is summoned that lasts for 15 seconds and explodes on death. Imps will automatically seek out nearby units, favoring fatally bonded heroes, and will explode when reaching their prey. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Fatal Bonds ",
@@ -6123,8 +5883,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Rewoven ",
         description:
           "Every time Weaver casts an ability, he gains 50 attack range for 7s. This effect stacks independently. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "The Swarm ",
@@ -6173,8 +5931,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Easy Breezy ",
         description:
           "Windranger's movement speed cannot be lower than 240 and can reach 600. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Shackleshot ",
@@ -6224,8 +5980,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Eldwurm Scholar ",
         description:
           "When an allied hero picks up a Wisdom Rune, Winter Wyvern shares the knowledge with her entire team, granting 20% of the experience to each of the 3 heroes that did not collect the initial bonus. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Arctic Burn ",
@@ -6275,8 +6029,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Gris-Gris ",
         description:
           "Witch Doctor gets a Gris-Gris, an item that cannot be dropped or placed in the backpack. When the owner dies, 100% of the gold lost from death is added to the item, and will be refunded when the item is consumed. The value of the Gris-Gris is increased by 1 every 3s.  Right-click to consume and permanently remove the item. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Paralyzing Cask ",
@@ -6326,8 +6078,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Vampiric Spirit ",
         description:
           "Grants Wraith King Lifesteal. When slain Wraith King turns into a free pathing Wraith with Bonus Attack and Movement Speed for a short duration, delaying his death. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Wraithfire Blast ",
@@ -6370,8 +6120,6 @@ const heroesDetails: { [key: string]: HeroDetails } = {
         name: "Static Field ",
         description:
           "Zeus shocks any enemy that he attacks or is hit by his abilities, causing damage equal to a percentage of their current health. ",
-        abilityIcon:
-          "https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png",
       },
       {
         name: "Arc Lightning ",

@@ -1,7 +1,7 @@
 export interface Ability {
   name?: string;
   description: string;
-  abilityIcon: string;
+  abilityIcon?: string;
 }
 
 export interface Media {
