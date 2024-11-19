@@ -1,5 +1,5 @@
-const NewsPage = () => {
-  return <div>NewsPage</div>;
-};
+import DummyPage from "@/components/DummyPage";
+
+const NewsPage = () => <DummyPage />;
 
 export default NewsPage;

@@ -1,5 +1,5 @@
-const GamePage = () => {
-  return <div>GamePage</div>;
-};
+import DummyPage from "@/components/DummyPage";
+
+const GamePage = () => <DummyPage />;
 
 export default GamePage;

@@ -1,7 +1,5 @@
+import DummyPage from "@/components/DummyPage";
 import React from "react";
 
-const EsportsPage = () => {
-  return <div>EsportsPage</div>;
-};
-
+const EsportsPage = () => <DummyPage />;
 export default EsportsPage;

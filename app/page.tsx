@@ -1,5 +1,5 @@
-const HomePage = () => {
-  return <div>HomePage</div>;
-};
+import DummyPage from "@/components/DummyPage";
+
+const HomePage = () => <DummyPage />;
 
 export default HomePage;
