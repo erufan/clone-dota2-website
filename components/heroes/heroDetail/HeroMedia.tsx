@@ -16,7 +16,7 @@ const HeroMedia = ({ media, abilities }: Props) => {
   return (
     <div className="relative -right-14 top-14 flex w-full flex-col items-center justify-center lg:w-[60%]">
       <MyVidoe media={media} />
-      <div className="mt-[60%] flex -translate-x-14 flex-col flex-wrap items-center 2xl:mt-[20%]">
+      <div className="mt-[60%] flex flex-col flex-wrap items-center lg:-translate-x-14 2xl:mt-[20%]">
         <span className="mb-2 text-xl font-bold uppercase tracking-widest">
           Abilities
         </span>
