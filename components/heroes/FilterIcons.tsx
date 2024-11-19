@@ -21,7 +21,7 @@ const FilterIcons = ({ filters, caption, searchParams }: Props) => {
       ? +filteredSearchQuery >= complexityLevelIndex
       : filteredSearchQuery === key;
   };
-  const handleQuery = useHandleQuery(heroSearchQueryKey);
+  const handleQuery = useHandleQuery(heroSearchQueryKey, 0);
 
   const defaultClass =
     "-mr-1 brightness-50 saturate-0 cursor-pointer w-[40px] h-[28px]";

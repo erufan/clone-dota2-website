@@ -1,19 +1,34 @@
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import useCreateQueryString from "./usecreateQueryString";
+import { useCallback } from "react";
 
-const useHandleQuery = (param: string) => {
+const simpleDebounce = (fn, delay) => {
+  let timeOut;
+  return (...args) => {
+    if (timeOut) clearTimeout(timeOut);
+    timeOut = setTimeout(() => fn(...args), delay);
+  };
+};
+
+const useHandleQuery = (query: string, delay: number) => {
   const createQueryString = useCreateQueryString();
-  const router = useRouter();
+  const { replace } = useRouter();
   const path = usePathname();
+  const searchParams = useSearchParams();
 
-  const handleQuery = (wantedFilter: string) => {
-    const newQueryString = createQueryString(param, wantedFilter);
+  const handleQuery = (term: string) => {
+    const newQueryString = createQueryString(query, term);
 
-    router.push(`${path}?${newQueryString}`, { scroll: false });
+    replace(`${path}?${newQueryString}`, { scroll: false });
   };
 
-  return handleQuery;
+  return useCallback(simpleDebounce(handleQuery, delay), [
+    path,
+    query,
+    searchParams,
+    replace,
+  ]);
 };
 
 export default useHandleQuery;
