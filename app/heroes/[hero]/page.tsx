@@ -32,8 +32,8 @@ const heroPage = ({ params }: Props) => {
             heroIntro={heroIntro}
             heroName={heroName}
             shortDescription={shortDescription}
+            complexity={complexity}
           />
-          <Complexity complexityLevel={complexity} />
         </div>
         <HeroMedia abilities={abilities} media={media} />
         <Ribbon />

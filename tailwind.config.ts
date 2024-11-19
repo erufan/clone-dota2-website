@@ -36,21 +36,38 @@ const config: Config = {
     function ({ addUtilities }: { addUtilities: PluginAPI["addUtilities"] }) {
       const newUtilities = {
         ".mask-gradient": {
-          maskImage: " linear-gradient(to top, transparent 10%, black 50%)",
+          maskImage: "linear-gradient(to top, transparent 10%, black 50%)",
         },
         ".clip-bottom-arrow": {
           clipPath: `polygon(
-                    0px 0px,
-                    0px calc(100% - 20px),
-                    calc(50% - 20px) calc(100% - 20px),
-                    50% 100%,
-                    calc(50% + 20px) calc(100% - 20px),
-                    100% calc(100% - 20px),
-                    100% 0px)`,
+            0px 0px,
+            0px calc(100% - 20px),
+            calc(50% - 20px) calc(100% - 20px),
+            50% 100%,
+            calc(50% + 20px) calc(100% - 20px),
+            100% calc(100% - 20px),
+            100% 0px)`,
+        },
+        ".scrollbar": {
+          "&::-webkit-scrollbar": {
+            width: "12px",
+            background: "#00000033",
+            borderRadius: "10px",
+          },
+          "&::-webkit-scrollbar-track": {
+            background: "transparent",
+          },
+          "&::-webkit-scrollbar-thumb": {
+            background: "#5c5c5c",
+            borderRadius: "10px",
+            boxShadow: "inset 0 0 6px rgba(0,0,0,.3)",
+            "-webkit-box-shadow": "inset 0 0 6px rgba(0,0,0,.3)",
+          },
         },
       };
       addUtilities(newUtilities);
     },
   ],
 };
+
 export default config;
