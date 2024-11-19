@@ -11,6 +11,7 @@ interface Props {
   heroIntro: string;
   shortDescription: string;
   complexity: number;
+  history: string;
 }
 
 const HeroProfile = ({
@@ -19,6 +20,7 @@ const HeroProfile = ({
   heroIntro,
   shortDescription,
   complexity,
+  history,
 }: Props) => {
   const [showFullStory, setShowFullStory] = useState(false);
 
@@ -55,32 +57,9 @@ const HeroProfile = ({
           <Complexity complexityLevel={complexity} />
         </div>
         <div
-          className={`${showFullStory && "z-30 opacity-100"} scrollbar absolute top-0 -z-10 flex h-80 max-h-full w-full flex-col overflow-y-scroll pr-10 pt-5 font-radiance text-xl font-light text-[#ddd] opacity-0 transition-opacity duration-500`}
+          className={`${showFullStory && "z-30 opacity-100"} absolute top-0 -z-10 flex h-80 max-h-full w-full flex-col overflow-y-scroll pr-10 pt-5 font-radiance text-xl font-light text-[#ddd] opacity-0 transition-opacity duration-500 scrollbar`}
         >
-          <p>
-            It's an easy thing to offend a troll. A prickly and contentious
-            race, trolls thrive on argument and strife, missing no excuse to
-            raise their voices in dispute. Males grow to maturity in
-            subterranean chambers beneath their matriarch's domicile, feeding
-            and amusing themselves while contributing nothing. Often they stay
-            for years beyond the age of maturity, while the matriarch provides
-            them with sustenance. When young trolls are finally pushed from
-            their sub-chamber, they gather with others of their kind, forming
-            roving gangs of malcontents who complain loudly about all manner of
-            vexation. As much as trolls love to argue, imagine how rare it is
-            for a troll to be driven from his own kind for being too difficult
-            to get along with. Such was Jah'rakal's fate, a monger troll from
-            deep in the Hoven. So deluded was he, so bitter and abrasive, that
-            even other trolls found his company intolerable. After one
-            particularly vitriolic outburst in which he claimed the lion's share
-            of loot from their latest raid, his cohorts finally snapped. They
-            turned on him, beat him with clubs, and drove him from the
-            encampment. Enraged at his banishment, he returned the next day,
-            armed with steel, and slew them all, one by one. He then swore a
-            blood oath: he would ever after be a fighting force unto himself.
-            Now he roams the world as the Troll Warlord, bitter and angry, the
-            Imperial high commander of an army of one.
-          </p>
+          <p>{history}</p>
           <span
             onClick={() => setShowFullStory((prveState) => !prveState)}
             className="mt-2 cursor-pointer self-start text-lg text-[#8a8a8a] underline hover:text-[#ddd]"

@@ -17,6 +17,7 @@ const heroPage = ({ params }: Props) => {
     heroIntro,
     heroName,
     shortDescription,
+    history,
     media,
     abilities,
     complexity,
@@ -32,6 +33,7 @@ const heroPage = ({ params }: Props) => {
             heroIntro={heroIntro}
             heroName={heroName}
             shortDescription={shortDescription}
+            history={history}
             complexity={complexity}
           />
         </div>
