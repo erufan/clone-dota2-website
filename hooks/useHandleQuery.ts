@@ -1,15 +1,8 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-
-import useCreateQueryString from "./usecreateQueryString";
 import { useCallback } from "react";
 
-const simpleDebounce = (fn, delay) => {
-  let timeOut;
-  return (...args) => {
-    if (timeOut) clearTimeout(timeOut);
-    timeOut = setTimeout(() => fn(...args), delay);
-  };
-};
+import useCreateQueryString from "./usecreateQueryString";
+import debounce from "@/utils/debounce";
 
 const useHandleQuery = (query: string, delay: number) => {
   const createQueryString = useCreateQueryString();
@@ -23,7 +16,7 @@ const useHandleQuery = (query: string, delay: number) => {
     replace(`${path}?${newQueryString}`, { scroll: false });
   };
 
-  return useCallback(simpleDebounce(handleQuery, delay), [
+  return useCallback(debounce(handleQuery, delay), [
     path,
     query,
     searchParams,
