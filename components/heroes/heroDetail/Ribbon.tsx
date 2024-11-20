@@ -1,6 +1,6 @@
 const Ribbon = () => {
   return (
-    <div className="absolute top-64 -z-10 h-[80%] w-[139%] skew-y-[-45deg] bg-[#00000060]"></div>
+    <div className="absolute top-[20%] -z-10 h-[50%] w-full skew-y-[-45deg] bg-[#00000060] lg:top-[63%] lg:h-[80%]"></div>
   );
 };
 

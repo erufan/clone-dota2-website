@@ -15,7 +15,7 @@ const HeroesPage = ({ searchParams }: Props) => {
   const filteredHeros = useFilteredHeroes(heroes, searchParams);
 
   return (
-    <section className="sm:px-20 md:px-28">
+    <section className="overflow-x-hidden sm:px-20 md:px-28">
       <header className="flex flex-col items-center justify-center p-5">
         <h1 className="mb-1 mt-16 font-reaver text-[2.75rem] font-bold">
           CHOOSE YOUR HERO

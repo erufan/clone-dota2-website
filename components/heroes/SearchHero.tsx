@@ -14,7 +14,7 @@ const SearchHero = () => {
     <>
       <form>
         <input
-          className="bg-[#25282A] p-1 outline-0 focus:border-[none] focus:bg-[#505050]"
+          className="bg-[#25282A] p-1 outline-0 focus:border-[none] focus:bg-[#505050] focus:shadow-none focus:outline-0"
           type="text"
           onChange={(e) => {
             setValue(e.target.value);

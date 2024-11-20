@@ -11,7 +11,7 @@ const IconAbility = ({ children, description, name }: Props) => {
   return (
     <div className="group relative">
       {children}
-      <div className="clip-bottom-arrow absolute -left-[180%] bottom-[120%] hidden w-80 group-hover:block">
+      <div className="absolute -left-[180%] bottom-[120%] hidden w-80 clip-bottom-arrow group-hover:block">
         <div>here is ability video</div>
         <div className="bg-toolTipHeroGradient px-4 pb-9 pt-3">
           {name && (

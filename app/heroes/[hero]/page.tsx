@@ -5,7 +5,6 @@ import heroesDetails from "@/data/heroesDetails";
 import VerticalLine from "@/components/heroes/heroDetail/VerticalLine";
 import HeroProfile from "@/components/heroes/heroDetail/HeroProfile";
 import HeroMedia from "@/components/heroes/heroDetail/HeroMedia";
-import Complexity from "@/components/heroes/heroDetail/Complexity";
 
 interface Props {
   params: { hero: keyof typeof heroesDetails };
@@ -25,7 +24,7 @@ const heroPage = ({ params }: Props) => {
 
   return (
     <>
-      <section className="relative flex flex-col font-radiance lg:h-[50rem] lg:flex-row lg:overflow-hidden 2xl:h-[70rem]">
+      <section className="relative flex flex-col justify-between overflow-x-hidden font-radiance lg:h-[50rem] lg:flex-row lg:overflow-hidden 2xl:h-[70rem]">
         <VerticalLine heroName={heroName} state={state} />
         <div className="ml-36 mt-40 flex w-full flex-col justify-start pr-60 lg:w-[40%] lg:pr-0">
           <HeroProfile
