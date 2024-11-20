@@ -34,7 +34,7 @@ const HeroMedia = ({ media, abilities }: Props) => {
               height={72}
             />
           </IconAbility>
-          <div className="flex w-[30rem] flex-wrap justify-start gap-3">
+          <div className="flex w-[25rem] flex-wrap justify-start gap-3">
             {abilities.map((ability, index) =>
               index === 0 ? null : (
                 <IconAbility
